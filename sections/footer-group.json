@@ -28,7 +28,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "newsletter_title": "Newsletter"
+            "newsletter_title": "Newsletter",
+            "footer_newsletter_description": ""
           }
         }
       },
@@ -46,8 +47,9 @@
       "type": "footer-bottom",
       "settings": {
         "show_methods_of_payment": true,
+        "center_content_on_desktop": true,
         "footer_text": "",
-        "show_currency_selector": true,
+        "show_currency_selector": false,
         "show_locale_selector": false
       }
     }
