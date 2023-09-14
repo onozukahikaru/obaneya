@@ -137,37 +137,16 @@
         "show_view_all": false
       }
     },
-    "video-video-hero": {
-      "type": "video--video-hero",
-      "settings": {
-        "url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "desktopHeight": "550",
-        "mobileHeight": "350",
-        "title": "Share your story",
-        "subheading": "Here's your chance to make a great first impression",
-        "textAlignment": "center-left",
-        "textColor": "#262428",
-        "textShadow": false,
-        "heading--text-size": 36,
-        "subheading--text-size": 24,
-        "link": "",
-        "button_label": "Learn more",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
-      }
-    },
     "featured-collection-1": {
       "type": "collection--featured-collection",
       "settings": {
-        "rows": 2,
+        "rows": 1,
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
-        "title": "",
+        "title": "{{ section.settings.collection.title }}",
         "richtext": "",
-        "collection": "",
+        "collection": "recommends",
         "show-vendor": false,
         "show_view_all": false
       }
@@ -654,7 +633,6 @@
     "animated-text",
     "collection-collection-list",
     "featured-collection",
-    "video-video-hero",
     "featured-collection-1",
     "image-text-with-image-overlay-1",
     "logo-list",
