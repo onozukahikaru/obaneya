@@ -8,8 +8,8 @@
         "menu": {
           "type": "menu",
           "settings": {
-            "menu_title": "Quick links",
-            "footer_linklist": "footer"
+            "menu_title": "ポリシー",
+            "footer_linklist": "policy"
           }
         },
         "social": {
