@@ -100,6 +100,13 @@
             "input_width": "partial"
           }
         },
+        "4a46c83a-29e2-41c9-9be0-f704e6e9d6fb": {
+          "type": "tel_input",
+          "settings": {
+            "required": false,
+            "input_width": "partial"
+          }
+        },
         "custom_input": {
           "type": "custom_input",
           "settings": {
@@ -119,6 +126,7 @@
       "block_order": [
         "contact-form-0",
         "contact-form-1",
+        "4a46c83a-29e2-41c9-9be0-f704e6e9d6fb",
         "custom_input",
         "contact-form-3"
       ],
