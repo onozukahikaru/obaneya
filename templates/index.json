@@ -126,13 +126,13 @@
     "featured-collection": {
       "type": "collection--featured-collection",
       "settings": {
-        "rows": 2,
+        "rows": 1,
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
         "title": "",
         "richtext": "",
-        "collection": "",
+        "collection": "new-products",
         "show-vendor": false,
         "show_view_all": false
       }
