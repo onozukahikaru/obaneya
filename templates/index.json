@@ -179,67 +179,6 @@
         "button_link": "shopify:\/\/collections"
       }
     },
-    "image-text-with-image-overlay-1": {
-      "type": "image--image-with-text-overlay",
-      "settings": {
-        "image_height": "40vw",
-        "bg_image_overlay_opacity": 0,
-        "parallax": true,
-        "title": "Share your story",
-        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
-        "colors": "dark",
-        "textPosition": "left",
-        "textAlignment": "right",
-        "heading--text-size": 36,
-        "text--text-size": 18,
-        "link": "shopify:\/\/collections\/all",
-        "button_label": "Shop now",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
-      }
-    },
-    "logo-list": {
-      "type": "image--logo-list",
-      "blocks": {
-        "logo-list-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo-list-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo-list-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo-list-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo-list-0",
-        "logo-list-1",
-        "logo-list-2",
-        "logo-list-3"
-      ],
-      "settings": {
-        "colors": "dark",
-        "width": 100,
-        "title": "As seen in"
-      }
-    },
     "image-gallery": {
       "type": "image--gallery",
       "blocks": {
@@ -314,7 +253,7 @@
         "blog": {
           "type": "blog",
           "settings": {
-            "blog": ""
+            "blog": "お知らせ"
           }
         }
       },
@@ -328,34 +267,6 @@
         "blog_show_date": false,
         "post_limit": 3
       }
-    },
-    "text-text-adverts": {
-      "type": "text--text-adverts",
-      "blocks": {
-        "advert-0": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "advert-1": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "advert-0",
-        "advert-1"
-      ],
-      "settings": {
-        "colors": "light"
-      }
     }
   },
   "order": [
@@ -365,10 +276,7 @@
     "featured-collection-1",
     "fe075750-1e56-4b11-ad56-fa007e112b67",
     "image-image-with-text-1",
-    "image-text-with-image-overlay-1",
-    "logo-list",
     "image-gallery",
-    "blog-blog-posts",
-    "text-text-adverts"
+    "blog-blog-posts"
   ]
 }
