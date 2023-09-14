@@ -44,8 +44,8 @@
           "type": "options",
           "settings": {
             "product_variant_style": "swatches",
-            "thumbnail_changes_variant": false,
-            "hide_soldout_variants": false
+            "thumbnail_changes_variant": true,
+            "hide_soldout_variants": true
           }
         },
         "quantity": {
