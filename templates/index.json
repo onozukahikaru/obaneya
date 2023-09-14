@@ -130,7 +130,7 @@
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
-        "title": "",
+        "title": "{{ section.settings.collection.title }}",
         "richtext": "",
         "collection": "new-products",
         "show-vendor": false,
@@ -416,9 +416,9 @@
             "desktop_position": "md-min-align-top md-min-justify-left",
             "mobile_position": "md-max-align-top md-max-justify-left",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -433,11 +433,11 @@
             "button_label": "Shop now",
             "url": "shopify:\/\/collections\/all",
             "desktop_position": "md-min-align-center md-min-justify-left",
-            "background_color": "#E6E5E7",
+            "background_color": "#e6e5e7",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949"
           }
         },
@@ -451,9 +451,9 @@
             "desktop_position": "md-min-align-bottom md-min-justify-right",
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -470,9 +470,9 @@
             "desktop_position": "md-min-align-bottom md-min-justify-right",
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -487,9 +487,9 @@
             "desktop_position": "md-min-align-bottom md-min-justify-right",
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
