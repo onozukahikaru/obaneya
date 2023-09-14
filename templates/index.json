@@ -75,18 +75,42 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "obaneya-sets",
             "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
             "overlay_color": "#323232"
           }
+        },
+        "03aab986-3f68-47ba-ac25-3712609c2f09": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "subheading": "Subheading",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "6dd827a2-4315-4ab7-82d3-28f92183f7e4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "subheading": "Subheading",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
         }
       },
       "block_order": [
         "collection-0",
-        "collection-1"
+        "collection-1",
+        "03aab986-3f68-47ba-ac25-3712609c2f09",
+        "6dd827a2-4315-4ab7-82d3-28f92183f7e4"
       ],
       "settings": {
         "colors": "white",
