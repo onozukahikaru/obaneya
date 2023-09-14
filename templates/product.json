@@ -112,8 +112,8 @@
             "linked_products": [
               "jeweled-pickles-white"
             ],
-            "swatches_size": "small",
-            "swatches_aspect_ratio": "square"
+            "swatches_size": "large",
+            "swatches_aspect_ratio": "tall"
           }
         }
       },
@@ -160,6 +160,47 @@
         "include_margins": true
       }
     },
+    "5ee8ac8d-88fa-487f-b129-88154ea536bf": {
+      "type": "template--product--recommendations",
+      "blocks": {
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_image-1": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_badges": false
+          }
+        },
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_title-1": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_vendor-1": {
+          "type": "product_card_vendor",
+          "settings": {
+          }
+        },
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_price-1": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_button-1": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_image-1",
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_title-1",
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_vendor-1",
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_price-1",
+        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_button-1"
+      ],
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
     "recently-viewed": {
       "type": "template--product--recently-viewed",
       "blocks": {
@@ -200,6 +241,7 @@
     "product-form",
     "product-description",
     "app-product-reviews",
+    "5ee8ac8d-88fa-487f-b129-88154ea536bf",
     "recently-viewed"
   ]
 }
