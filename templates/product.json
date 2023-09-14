@@ -60,11 +60,6 @@
             "enable_gift_card_recipient_form": true
           }
         },
-        "local_pickup": {
-          "type": "local_pickup",
-          "settings": {
-          }
-        },
         "collapsible-tab-0": {
           "type": "collapsible-tab",
           "settings": {
@@ -109,6 +104,17 @@
           "type": "social_sharing",
           "settings": {
           }
+        },
+        "cf1b64f8-2464-4303-a346-1c3d89d2ea13": {
+          "type": "linked-products",
+          "settings": {
+            "option_name": "Color",
+            "linked_products": [
+              "jeweled-pickles-white"
+            ],
+            "swatches_size": "small",
+            "swatches_aspect_ratio": "square"
+          }
         }
       },
       "block_order": [
@@ -120,12 +126,12 @@
         "options",
         "quantity",
         "buy_buttons",
-        "local_pickup",
         "collapsible-tab-0",
         "collapsible-tab-1",
         "collapsible-tab-2",
         "cross-sells",
-        "social_sharing"
+        "social_sharing",
+        "cf1b64f8-2464-4303-a346-1c3d89d2ea13"
       ],
       "settings": {
         "enable_sticky": true,
