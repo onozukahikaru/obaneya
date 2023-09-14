@@ -1,61 +1,59 @@
 {
   "sections": {
-    "animated-text": {
-      "type": "animated-text",
+    "323e97db-1456-49b8-9b89-9bff5f9a5366": {
+      "type": "image--slideshow",
       "blocks": {
-        "animated-text-0": {
-          "type": "text_static",
+        "template--20979149013267__323e97db-1456-49b8-9b89-9bff5f9a5366-image-1": {
+          "type": "image",
           "settings": {
-            "text_static": "<p>Shout about how<\/p>",
-            "max_width_desktop": 100,
-            "max_width_mobile": 100,
-            "text_color": "rgba(0,0,0,0)"
+            "title": "Share your story",
+            "text": "Here's your chance to make a great first impression",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#262428",
+            "button-text": "#ffffff",
+            "button-background": "#262428",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#494949",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
           }
         },
-        "animated-text-1": {
-          "type": "text_dynamic",
+        "template--20979149013267__323e97db-1456-49b8-9b89-9bff5f9a5366-image-2": {
+          "type": "image",
           "settings": {
-            "text_dynamic": "amazing,fantastic,bestselling,jaw-dropping",
-            "animation_timing": 500,
-            "rotation_interval": 5000,
-            "text_color": "rgba(0,0,0,0)"
-          }
-        },
-        "animated-text-2": {
-          "type": "text_static",
-          "settings": {
-            "text_static": "<p>your product is<\/p>",
-            "max_width_desktop": 100,
-            "max_width_mobile": 100,
-            "text_color": "rgba(0,0,0,0)"
-          }
-        },
-        "animated-text-3": {
-          "type": "button",
-          "settings": {
-            "button_url": "shopify:\/\/collections\/all",
-            "button_text": "Shop now",
-            "color_button_text": "#ffffff",
-            "color_button_background": "rgba(0,0,0,0)",
-            "color_hover_button_text": "#ffffff",
-            "color_hover_button_background": "rgba(0,0,0,0)"
+            "title": "Share your story",
+            "text": "Here's your chance to make a great first impression",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#262428",
+            "button-text": "#ffffff",
+            "button-background": "#262428",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#494949",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
           }
         }
       },
       "block_order": [
-        "animated-text-0",
-        "animated-text-1",
-        "animated-text-2",
-        "animated-text-3"
+        "template--20979149013267__323e97db-1456-49b8-9b89-9bff5f9a5366-image-1",
+        "template--20979149013267__323e97db-1456-49b8-9b89-9bff5f9a5366-image-2"
       ],
       "settings": {
-        "colors": "accent",
-        "height_desktop": "m",
-        "text_size_desktop": 36,
-        "text_position_desktop": "right",
-        "height_mobile": "full",
-        "text_size_mobile": 22,
-        "text_position_mobile": "right"
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
       }
     },
     "collection-collection-list": {
@@ -270,7 +268,7 @@
     }
   },
   "order": [
-    "animated-text",
+    "323e97db-1456-49b8-9b89-9bff5f9a5366",
     "collection-collection-list",
     "featured-collection",
     "featured-collection-1",
