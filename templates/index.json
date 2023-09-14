@@ -140,13 +140,27 @@
     "featured-collection-1": {
       "type": "collection--featured-collection",
       "settings": {
-        "rows": 1,
+        "rows": 2,
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
         "title": "{{ section.settings.collection.title }}",
         "richtext": "",
         "collection": "recommends",
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    },
+    "fe075750-1e56-4b11-ad56-fa007e112b67": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "{{ section.settings.collection.title }}",
+        "richtext": "",
+        "collection": "sales-ranking",
         "show-vendor": false,
         "show_view_all": false
       }
@@ -634,6 +648,7 @@
     "collection-collection-list",
     "featured-collection",
     "featured-collection-1",
+    "fe075750-1e56-4b11-ad56-fa007e112b67",
     "image-text-with-image-overlay-1",
     "logo-list",
     "countdown-timer",
