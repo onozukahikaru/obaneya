@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "media": {
+          "type": "media",
+          "settings": {
+            "image_size": "medium",
+            "image-display": "thumbnails",
+            "thumbnail_position": "below",
+            "enable_image_zoom": true,
+            "enable_video_loop": false
+          }
+        },
+        "sale_badge": {
+          "type": "sale_badge",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "product-reviews": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "shipping_policy": true,
+            "tax_included": false
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "product_variant_style": "swatches",
+            "thumbnail_changes_variant": false,
+            "hide_soldout_variants": false
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true,
+            "enable_gift_card_recipient_form": true
+          }
+        },
+        "local_pickup": {
+          "type": "local_pickup",
+          "settings": {
+          }
+        },
+        "collapsible-tab-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "heart",
+            "open_close_icon": "caret"
+          }
+        },
+        "collapsible-tab-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "clock",
+            "open_close_icon": "caret"
+          }
+        },
+        "collapsible-tab-2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "star",
+            "open_close_icon": "caret"
+          }
+        },
+        "cross-sells": {
+          "type": "cross-sells",
+          "settings": {
+            "cross_sell_bg": "#ffffff"
+          }
+        },
+        "social_sharing": {
+          "type": "social_sharing",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "media",
+        "sale_badge",
+        "title",
+        "product-reviews",
+        "price",
+        "options",
+        "quantity",
+        "buy_buttons",
+        "local_pickup",
+        "collapsible-tab-0",
+        "collapsible-tab-1",
+        "collapsible-tab-2",
+        "cross-sells",
+        "social_sharing"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_out_of_stock_email": true
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "settings": {
+        "enable_readmore": false
+      }
+    },
+    "app-product-reviews": {
+      "type": "apps",
+      "blocks": {
+        "product-reviews": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product-reviews"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "recently-viewed": {
+      "type": "template--product--recently-viewed",
+      "blocks": {
+        "product_card_image": {
+          "type": "product_card_image",
+          "settings": {
+          }
+        },
+        "product_card_title": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "product_card_price": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "product_card_button": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_card_image",
+        "product_card_title",
+        "product_card_price",
+        "product_card_button"
+      ],
+      "settings": {
+        "recently_viewed_title": "Recently viewed products"
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "app-product-reviews",
+    "recently-viewed"
+  ]
+}

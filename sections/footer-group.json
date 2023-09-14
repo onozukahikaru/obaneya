@@ -1,0 +1,59 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "footer"
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": "Get connected"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Text details",
+            "richtext": "<p>Create a captivating brand story, explain details of your products or highlight store promotions<\/p>"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "Newsletter"
+          }
+        }
+      },
+      "block_order": [
+        "menu",
+        "social",
+        "text",
+        "newsletter"
+      ],
+      "settings": {
+        "alignment": "left"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": true,
+        "footer_text": "",
+        "show_currency_selector": true,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer-main",
+    "footer-bottom"
+  ]
+}
