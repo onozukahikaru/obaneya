@@ -64,6 +64,8 @@
         "collection-0": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
+            "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
@@ -73,6 +75,8 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
+            "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
@@ -88,7 +92,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
-        "items-per-row": 2,
+        "items-per-row": 4,
         "fill-the-area": true,
         "remove-spacing": false,
         "section-width": "full",
@@ -104,6 +108,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
+        "collection": "",
         "show-vendor": false,
         "show_view_all": false
       }
@@ -111,14 +116,22 @@
     "video-video-hero": {
       "type": "video--video-hero",
       "settings": {
+        "url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "desktopHeight": "550",
         "mobileHeight": "350",
+        "title": "Share your story",
+        "subheading": "Here's your chance to make a great first impression",
         "textAlignment": "center-left",
+        "textColor": "#262428",
         "textShadow": false,
         "heading--text-size": 36,
         "subheading--text-size": 24,
         "link": "",
-        "button_label": "Learn more"
+        "button_label": "Learn more",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
       }
     },
     "featured-collection-1": {
@@ -130,6 +143,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
+        "collection": "",
         "show-vendor": false,
         "show_view_all": false
       }
@@ -140,13 +154,19 @@
         "image_height": "40vw",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
+        "title": "Share your story",
+        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
         "colors": "dark",
         "textPosition": "left",
         "textAlignment": "right",
         "heading--text-size": 36,
         "text--text-size": 18,
         "link": "shopify:\/\/collections\/all",
-        "button_label": "Shop now"
+        "button_label": "Shop now",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
       }
     },
     "logo-list": {
@@ -185,7 +205,8 @@
       ],
       "settings": {
         "colors": "dark",
-        "width": 100
+        "width": 100,
+        "title": "As seen in"
       }
     },
     "countdown-timer": {
@@ -215,6 +236,7 @@
         "countdown-timer-3": {
           "type": "text",
           "settings": {
+            "text": "Grab the offer before it's gone"
           }
         },
         "timer_complete_message": {
@@ -368,36 +390,67 @@
             "button_label": "",
             "url": "",
             "desktop_position": "md-min-align-top md-min-justify-left",
-            "mobile_position": "md-max-align-top md-max-justify-left"
+            "mobile_position": "md-max-align-top md-max-justify-left",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         },
         "collage-builder-3": {
           "type": "text",
           "settings": {
+            "heading": "Include text details",
             "heading_size": 36,
+            "text": "Use text paired with images or videos to create a captivating brand story, explain details of your products, or highlight store promotions.",
             "text_alignment": "left",
-            "desktop_position": "md-min-align-center md-min-justify-left"
+            "button_label": "Shop now",
+            "url": "shopify:\/\/collections\/all",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "background_color": "#E6E5E7",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949"
           }
         },
         "collage-builder-2": {
           "type": "image",
           "settings": {
+            "heading": "Upload an image",
             "heading_size": 30,
             "button_label": "Shop now",
             "url": "shopify:\/\/collections\/all",
             "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "mobile_position": "md-max-align-bottom md-max-justify-right"
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         },
         "collage-builder-1": {
           "type": "background_video",
           "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "mobile_video_url": "",
             "heading": "",
             "heading_size": 30,
+            "button_label": "Shop now",
             "url": "",
             "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "mobile_position": "md-max-align-bottom md-max-justify-right"
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         },
         "collage-builder-4": {
@@ -408,7 +461,13 @@
             "button_label": "Shop now",
             "url": "",
             "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "mobile_position": "md-max-align-bottom md-max-justify-right"
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         }
       },
@@ -443,10 +502,13 @@
     "image-image-with-text-1": {
       "type": "image--image-with-text",
       "settings": {
+        "colors": "light",
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
         "text_alignment": "left",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_label": "Learn more",
         "button_link": "shopify:\/\/collections"
       }
@@ -461,7 +523,10 @@
             "day": 1,
             "month": "Jan",
             "tbc": false,
+            "day_time": "Saturday, 7:30pm",
             "price": "",
+            "event_heading": "Event heading",
+            "event_location": "Location",
             "url": "shopify:\/\/collections",
             "btn_text": "More info"
           }
@@ -473,7 +538,10 @@
             "day": 1,
             "month": "Jan",
             "tbc": false,
+            "day_time": "Saturday, 7:30pm",
             "price": "",
+            "event_heading": "Event heading",
+            "event_location": "Location",
             "url": "shopify:\/\/collections",
             "btn_text": "More info"
           }
@@ -487,6 +555,8 @@
             "tbc": true,
             "day_time": "",
             "price": "",
+            "event_heading": "Event heading",
+            "event_location": "Location",
             "url": "shopify:\/\/collections",
             "btn_text": "More info"
           }
@@ -512,6 +582,7 @@
         "blog": {
           "type": "blog",
           "settings": {
+            "blog": ""
           }
         }
       },
@@ -520,6 +591,7 @@
       ],
       "settings": {
         "colors": "white",
+        "title": "From the blog",
         "richtext": "",
         "blog_show_date": false,
         "post_limit": 3
@@ -531,12 +603,16 @@
         "advert-0": {
           "type": "text",
           "settings": {
+            "heading": "What makes you different",
+            "subheading": "Shout about your unique selling points",
             "link": "shopify:\/\/collections"
           }
         },
         "advert-1": {
           "type": "text",
           "settings": {
+            "heading": "What makes you different",
+            "subheading": "Shout about your unique selling points",
             "link": "shopify:\/\/collections"
           }
         }
@@ -546,6 +622,7 @@
         "advert-1"
       ],
       "settings": {
+        "colors": "light"
       }
     }
   },
