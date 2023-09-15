@@ -31,18 +31,11 @@
             "text": "<p>通販（Shopify）には載せておりませんが、お電話にて承っております。<br\/>お気軽にご連絡くださいませ。<br\/>なお、季節限定・数量限定の商品、もしくは販売を終了している商品の可能性もありますので、その際は、ご了承下さい。<br\/><br\/>TEL：0285-28-6878<br\/>受付時間／9：00〜16：00（月～金）<\/p>"
           }
         },
-        "accordion-1": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
         "accordion-2": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "一度注文した商品をキャンセルできますか？",
+            "text": "<p>決済完了後は購入をキャンセルすることができません。何卒ご了承くださいませ。<\/p>"
           }
         },
         "accordion-3": {
@@ -62,7 +55,6 @@
       },
       "block_order": [
         "accordion-0",
-        "accordion-1",
         "accordion-2",
         "accordion-3",
         "accordion-4"
