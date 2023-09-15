@@ -63,7 +63,7 @@
     "cart_vendor_enable": false,
     "cart_notes_enable": true,
     "giftwrap_gift_note": true,
-    "enable-additional-checkout-buttons": true,
+    "enable-additional-checkout-buttons": false,
     "show_discount": "hide",
     "product-grid": "square",
     "hover-effect": true,
