@@ -41,8 +41,8 @@
         "accordion-3": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "複数回ご注文いただいた場合の商品の同梱について",
+            "text": "<p>１日１回発送作業をしておりますが、発送までに間に合えば別々のご注文でも一緒に送付いたします。<\/p>"
           }
         },
         "accordion-4": {
