@@ -89,16 +89,6 @@
         "faq_icon": "plus_minus"
       }
     },
-    "rich-text": {
-      "type": "text--rich-text",
-      "settings": {
-        "colors": "accent",
-        "title": "Welcome to our store",
-        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/collections"
-      }
-    },
     "contact-form": {
       "type": "section--contact-form",
       "blocks": {
@@ -247,7 +237,6 @@
   "order": [
     "image-with-text-overlay",
     "accordion",
-    "rich-text",
     "contact-form",
     "image-with-text",
     "gallery",
