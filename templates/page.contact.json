@@ -84,9 +84,9 @@
         "677d2af8-2fa3-44db-ac09-f7f4527bdcb1"
       ],
       "settings": {
-        "colors": "white",
-        "title": "Frequently asked questions",
-        "faq_icon": "plus_minus"
+        "colors": "light",
+        "title": "よくある質問",
+        "faq_icon": "caret"
       }
     },
     "contact-form": {
@@ -139,7 +139,7 @@
       "settings": {
         "section_color_scheme": "white",
         "form_width": "narrow",
-        "form_title": "Contact us",
+        "form_title": "お問い合わせ",
         "form_description": "<p>Have a question, or want a product recommendation? Get in touch.<\/p>"
       }
     },
