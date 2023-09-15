@@ -129,6 +129,14 @@
             "input_width": "full"
           }
         },
+        "9f51f4bb-d1e5-4e6f-aef9-7d9bac8d77d6": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "商品名（商品に関するお問い合わせの場合は必須）",
+            "required": false,
+            "input_width": "full"
+          }
+        },
         "contact-form-3": {
           "type": "message_input",
           "settings": {
@@ -143,6 +151,7 @@
         "contact-form-1",
         "custom_input",
         "12bd6109-4bdb-492c-805c-6ba53bf46f56",
+        "9f51f4bb-d1e5-4e6f-aef9-7d9bac8d77d6",
         "contact-form-3"
       ],
       "settings": {
