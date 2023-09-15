@@ -158,7 +158,7 @@
         "section_color_scheme": "white",
         "form_width": "narrow",
         "form_title": "{{ page.title }}",
-        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.<\/p>"
+        "form_description": "<p>お問い合わせ内容をご入力ください。<\/p>"
       }
     },
     "image-with-text": {
