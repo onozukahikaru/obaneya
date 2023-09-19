@@ -27,66 +27,60 @@
         "accordion-0": {
           "type": "tab_content",
           "settings": {
-            "question": "購入したい商品がサイトにない場合には、どうしたら良いでしょうか？",
-            "text": "<p>通販（Shopify）には載せておりませんが、お電話にて承っております。<br\/>お気軽にご連絡くださいませ。<br\/>なお、季節限定・数量限定の商品、もしくは販売を終了している商品の可能性もありますので、その際は、ご了承下さい。<br\/><br\/>TEL：0285-28-6878<br\/>受付時間／9：00〜16：00（月～金）<\/p>"
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "accordion-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
         },
         "accordion-2": {
           "type": "tab_content",
           "settings": {
-            "question": "一度注文した商品をキャンセルできますか？",
-            "text": "<p>決済完了後は購入をキャンセルすることができません。何卒ご了承くださいませ。<\/p>"
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
         },
         "accordion-3": {
           "type": "tab_content",
           "settings": {
-            "question": "複数回ご注文いただいた場合の商品の同梱について",
-            "text": "<p>１日１回発送作業をしておりますが、発送までに間に合えば別々のご注文でも一緒に送付いたします。<\/p>"
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
         },
         "accordion-4": {
           "type": "tab_content",
           "settings": {
-            "question": "商品注文してから発送までにどのくらいかかりますか？",
-            "text": "<p>■発送業務は土日祝はお休みをいただいております。<br\/><br\/>■ご注文から発送までに日祝祭日をはさむ場合や注文が集中した場合、商品発送にお時間をいただく場合がございます。<br\/><br\/>また天候不良やその他の事情により配送に遅れが生じる可能性もある場合も予めご了承下さい。<br\/><br\/>■お届け予定日：ご注文日より5日前後でお届け致します。（離島・一部地域については～7日）。<br\/>また商品により遅れる場合もあります。<br\/><br\/>■発送日設定をされない場合に関しましては、準備ができ次第、商品の方は発送させて頂きます。<br\/><br\/>■お届け日は、地域により異なる場合があります。<br\/><\/p>"
-          }
-        },
-        "78d88152-d43c-4391-b9af-c39072c707b7": {
-          "type": "tab_content",
-          "settings": {
-            "question": "商品の返品・交換について",
-            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/return-policy\/\">こちら<\/a>】をご確認下さい。<\/p>"
-          }
-        },
-        "88a769ad-0b9d-44fa-8506-e07decaa5a1b": {
-          "type": "tab_content",
-          "settings": {
-            "question": "商品の購入方法",
-            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/howtobuy\/\">こちら<\/a>】をご確認下さい。<\/p>"
-          }
-        },
-        "677d2af8-2fa3-44db-ac09-f7f4527bdcb1": {
-          "type": "tab_content",
-          "settings": {
-            "question": "送料・お支払い方法",
-            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/souryo\/\">こちら<\/a>】をご確認下さい。<\/p>"
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
         }
       },
       "block_order": [
         "accordion-0",
+        "accordion-1",
         "accordion-2",
         "accordion-3",
-        "accordion-4",
-        "78d88152-d43c-4391-b9af-c39072c707b7",
-        "88a769ad-0b9d-44fa-8506-e07decaa5a1b",
-        "677d2af8-2fa3-44db-ac09-f7f4527bdcb1"
+        "accordion-4"
       ],
       "settings": {
-        "colors": "light",
-        "title": "よくある質問",
-        "faq_icon": "caret"
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
+    },
+    "rich-text": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "accent",
+        "title": "Welcome to our store",
+        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/collections"
       }
     },
     "contact-form": {
@@ -96,13 +90,6 @@
           "type": "name_input",
           "settings": {
             "required": true,
-            "input_width": "full"
-          }
-        },
-        "4a46c83a-29e2-41c9-9be0-f704e6e9d6fb": {
-          "type": "tel_input",
-          "settings": {
-            "required": false,
             "input_width": "partial"
           }
         },
@@ -116,23 +103,7 @@
         "custom_input": {
           "type": "custom_input",
           "settings": {
-            "placeholder": "件名（必須）",
-            "required": true,
-            "input_width": "full"
-          }
-        },
-        "12bd6109-4bdb-492c-805c-6ba53bf46f56": {
-          "type": "custom_input",
-          "settings": {
-            "placeholder": "注文番号（ご注文に関するお問い合わせの場合は必須）",
-            "required": false,
-            "input_width": "full"
-          }
-        },
-        "9f51f4bb-d1e5-4e6f-aef9-7d9bac8d77d6": {
-          "type": "custom_input",
-          "settings": {
-            "placeholder": "商品名（商品に関するお問い合わせの場合は必須）",
+            "placeholder": "How did you hear about us?",
             "required": false,
             "input_width": "full"
           }
@@ -147,24 +118,115 @@
       },
       "block_order": [
         "contact-form-0",
-        "4a46c83a-29e2-41c9-9be0-f704e6e9d6fb",
         "contact-form-1",
         "custom_input",
-        "12bd6109-4bdb-492c-805c-6ba53bf46f56",
-        "9f51f4bb-d1e5-4e6f-aef9-7d9bac8d77d6",
         "contact-form-3"
       ],
       "settings": {
         "section_color_scheme": "white",
         "form_width": "narrow",
-        "form_title": "{{ page.title }}",
-        "form_description": "<p>お問い合わせ内容をご入力ください。<\/p>"
+        "form_title": "Contact us",
+        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.<\/p>"
+      }
+    },
+    "image-with-text": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "gallery": {
+      "type": "image--gallery",
+      "blocks": {
+        "gallery-2": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "gallery-1": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "gallery-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "gallery-3": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "gallery-2",
+        "gallery-1",
+        "gallery-0",
+        "gallery-3"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Gallery",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hover"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "colors": "white",
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": ""
       }
     }
   },
   "order": [
     "image-with-text-overlay",
     "accordion",
-    "contact-form"
+    "rich-text",
+    "contact-form",
+    "image-with-text",
+    "gallery",
+    "newsletter"
   ]
 }
