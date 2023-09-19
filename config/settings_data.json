@@ -2,26 +2,20 @@
   "current": {
     "color_body_text": "#262428",
     "color_primary": "#333333",
-    "color_body_bg": "#fff",
     "color_body_bg_secondary": "#f8f8f8",
     "sale_badge_color": "#E95050",
     "sale_price_color": "#919191",
     "sold_out_badge_color": "#262428",
-    "sold_out_badge_font_color": "#ffffff",
     "cart_color": "#A7A7A7",
     "color_primary_navigation": "#262428",
     "color_primary_navigation_hover": "#595959",
-    "header-bg-color": "#ffffff",
     "header-border-color": "#ffffff",
     "header-transparent-text": "#fff",
     "header-transparent-background": "#262428",
-    "mobile-menu-bg": "#fff",
     "mobile-menu-text": "#262428",
     "mobile-menu-text-hover": "#9f9f9f",
     "color_primary_button_background": "#262428",
-    "color_primary_button_text": "#ffffff",
     "color_primary_button_background_hover": "#d7d7d7",
-    "color_primary_button_text_hover": "#262428",
     "color_secondary_button_background": "#d7d7d7",
     "color_secondary_button_text": "#262428",
     "color_secondary_button_background_hover": "#262428",
@@ -63,7 +57,7 @@
     "cart_vendor_enable": false,
     "cart_notes_enable": true,
     "giftwrap_gift_note": true,
-    "enable-additional-checkout-buttons": false,
+    "enable-additional-checkout-buttons": true,
     "show_discount": "hide",
     "product-grid": "square",
     "hover-effect": true,
@@ -122,14 +116,12 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "5294968793578418440": {
-        "type": "shopify:\/\/apps\/king-product-options-variant\/blocks\/app-embed\/ce104259-52b1-4720-9ecf-76b34cae0401",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    "color_body_bg": "#fff",
+    "sold_out_badge_font_color": "#ffffff",
+    "header-bg-color": "#ffffff",
+    "mobile-menu-bg": "#fff",
+    "color_primary_button_text": "#ffffff",
+    "color_primary_button_text_hover": "#262428"
   },
   "presets": {
     "Queenstown": {
