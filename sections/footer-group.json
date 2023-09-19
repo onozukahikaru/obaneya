@@ -5,6 +5,13 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "footer"
+          }
+        },
         "social": {
           "type": "social",
           "settings": {
@@ -18,26 +25,18 @@
             "richtext": "<p>Create a captivating brand story, explain details of your products or highlight store promotions<\/p>"
           }
         },
-        "b217607f-af1b-40e1-92ca-756687724f31": {
-          "type": "menu",
+        "newsletter": {
+          "type": "newsletter",
           "settings": {
-            "menu_title": "Quick links",
-            "footer_linklist": "footer"
-          }
-        },
-        "menu": {
-          "type": "menu",
-          "settings": {
-            "menu_title": "その他のコンテンツ",
-            "footer_linklist": "other-contents"
+            "newsletter_title": "Newsletter"
           }
         }
       },
       "block_order": [
+        "menu",
         "social",
         "text",
-        "b217607f-af1b-40e1-92ca-756687724f31",
-        "menu"
+        "newsletter"
       ],
       "settings": {
         "alignment": "left"
@@ -47,9 +46,8 @@
       "type": "footer-bottom",
       "settings": {
         "show_methods_of_payment": true,
-        "center_content_on_desktop": true,
         "footer_text": "",
-        "show_currency_selector": false,
+        "show_currency_selector": true,
         "show_locale_selector": false
       }
     }

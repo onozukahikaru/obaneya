@@ -37,15 +37,15 @@
           "type": "price",
           "settings": {
             "shipping_policy": true,
-            "tax_included": true
+            "tax_included": false
           }
         },
         "options": {
           "type": "options",
           "settings": {
             "product_variant_style": "swatches",
-            "thumbnail_changes_variant": true,
-            "hide_soldout_variants": true
+            "thumbnail_changes_variant": false,
+            "hide_soldout_variants": false
           }
         },
         "quantity": {
@@ -60,60 +60,41 @@
             "enable_gift_card_recipient_form": true
           }
         },
+        "local_pickup": {
+          "type": "local_pickup",
+          "settings": {
+          }
+        },
         "collapsible-tab-0": {
           "type": "collapsible-tab",
           "settings": {
             "icon": "heart",
-            "heading": "Collapsible tab",
-            "open_close_icon": "caret",
-            "text": "<p>Share some information about your product<\/p>",
-            "page": ""
+            "open_close_icon": "caret"
           }
         },
         "collapsible-tab-1": {
           "type": "collapsible-tab",
           "settings": {
             "icon": "clock",
-            "heading": "Collapsible tab",
-            "open_close_icon": "caret",
-            "text": "<p>Share some information about your product<\/p>",
-            "page": ""
+            "open_close_icon": "caret"
           }
         },
         "collapsible-tab-2": {
           "type": "collapsible-tab",
           "settings": {
             "icon": "star",
-            "heading": "Collapsible tab",
-            "open_close_icon": "caret",
-            "text": "<p>Share some information about your product<\/p>",
-            "page": ""
+            "open_close_icon": "caret"
           }
         },
         "cross-sells": {
           "type": "cross-sells",
           "settings": {
-            "title": "Don't forget these...",
-            "cross_sell_product_1": "",
-            "cross_sell_product_2": "",
-            "cross_sell_product_3": "",
             "cross_sell_bg": "#ffffff"
           }
         },
         "social_sharing": {
           "type": "social_sharing",
           "settings": {
-          }
-        },
-        "cf1b64f8-2464-4303-a346-1c3d89d2ea13": {
-          "type": "linked-products",
-          "settings": {
-            "option_name": "Color",
-            "linked_products": [
-              "jeweled-pickles-white"
-            ],
-            "swatches_size": "large",
-            "swatches_aspect_ratio": "tall"
           }
         }
       },
@@ -126,12 +107,12 @@
         "options",
         "quantity",
         "buy_buttons",
+        "local_pickup",
         "collapsible-tab-0",
         "collapsible-tab-1",
         "collapsible-tab-2",
         "cross-sells",
-        "social_sharing",
-        "cf1b64f8-2464-4303-a346-1c3d89d2ea13"
+        "social_sharing"
       ],
       "settings": {
         "enable_sticky": true,
@@ -160,54 +141,12 @@
         "include_margins": true
       }
     },
-    "5ee8ac8d-88fa-487f-b129-88154ea536bf": {
-      "type": "template--product--recommendations",
-      "blocks": {
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_image-1": {
-          "type": "product_card_image",
-          "settings": {
-            "enable_badges": false
-          }
-        },
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_title-1": {
-          "type": "product_card_title",
-          "settings": {
-          }
-        },
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_vendor-1": {
-          "type": "product_card_vendor",
-          "settings": {
-          }
-        },
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_price-1": {
-          "type": "product_card_price",
-          "settings": {
-          }
-        },
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_button-1": {
-          "type": "product_card_button",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_image-1",
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_title-1",
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_vendor-1",
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_price-1",
-        "template--20979148980499__5ee8ac8d-88fa-487f-b129-88154ea536bf-product_card_button-1"
-      ],
-      "settings": {
-        "product_recommendations_heading": "You may also like"
-      }
-    },
     "recently-viewed": {
       "type": "template--product--recently-viewed",
       "blocks": {
         "product_card_image": {
           "type": "product_card_image",
           "settings": {
-            "enable_badges": true
           }
         },
         "product_card_title": {
@@ -241,7 +180,6 @@
     "product-form",
     "product-description",
     "app-product-reviews",
-    "5ee8ac8d-88fa-487f-b129-88154ea536bf",
     "recently-viewed"
   ]
 }
