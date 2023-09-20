@@ -197,7 +197,7 @@
       "sort_by_label": "Sort by",
       "title": "Collection",
       "to": "To",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all</a>"
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
     },
     "events_calendar": {
       "tbc_text": "TBC"
@@ -395,13 +395,13 @@
       "category": "Category",
       "type": "Type",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "quote": "Quote",
       "in_stock": "In stock",
       "low_stock": "Low stock",
       "out_of_stock": "Out of stock",
       "stock_left": "left",
-      "out_of_stock_html": "Click <a href=\"#\"><strong>here</strong></a> to be notified by email when {{ product }} becomes available.",
+      "out_of_stock_html": "Click <a href=\"#\"><strong>here<\/strong><\/a> to be notified by email when {{ product }} becomes available.",
       "wrong_email": "Please provide a valid email address.",
       "out_of_stock_success": "Thanks! We will notify you when this product becomes available!",
       "read_more_html": "Read more",
