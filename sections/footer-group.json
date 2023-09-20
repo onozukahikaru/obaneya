@@ -5,13 +5,6 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
-        "menu": {
-          "type": "menu",
-          "settings": {
-            "menu_title": "Quick links",
-            "footer_linklist": "footer"
-          }
-        },
         "social": {
           "type": "social",
           "settings": {
@@ -28,15 +21,23 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "newsletter_title": "Newsletter"
+            "newsletter_title": "Newsletter",
+            "footer_newsletter_description": ""
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "その他のコンテンツ",
+            "footer_linklist": "other-contents"
           }
         }
       },
       "block_order": [
-        "menu",
         "social",
         "text",
-        "newsletter"
+        "newsletter",
+        "menu"
       ],
       "settings": {
         "alignment": "left"
@@ -46,6 +47,7 @@
       "type": "footer-bottom",
       "settings": {
         "show_methods_of_payment": true,
+        "center_content_on_desktop": false,
         "footer_text": "",
         "show_currency_selector": true,
         "show_locale_selector": false
