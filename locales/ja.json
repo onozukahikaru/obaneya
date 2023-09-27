@@ -85,7 +85,7 @@
     },
     "comments": {
       "title": "コメントを残す",
-      "name": "名前",
+      "name": "氏名",
       "email": "メールアドレス",
       "message": "メッセージ",
       "post": "投稿する",
@@ -205,7 +205,7 @@
   },
   "contact": {
     "form": {
-      "name": "名前",
+      "name": "氏名",
       "email": "メールアドレス",
       "phone": "電話番号",
       "message": "メッセージ",
