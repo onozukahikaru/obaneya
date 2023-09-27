@@ -168,7 +168,7 @@
       "add_product": "商品を追加する"
     },
     "paginate": {
-      "youve_viewed": "You've viewed {{ x }} of {{ y }} products",
+      "youve_viewed": "{{ y }}個中{{ x }}個の商品を閲覧しました",
       "loading": "loading...",
       "load_more": "Load more"
     }
