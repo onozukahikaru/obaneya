@@ -261,13 +261,13 @@
       "guest_continue": "続ける"
     },
     "orders": {
-      "title": "Order history",
-      "order_number": "Order",
-      "date": "Date",
-      "payment_status": "Payment status",
-      "fulfillment_status": "Fulfillment status",
-      "total": "Total",
-      "none": "You haven't placed any orders yet."
+      "title": "注文履歴",
+      "order_number": "注文",
+      "date": "日付",
+      "payment_status": "支払い状況",
+      "fulfillment_status": "履行状況",
+      "total": "合計",
+      "none": "まだ注文をしていません。"
     },
     "order": {
       "title": "Order {{ name }}",
@@ -275,9 +275,9 @@
       "cancelled": "Order canceled on {{ date }}",
       "cancelled_reason": "Reason: {{ reason }}",
       "billing_address": "Billing address",
-      "payment_status": "Payment status",
+      "payment_status": "支払い状況",
       "shipping_address": "Shipping address",
-      "fulfillment_status": "Fulfillment status",
+      "fulfillment_status": "履行状況",
       "discount": "Discount",
       "shipping": "Shipping",
       "tax": "Tax",
