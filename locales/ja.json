@@ -344,8 +344,8 @@
     "cart": {
       "title": "カート",
       "items_count": {
-        "one": "item",
-        "other": "items"
+        "one": "個のアイテム",
+        "other": "個のアイテム"
       }
     },
     "customer": {
