@@ -338,22 +338,22 @@
     },
     "drawers": {
       "browse": "Browse",
-      "close_menu": "Close menu",
-      "close": "Close"
+      "close_menu": "閉じる",
+      "close": "閉じる"
     },
     "cart": {
-      "title": "Cart",
+      "title": "カート",
       "items_count": {
         "one": "item",
         "other": "items"
       }
     },
     "customer": {
-      "account": "Account",
-      "logged_in_as_html": "Logged in as {{ first_name }}",
-      "log_out": "Log out",
-      "log_in": "Log in",
-      "create_account": "Create account"
+      "account": "アカウント",
+      "logged_in_as_html": "{{ first_name }}としてログイン",
+      "log_out": "ログアウト",
+      "log_in": "ログイン",
+      "create_account": "アカウントを作成する"
     },
     "header": {
       "search": "Search",
