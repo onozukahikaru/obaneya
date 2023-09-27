@@ -129,15 +129,15 @@
   },
   "collections": {
     "general": {
-      "all_of_collection": "All {{ collection }}",
+      "all_of_collection": "すべての{{ collection }}",
       "product_collections": "Product collections",
-      "no_matches": "Sorry, there are no products in this collection",
-      "link_title": "Browse our {{ title }} collection",
-      "see_more": "See more",
-      "grid_view": "Grid view",
-      "list_view": "List view",
-      "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection",
+      "no_matches": "申し訳ありませんが、このコレクションには商品がありません。",
+      "link_title": "{{ title }}コレクションをご覧ください",
+      "see_more": "もっとみる",
+      "grid_view": "グリッド表示",
+      "list_view": "リスト表示",
+      "view_all": "すべて表示",
+      "view_all_label": "{{ collection_name }}コレクション内のすべての製品を表示",
       "items_with_count": {
         "one": "{{ count }} item",
         "other": "{{ count }} items"
