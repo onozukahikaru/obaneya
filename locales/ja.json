@@ -290,7 +290,7 @@
       "subtotal": "小計"
     },
     "recover_password": {
-      "title": "あなたのパスワードをリセット",
+      "title": "パスワードをリセット",
       "email": "メールアドレス",
       "submit": "登録",
       "cancel": "キャンセル",
@@ -298,11 +298,11 @@
       "success": "パスワードを更新するためのリンクを記載したメールを送信しました。"
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password for {{ email }}",
-      "password": "Password",
-      "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "title": "アカウントのパスワードをリセット",
+      "subtext": "{{ email }}の新しいパスワードを入力してください",
+      "password": "パスワード",
+      "password_confirm": "パスワードを認証する",
+      "submit": "パスワードをリセットする"
     },
     "register": {
       "title": "Create account",
