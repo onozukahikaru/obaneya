@@ -93,8 +93,8 @@
       "success_moderated": "コメントは正常に投稿されました。 当ブログは管理されておりますので、しばらくしたら公開させていただきます。",
       "success": "ありがとうございます。コメントは正常に投稿されました。",
       "with_count": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }}件のコメント",
+        "other": "{{ count }}件のコメント"
       }
     },
     "sidebar": {
@@ -387,7 +387,7 @@
       "view_options": "オプション",
       "added": "追加しました",
       "add": "追加",
-      "loading": "Loading",
+      "loading": "読み込み中…",
       "choose": "選択",
       "is_not_available": "利用できません",
       "quick_shop": "Quick view",
