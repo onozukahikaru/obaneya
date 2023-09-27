@@ -356,11 +356,11 @@
       "create_account": "アカウントを作成する"
     },
     "header": {
-      "search": "Search",
-      "account": "Account",
-      "your_cart": "Cart",
-      "currency": "Currency",
-      "language": "Language"
+      "search": "検索",
+      "account": "アカウント",
+      "your_cart": "カート",
+      "currency": "通貨",
+      "language": "言語"
     }
   },
   "products": {
