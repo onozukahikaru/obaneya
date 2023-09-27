@@ -175,10 +175,10 @@
   },
   "sections": {
     "collection_template": {
-      "apply": "Apply",
-      "clear": "Clear",
-      "clear_all": "Clear all",
-      "empty": "No products found",
+      "apply": "適用",
+      "clear": "クリア",
+      "clear_all": "すべてクリア",
+      "empty": "製品が見つかりませんでした",
       "from": "From",
       "filter_and_sort": "Filter and sort",
       "filter_by_label": "Filter by",
