@@ -192,12 +192,12 @@
         "one": "{{ count }}個の商品の{{ product_count }}",
         "other": "{{ count }}個の商品の{{ product_count }}"
       },
-      "reset": "Reset",
-      "sort_button": "Sort",
-      "sort_by_label": "Sort by",
+      "reset": "リセット",
+      "sort_button": "並び替え",
+      "sort_by_label": "並び替え",
       "title": "Collection",
-      "to": "To",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
+      "to": "まで",
+      "use_fewer_filters_html": "使用する絞り込みの数を減らすか <a class=\"{{ class }}\" href=\"{{ link }}\">すべてクリア<\/a>してください。"
     },
     "events_calendar": {
       "tbc_text": "TBC"
