@@ -169,7 +169,7 @@
     },
     "paginate": {
       "youve_viewed": "{{ y }}個中{{ x }}個の商品を閲覧しました",
-      "loading": "loading...",
+      "loading": "読み込み中…",
       "load_more": "Load more"
     }
   },
