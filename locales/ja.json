@@ -84,31 +84,31 @@
       "read_more": "もっと読む"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "title": "コメントを残す",
+      "name": "名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "post": "投稿する",
+      "moderated": "コメントは公開される前に承認される必要があることにご注意ください",
+      "success_moderated": "コメントは正常に投稿されました。 当ブログは管理されておりますので、しばらくしたら公開させていただきます。",
+      "success": "ありがとうございます。コメントは正常に投稿されました。",
       "with_count": {
         "one": "{{ count }} comment",
         "other": "{{ count }} comments"
       }
     },
     "sidebar": {
-      "recent_articles": "Recent articles",
-      "categories": "Categories"
+      "recent_articles": "最新の記事",
+      "categories": "カテゴリー"
     }
   },
   "cart": {
     "general": {
-      "title": "Shopping cart",
-      "remove": "Remove",
+      "title": "カート",
+      "remove": "削除",
       "note": "Special instructions for seller",
-      "see_more": "See more",
-      "subtotal": "Subtotal",
+      "see_more": "もっとみる",
+      "subtotal": "小計",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
