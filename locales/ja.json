@@ -5,42 +5,42 @@
       "page": "Page {{ page }}"
     },
     "404": {
-      "title": "404 Page not found",
-      "subtext_html": "The page you requested does not exist. Click <a href=\"\/collections\/all\">here<\/a> to continue shopping."
+      "title": "404 ページが見つかりません",
+      "subtext_html": "要求したページは存在しません。 ショッピングを続けるには <a href=\"\/collections\/all\">ここ<\/a> をクリックしてください"
     },
     "breadcrumbs": {
       "home": "Home",
-      "home_link_title": "Back to the frontpage"
+      "home_link_title": "トップページに戻る"
     },
     "newsletter_form": {
       "newsletter_email": "email@example.com",
-      "submit": "Subscribe",
-      "confirmation": "Thanks for subscribing"
+      "submit": "購読する",
+      "confirmation": "ご購読いただきありがとうございます"
     },
     "newsletter_form_section": {
-      "header": "Join our mailing list",
-      "header_text": "Email address:",
-      "newsletter_text": "Enter email",
-      "submit": "Join",
-      "thanks": "Thanks for joining!"
+      "header": "メーリングリストに参加してください",
+      "header_text": "メールアドレス：",
+      "newsletter_text": "メールアドレスを入力してください",
+      "submit": "参加する",
+      "thanks": "ご参加いただきありがとうございます!"
     },
     "search": {
-      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
-      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
-      "title": "Search",
-      "placeholder": "Search our store",
-      "submit": "Search",
+      "no_results_html": "\"{{ terms }}\" を検索しても結果がありませんでした",
+      "results_for_html": "\"{{ terms }}\" を検索すると、次のことがわかりました：",
+      "title": "検索",
+      "placeholder": "店舗を検索",
+      "submit": "検索する",
       "products": "Products",
       "articles": "Articles",
       "suggestions": "Suggestions",
       "pages": "Pages",
       "collections": "Collections",
-      "results": "Results",
-      "view_all": "View all results",
-      "clear": "Clear"
+      "results": "結果",
+      "view_all": "すべての結果をみる",
+      "clear": "クリア"
     },
     "social": {
-      "share_the_love": "Share the love"
+      "share_the_love": "シェアする"
     },
     "onboarding": {
       "modal_title": "Almost there...",
@@ -56,7 +56,7 @@
       "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
     },
     "verification_popup": {
-      "return_text": "Back"
+      "return_text": "戻る"
     },
     "localization": {
       "country_label": "Country\/region",
@@ -65,23 +65,23 @@
       "update_country": "Update country\/region"
     },
     "back_to_top": {
-      "scroll_to_top": "Scroll to top"
+      "scroll_to_top": "トップまでスクロール"
     },
     "time": {
-      "days": "Days",
-      "hours": "Hours",
-      "minutes": "Minutes",
-      "seconds": "Seconds"
+      "days": "日",
+      "hours": "時",
+      "minutes": "分",
+      "seconds": "秒"
     }
   },
   "blogs": {
     "article": {
       "author_on_date_html": "Posted by {{ author }} on {{ date }}",
-      "older_post": "Older post",
-      "newer_post": "Newer post",
-      "tags": "Tags",
+      "older_post": "前の記事",
+      "newer_post": "次の記事",
+      "tags": "タグ",
       "comment_meta_html": "{{ author }} on {{ date }}",
-      "read_more": "Read more"
+      "read_more": "もっと読む"
     },
     "comments": {
       "title": "Leave a comment",
