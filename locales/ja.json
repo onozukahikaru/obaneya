@@ -435,18 +435,18 @@
       "add_to_apple_wallet": "Add to Apple Wallet"
     },
     "recipient": {
-      "checkbox": "I want to send this as a gift",
-      "email_label": "Recipient email",
-      "name_label": "Recipient name (optional)",
-      "message_label": "Message (optional)",
-      "max_characters": "{{ max }} characters max"
+      "checkbox": "ギフトとして送りたいです",
+      "email_label": "受け取り者のEメール",
+      "name_label": "受け取り者名 (オプション)",
+      "message_label": "メッセージ（オプション）",
+      "max_characters": "最大{{ max }}文字まで"
     }
   },
   "coming_soon": {
     "general": {
-      "title": "Please log in",
+      "title": "ログインしてください",
       "opening_soon": "Will be opening soon...",
-      "thanks_mailing": "Thanks for signing up!",
+      "thanks_mailing": "ご登録いただきありがとうございます!",
       "find_out": "Find out when we open",
       "password": "Enter store using password",
       "store_owner": "Are you the store owner?",
