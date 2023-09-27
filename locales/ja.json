@@ -368,13 +368,13 @@
       "previous_product_html": "&larr; Previous product",
       "next_product_html": "Next product &rarr;",
       "from_text": "From",
-      "sale_price": "Sale price",
-      "regular_price": "Regular price",
-      "product_reviews": "Product reviews",
+      "sale_price": "セール価格",
+      "regular_price": "標準価格",
+      "product_reviews": "レビュー",
       "yes": "Yes",
-      "giftwrap_label": "Gift wrap",
-      "giftwrap_note": "Gift message",
-      "giftwrap_note_placeholder": "Add your gift message here"
+      "giftwrap_label": "ギフトラッピング",
+      "giftwrap_note": "ギフトメッセージ",
+      "giftwrap_note_placeholder": "ここにギフトメッセージを追加してください"
     },
     "product": {
       "sold_out": "Sold out",
