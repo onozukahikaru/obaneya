@@ -106,7 +106,7 @@
     "general": {
       "title": "カート",
       "remove": "削除",
-      "note": "Special instructions for seller",
+      "note": "お店への連絡事項",
       "see_more": "もっとみる",
       "subtotal": "小計",
       "taxes_and_shipping_at_checkout": "税金と配送料はチェックアウト時に計算されます",
