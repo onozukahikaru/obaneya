@@ -179,18 +179,18 @@
       "clear": "クリア",
       "clear_all": "すべてクリア",
       "empty": "製品が見つかりませんでした",
-      "from": "From",
-      "filter_and_sort": "Filter and sort",
-      "filter_by_label": "Filter by",
-      "filter_button": "Filter",
+      "from": "から",
+      "filter_and_sort": "絞り込みと並び替え",
+      "filter_by_label": "絞り込み",
+      "filter_button": "絞り込む",
       "filters_selected": {
-        "one": "{{ count }} selected",
-        "other": "{{ count }} selected"
+        "one": "{{ count }}個が選択されました",
+        "other": "{{ count }}個が選択されました"
       },
-      "max_price": "The highest price is {{ price }}",
+      "max_price": "最高価格は{{ price }}です",
       "product_count": {
-        "one": "Showing {{ product_count }} of {{ count }} product",
-        "other": "Showing {{ product_count }} of {{ count }} products"
+        "one": "{{ count }}個の商品の{{ product_count }}",
+        "other": "{{ count }}個の商品の{{ product_count }}"
       },
       "reset": "Reset",
       "sort_button": "Sort",
