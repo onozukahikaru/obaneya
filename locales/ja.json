@@ -81,7 +81,7 @@
       "newer_post": "次の記事",
       "tags": "タグ",
       "comment_meta_html": "{{ author }} on {{ date }}",
-      "read_more": "もっと読む"
+      "read_more": "続きを読む"
     },
     "comments": {
       "title": "コメントを残す",
