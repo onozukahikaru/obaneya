@@ -158,14 +158,14 @@
       "date_ascending": "古い順"
     },
     "filters": {
-      "title_tags": "Filter",
-      "all_tags": "All products",
-      "clear_all": "Clear all"
+      "title_tags": "絞り込み",
+      "all_tags": "すべての商品",
+      "clear_all": "すべてクリア"
     },
     "onboarding": {
-      "modal_title": "This page will show all of your store's products",
-      "no_products_html": "There are no products yet, but once you begin adding them they will show up here regardless if they are in a collection.",
-      "add_product": "Add product"
+      "modal_title": "このページにはストアのすべての商品が表示されます",
+      "no_products_html": "まだ商品はありませんが、追加を開始すると、コレクション内にあるかどうかに関係なく、ここに表示されます。",
+      "add_product": "商品を追加する"
     },
     "paginate": {
       "youve_viewed": "You've viewed {{ x }} of {{ y }} products",
