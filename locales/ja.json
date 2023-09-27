@@ -290,12 +290,12 @@
       "subtotal": "小計"
     },
     "recover_password": {
-      "title": "Reset your password",
-      "email": "Email",
-      "submit": "Submit",
-      "cancel": "Cancel",
-      "subtext": "We will send you an email to reset your password.",
-      "success": "We've sent you an email with a link to update your password."
+      "title": "あなたのパスワードをリセット",
+      "email": "メールアドレス",
+      "submit": "登録",
+      "cancel": "キャンセル",
+      "subtext": "パスワードをリセットするためのメールをお送りします。",
+      "success": "パスワードを更新するためのリンクを記載したメールを送信しました。"
     },
     "reset_password": {
       "title": "Reset account password",
