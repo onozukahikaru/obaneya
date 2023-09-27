@@ -25,8 +25,8 @@
       "thanks": "ご参加いただきありがとうございます!"
     },
     "search": {
-      "no_results_html": "\"{{ terms }}\" を検索しても結果がありませんでした",
-      "results_for_html": "\"{{ terms }}\" を検索すると、次のことがわかりました：",
+      "no_results_html": "「{{ terms }}」に一致する結果は見つかりませんでした。スペルを確認するか、別の単語やフレーズを使用してください。",
+      "results_for_html": "「{{ terms }}」を検索結果、次のことがわかりました：",
       "title": "検索",
       "placeholder": "店舗を検索",
       "submit": "検索する",
@@ -59,10 +59,10 @@
       "return_text": "戻る"
     },
     "localization": {
-      "country_label": "Country\/region",
-      "language_label": "Language",
-      "update_language": "Update language",
-      "update_country": "Update country\/region"
+      "country_label": "国\/地域",
+      "language_label": "言語",
+      "update_language": "言語を更新する",
+      "update_country": "国\/地域を更新する"
     },
     "back_to_top": {
       "scroll_to_top": "トップまでスクロール"
