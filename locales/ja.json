@@ -324,11 +324,11 @@
       "modal_title": "Almost there...",
       "no_products_html": "This placeholder will appear until you add a product to this collection.",
       "add_product": "Add a product",
-      "product_title": "Product title",
+      "product_title": "商品名の例",
       "product_vendor": "Vendor",
       "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage.",
       "add_collection": "Add a collection",
-      "collection_title": "Collection title",
+      "collection_title": "コレクションの名前",
       "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
     }
   },
