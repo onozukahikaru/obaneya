@@ -221,12 +221,12 @@
       "return": "マイページ詳細に戻る"
     },
     "activate_account": {
-      "title": "アカウントの作成",
-      "subtext": "アカウントのパスワードを作成します",
+      "title": "アカウントを有効にする",
+      "subtext": "パスワードを作成してアカウントを有効にしてください。",
       "password": "パスワード",
       "password_confirm": "パスワードを認証する",
-      "submit": "アカウントを作成する",
-      "cancel": "招待を断る"
+      "submit": "アカウントを有効にする",
+      "cancel": "招待を辞退する"
     },
     "addresses": {
       "title": "住所",
