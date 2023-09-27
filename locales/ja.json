@@ -325,7 +325,7 @@
       "no_products_html": "This placeholder will appear until you add a product to this collection.",
       "add_product": "Add a product",
       "product_title": "商品名の例",
-      "product_vendor": "Vendor",
+      "product_vendor": "販売元",
       "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage.",
       "add_collection": "Add a collection",
       "collection_title": "コレクションの名前",
@@ -380,7 +380,7 @@
       "sold_out": "売り切れ",
       "on_sale": "セール",
       "on_sale_from_html": "{{ price }}から販売中",
-      "unavailable": "利用不可",
+      "unavailable": "利用できません",
       "compare_at": "Compare at",
       "quantity": "数量",
       "add_to_cart": "カートに入れる",
@@ -414,12 +414,12 @@
   },
   "store_availability": {
     "general": {
-      "view_store_info": "View store information",
-      "check_other_stores": "Check availability at other stores",
-      "pick_up_available": "Pickup available",
-      "pick_up_currently_unavailable": "Pickup currently unavailable",
-      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}<\/strong>",
-      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}<\/strong>"
+      "view_store_info": "ストア情報を表示する",
+      "check_other_stores": "別のストアでの出品状況を確認する",
+      "pick_up_available": "受取が可能です",
+      "pick_up_currently_unavailable": "受取は現在できません",
+      "pick_up_available_at_html": "<strong>{{ location_name }}<\/strong>での受取が可能です。",
+      "pick_up_unavailable_at_html": "<strong>{{ location_name }}<\/strong>での受取は現在できません。"
     }
   },
   "gift_cards": {
