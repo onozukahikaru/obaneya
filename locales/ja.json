@@ -144,18 +144,18 @@
       }
     },
     "sidebar": {
-      "tags": "Tags"
+      "tags": "タグ"
     },
     "sorting": {
-      "title": "Sort by",
-      "featured": "Featured",
-      "best_selling": "Best selling",
-      "az": "Alphabetically, A-Z",
-      "za": "Alphabetically, Z-A",
-      "price_ascending": "Price, low to high",
-      "price_descending": "Price, high to low",
-      "date_descending": "Date, new to old",
-      "date_ascending": "Date, old to new"
+      "title": "並べ替え",
+      "featured": "特集",
+      "best_selling": "ベストセラー",
+      "az": "アルファベット順, A-Z",
+      "za": "アルファベット順, Z-A",
+      "price_ascending": "価格, 低い順",
+      "price_descending": "価格, 高い順",
+      "date_descending": "新しい順",
+      "date_ascending": "古い順"
     },
     "filters": {
       "title_tags": "Filter",
