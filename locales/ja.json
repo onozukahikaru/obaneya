@@ -251,14 +251,14 @@
       "delete": "削除"
     },
     "login": {
-      "title": "Login",
-      "email": "Email",
-      "password": "Password",
-      "forgot_password": "Forgot your password?",
-      "sign_in": "Sign In",
-      "cancel": "Return to store",
-      "guest_title": "Continue as a guest",
-      "guest_continue": "Continue"
+      "title": "ログイン",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "forgot_password": "パスワードをお忘れですか？",
+      "sign_in": "サインイン",
+      "cancel": "ストアに戻る",
+      "guest_title": "ゲストとして続ける",
+      "guest_continue": "続ける"
     },
     "orders": {
       "title": "Order history",
