@@ -56,6 +56,25 @@
         "slider-navigation-color": "#ffffff"
       }
     },
+    "7dfc3ef2-fcfa-496d-9580-767b7f16df15": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "template--21073629544723__7dfc3ef2-fcfa-496d-9580-767b7f16df15-text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "What makes you different",
+            "subheading": "Shout about your unique selling points",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21073629544723__7dfc3ef2-fcfa-496d-9580-767b7f16df15-text-1"
+      ],
+      "settings": {
+        "colors": "light"
+      }
+    },
     "collection-collection-list": {
       "type": "collection--collection-list",
       "blocks": {
@@ -201,6 +220,7 @@
   },
   "order": [
     "3fb22d5b-9481-4aed-8572-009646d03bc9",
+    "7dfc3ef2-fcfa-496d-9580-767b7f16df15",
     "collection-collection-list",
     "featured-collection-1",
     "featured-collection",
