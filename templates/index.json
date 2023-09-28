@@ -204,34 +204,6 @@
         "blog_show_date": false,
         "post_limit": 3
       }
-    },
-    "text-text-adverts": {
-      "type": "text--text-adverts",
-      "blocks": {
-        "advert-0": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "advert-1": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "advert-0",
-        "advert-1"
-      ],
-      "settings": {
-        "colors": "light"
-      }
     }
   },
   "order": [
@@ -241,7 +213,6 @@
     "featured-collection",
     "image-text-with-image-overlay-1",
     "image-image-with-text-1",
-    "blog-blog-posts",
-    "text-text-adverts"
+    "blog-blog-posts"
   ]
 }
