@@ -39,7 +39,7 @@
       "type": "footer-bottom",
       "settings": {
         "show_methods_of_payment": true,
-        "center_content_on_desktop": false,
+        "center_content_on_desktop": true,
         "footer_text": "",
         "show_currency_selector": true,
         "show_locale_selector": false
