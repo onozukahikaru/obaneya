@@ -144,7 +144,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
-        "collection": "new-products",
+        "collection": "recommends",
         "show-vendor": false,
         "show_view_all": false
       }
