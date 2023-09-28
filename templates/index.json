@@ -44,7 +44,7 @@
       ],
       "settings": {
         "slider-animation": "slide",
-        "slider-width": "full-screen",
+        "slider-width": "full-width",
         "vertical-alignment": true,
         "text-below-image": true,
         "slider-slide-time": 5,
