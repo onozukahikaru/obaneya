@@ -5,11 +5,11 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
-        "menu": {
-          "type": "menu",
+        "04e8daec-5c51-412e-b8ac-b48b7a71f6b8": {
+          "type": "text",
           "settings": {
-            "menu_title": "Quick links",
-            "footer_linklist": "other-contents"
+            "title": "株式会社おばねや",
+            "richtext": "<p>Create a captivating brand story, explain details of your products or highlight store promotions<\/p>"
           }
         },
         "social": {
@@ -17,11 +17,19 @@
           "settings": {
             "social_title": "Get connected"
           }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "other-contents"
+          }
         }
       },
       "block_order": [
-        "menu",
-        "social"
+        "04e8daec-5c51-412e-b8ac-b48b7a71f6b8",
+        "social",
+        "menu"
       ],
       "settings": {
         "alignment": "center"
