@@ -1,1 +1,76 @@
-{"type":"header","name":"Header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement":{"type":"announcement","settings":{}},"social-icons":{"type":"social-icons","settings":{}}},"block_order":["announcement","social-icons"],"settings":{}},"header":{"type":"header","blocks":{"content":{"type":"content","settings":{}}},"block_order":["content"],"settings":{"sticky_header":true,"logo-placement":"center","logo_max_width":125,"logo_padding":30,"mobile-menu-logo--enabled":false,"label-enable":true,"cart-style":"shopping-cart","cart-number":"quantity","enable_search":true,"overlay_header_homepage":true,"overlay_header_collection":true,"overlay_header_list_collection":false,"overlay_header_contact":false,"overlay_opacity":0,"show_currency_selector":false,"show_locale_selector":false,"main_linklist":"main-menu","dropdown_alignment":"left"}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "message_text": "Announce something here",
+            "message_link": "",
+            "announcement-bar--background-color": "#F9F9FB",
+            "announcement-bar--text-color": "#262428"
+          }
+        },
+        "social-icons": {
+          "type": "social-icons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "announcement",
+        "social-icons"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "mega_image_link_1": "",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "mega_image_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "logo-placement": "center",
+        "logo_max_width": 125,
+        "logo_padding": 30,
+        "mobile-menu-logo--enabled": false,
+        "label-enable": true,
+        "cart-style": "shopping-cart",
+        "cart-number": "quantity",
+        "enable_search": true,
+        "overlay_header_homepage": true,
+        "overlay_header_collection": true,
+        "overlay_header_list_collection": false,
+        "overlay_header_contact": false,
+        "overlay_opacity": 0,
+        "show_currency_selector": false,
+        "show_locale_selector": false,
+        "main_linklist": "main-menu",
+        "dropdown_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
