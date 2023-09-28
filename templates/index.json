@@ -73,7 +73,7 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "obaneya-sets",
             "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": true,
@@ -84,7 +84,7 @@
         "a6ad66ac-7e38-4b9e-9853-35ebb1ff9e15": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "obaneya-gifts",
             "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": false,
