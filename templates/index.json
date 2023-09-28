@@ -149,27 +149,6 @@
         "show_view_all": false
       }
     },
-    "image-text-with-image-overlay-1": {
-      "type": "image--image-with-text-overlay",
-      "settings": {
-        "image_height": "40vw",
-        "bg_image_overlay_opacity": 0,
-        "parallax": true,
-        "title": "Share your story",
-        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
-        "colors": "dark",
-        "textPosition": "left",
-        "textAlignment": "right",
-        "heading--text-size": 36,
-        "text--text-size": 18,
-        "link": "shopify:\/\/collections\/all",
-        "button_label": "Shop now",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
-      }
-    },
     "image-image-with-text-1": {
       "type": "image--image-with-text",
       "settings": {
@@ -177,7 +156,7 @@
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "title": "Share brand or product details",
         "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_label": "Learn more",
@@ -211,7 +190,6 @@
     "collection-collection-list",
     "featured-collection-1",
     "featured-collection",
-    "image-text-with-image-overlay-1",
     "image-image-with-text-1",
     "blog-blog-posts"
   ]
