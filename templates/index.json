@@ -149,6 +149,20 @@
         "show_view_all": false
       }
     },
+    "ab431593-688b-4b20-a2fb-5203d477284f": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "sales-ranking",
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    },
     "image-image-with-text-1": {
       "type": "image--image-with-text",
       "settings": {
@@ -190,6 +204,7 @@
     "collection-collection-list",
     "featured-collection-1",
     "featured-collection",
+    "ab431593-688b-4b20-a2fb-5203d477284f",
     "image-image-with-text-1",
     "blog-blog-posts"
   ]
