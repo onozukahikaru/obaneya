@@ -114,7 +114,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
-        "items-per-row": 2,
+        "items-per-row": 4,
         "fill-the-area": true,
         "remove-spacing": false,
         "section-width": "full",
@@ -130,7 +130,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
-        "collection": "",
+        "collection": "new-products",
         "show-vendor": false,
         "show_view_all": false
       }
