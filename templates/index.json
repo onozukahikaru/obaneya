@@ -161,8 +161,8 @@
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
-        "title": "",
-        "richtext": "",
+        "title": "Recommend",
+        "richtext": "<p>おすすめ商品<\/p>",
         "collection": "recommends",
         "show-vendor": false,
         "show_view_all": false
