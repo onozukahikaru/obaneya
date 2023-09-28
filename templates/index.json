@@ -190,7 +190,7 @@
         "blog": {
           "type": "blog",
           "settings": {
-            "blog": ""
+            "blog": "お知らせ"
           }
         }
       },
