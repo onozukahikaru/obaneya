@@ -147,8 +147,8 @@
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
-        "title": "",
-        "richtext": "",
+        "title": "New Items",
+        "richtext": "<p>新着商品<\/p>",
         "collection": "new-products",
         "show-vendor": false,
         "show_view_all": false
