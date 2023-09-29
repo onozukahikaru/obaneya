@@ -25,10 +25,10 @@
       "thanks": "ご参加いただきありがとうございます!"
     },
     "search": {
-      "no_results_html": "「{{ terms }}」に一致する結果は見つかりませんでした。スペルを確認するか、別の単語やフレーズを使用してください。",
-      "results_for_html": "「{{ terms }}」を検索結果、次のことがわかりました：",
+      "no_results_html": "\"{{ terms }}\"に一致する結果は見つかりませんでした。スペルを確認するか、別の単語やフレーズを使用してください。",
+      "results_for_html": "\"{{ terms }}\" の検索結果：",
       "title": "検索",
-      "placeholder": "店舗を検索",
+      "placeholder": "検索",
       "submit": "検索する",
       "products": "Products",
       "articles": "Articles",
