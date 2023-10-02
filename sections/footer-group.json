@@ -16,7 +16,7 @@
           "type": "menu",
           "settings": {
             "menu_title": "商品カテゴリー",
-            "footer_linklist": "footer"
+            "footer_linklist": "product-category"
           }
         },
         "menu": {
