@@ -118,6 +118,15 @@
             "swatches_size": "small",
             "swatches_aspect_ratio": "square"
           }
+        },
+        "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "info",
+            "heading": "商品説明",
+            "open_close_icon": "plus_minus"
+          }
         }
       },
       "block_order": [
@@ -135,7 +144,8 @@
         "collapsible-tab-1",
         "collapsible-tab-2",
         "cross-sells",
-        "87bfaf3a-2bf7-4777-938b-1b85030571d3"
+        "87bfaf3a-2bf7-4777-938b-1b85030571d3",
+        "27a58b78-6716-4361-b6f4-caa894f8e4b6"
       ],
       "settings": {
         "enable_sticky": true,
