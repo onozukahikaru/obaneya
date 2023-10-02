@@ -12,12 +12,6 @@
             "richtext": "<p>Create a captivating brand story, explain details of your products or highlight store promotions<\/p>"
           }
         },
-        "social": {
-          "type": "social",
-          "settings": {
-            "social_title": "Get connected"
-          }
-        },
         "534d0e57-c846-48ae-be19-75b49d9e7fd5": {
           "type": "menu",
           "settings": {
@@ -35,7 +29,6 @@
       },
       "block_order": [
         "04e8daec-5c51-412e-b8ac-b48b7a71f6b8",
-        "social",
         "534d0e57-c846-48ae-be19-75b49d9e7fd5",
         "menu"
       ],
