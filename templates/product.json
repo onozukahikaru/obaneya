@@ -53,6 +53,14 @@
           "settings": {
           }
         },
+        "8c87b892-b768-4546-bfa1-183c3f781aa5": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "none",
+            "text": "¥4,000以上のご注文で国内送料が無料になります。",
+            "link": "shopify:\/\/policies\/shipping-policy"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,14 +75,6 @@
             "icon": "info",
             "heading": "商品説明",
             "open_close_icon": "plus_minus"
-          }
-        },
-        "8c87b892-b768-4546-bfa1-183c3f781aa5": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "none",
-            "text": "¥4,000以上のご注文で国内送料が無料になります。",
-            "link": ""
           }
         },
         "cross-sells": {
@@ -110,9 +110,9 @@
         "price",
         "options",
         "quantity",
+        "8c87b892-b768-4546-bfa1-183c3f781aa5",
         "buy_buttons",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
-        "8c87b892-b768-4546-bfa1-183c3f781aa5",
         "cross-sells",
         "87bfaf3a-2bf7-4777-938b-1b85030571d3",
         "social_sharing"
