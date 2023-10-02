@@ -82,8 +82,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "otsukemono",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
+            "subheading": "",
+            "overlay-btn-text": "",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
             "overlay_color": "#323232"
@@ -93,8 +93,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "obaneya-sets",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
+            "subheading": "",
+            "overlay-btn-text": "",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
             "overlay_color": "#323232"
