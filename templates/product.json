@@ -60,14 +60,6 @@
             "enable_gift_card_recipient_form": true
           }
         },
-        "8c87b892-b768-4546-bfa1-183c3f781aa5": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "truck",
-            "text": "Free shipping",
-            "link": ""
-          }
-        },
         "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
           "type": "product-description",
           "settings": {
@@ -77,9 +69,12 @@
             "open_close_icon": "plus_minus"
           }
         },
-        "30b4a667-0d78-40dc-8b18-ef5237b50c4a": {
-          "type": "product_meta",
+        "8c87b892-b768-4546-bfa1-183c3f781aa5": {
+          "type": "text-with-icon",
           "settings": {
+            "icon": "none",
+            "text": "¥4,000以上のご注文で国内送料が無料になります。",
+            "link": ""
           }
         },
         "cross-sells": {
@@ -116,9 +111,8 @@
         "options",
         "quantity",
         "buy_buttons",
-        "8c87b892-b768-4546-bfa1-183c3f781aa5",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
-        "30b4a667-0d78-40dc-8b18-ef5237b50c4a",
+        "8c87b892-b768-4546-bfa1-183c3f781aa5",
         "cross-sells",
         "87bfaf3a-2bf7-4777-938b-1b85030571d3",
         "social_sharing"
