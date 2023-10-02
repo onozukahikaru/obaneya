@@ -94,8 +94,8 @@
       "settings": {
         "section_color_scheme": "white",
         "form_width": "narrow",
-        "form_title": "Contact us",
-        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.<\/p>"
+        "form_title": "お問い合わせ",
+        "form_description": "<p>お問い合わせ内容をご入力ください。<\/p>"
       }
     },
     "c6b905a8-92f0-4884-8488-381fb2af48d6": {
@@ -118,29 +118,29 @@
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-3": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/tamanegi",
+            "link_text": "ごぼうのお漬物"
           }
         },
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-4": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/tamariduke",
+            "link_text": "たまり漬けのお漬物"
           }
         },
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-5": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/niranekko",
+            "link_text": "にらねっこのお漬物"
           }
         },
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-6": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/rakkyo",
+            "link_text": "らっきょうのお漬物"
           }
         }
       },
