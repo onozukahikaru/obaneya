@@ -34,8 +34,8 @@
         "accordion-4": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "商品の返品・交換について",
+            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/return-policy\/\">こちら<\/a>】をご確認下さい。<\/p>"
           }
         }
       },
