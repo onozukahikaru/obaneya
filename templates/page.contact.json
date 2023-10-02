@@ -118,15 +118,15 @@
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-3": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/tamanegi",
+            "link_text": "ごぼうのお漬物"
           }
         },
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-4": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/tamariduke",
+            "link_text": "たまり漬けのお漬物"
           }
         },
         "template--21073629282579__c6b905a8-92f0-4884-8488-381fb2af48d6-navigation_link-5": {
