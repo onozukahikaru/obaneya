@@ -6,8 +6,8 @@
         "accordion-0": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "購入したい商品がサイトにない場合には、どうしたら良いでしょうか？",
+            "text": "<p>本サイトには載せておりませんが、お電話にて承っております。<br\/>お気軽にご連絡くださいませ。<br\/>なお、季節限定・数量限定の商品、もしくは販売を終了している商品の可能性もありますので、その際は、ご了承下さい。<br\/><br\/>TEL：0285-28-6878<br\/>受付時間／9：00〜16：00（月～金）<\/p>"
           }
         },
         "accordion-1": {
