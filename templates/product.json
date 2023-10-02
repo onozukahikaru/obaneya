@@ -76,7 +76,7 @@
             "icon": "question-answer",
             "heading": "商品のお問い合わせ",
             "open_close_icon": "caret",
-            "text": "",
+            "text": "<p>お問い合わせはこちら<\/p>",
             "page": "contact"
           }
         },
