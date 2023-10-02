@@ -84,6 +84,22 @@
             "input_width": "full"
           }
         },
+        "62bd34b9-7958-4ea2-b3ca-f4449cef0aa1": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "注文番号（ご注文に関するお問い合わせの場合は必須）",
+            "required": false,
+            "input_width": "full"
+          }
+        },
+        "684bb552-724a-49c0-a989-8e8e39bc59ec": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Order number",
+            "required": false,
+            "input_width": "full"
+          }
+        },
         "contact-form-3": {
           "type": "message_input",
           "settings": {
@@ -97,6 +113,8 @@
         "contact-form-1",
         "0b72d40b-c75e-48ba-926d-97b4a76cdfa7",
         "custom_input",
+        "62bd34b9-7958-4ea2-b3ca-f4449cef0aa1",
+        "684bb552-724a-49c0-a989-8e8e39bc59ec",
         "contact-form-3"
       ],
       "settings": {
