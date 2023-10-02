@@ -84,7 +84,7 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "clock",
-            "heading": "Collapsible tab",
+            "heading": "",
             "open_close_icon": "caret",
             "text": "<p>Share some information about your product<\/p>",
             "page": "contact"
