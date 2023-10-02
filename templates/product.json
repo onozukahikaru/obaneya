@@ -36,7 +36,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "shipping_policy": false,
+            "shipping_policy": true,
             "tax_included": true
           }
         },
