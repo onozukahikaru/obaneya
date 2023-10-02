@@ -162,11 +162,6 @@
           "settings": {
           }
         },
-        "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_vendor-1": {
-          "type": "product_card_vendor",
-          "settings": {
-          }
-        },
         "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_price-1": {
           "type": "product_card_price",
           "settings": {
@@ -181,12 +176,25 @@
       "block_order": [
         "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_image-1",
         "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_title-1",
-        "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_vendor-1",
         "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_price-1",
         "template--21073630134547__16269b25-ec11-4fac-b9b0-96290e7cb0bf-product_card_button-1"
       ],
       "settings": {
         "product_recommendations_heading": "Recommendations 関連商品"
+      }
+    },
+    "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "recently-viewed": {
@@ -230,6 +238,7 @@
     "product-description",
     "app-product-reviews",
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
+    "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8",
     "recently-viewed"
   ]
 }
