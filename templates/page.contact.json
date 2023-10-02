@@ -95,7 +95,7 @@
         "684bb552-724a-49c0-a989-8e8e39bc59ec": {
           "type": "custom_input",
           "settings": {
-            "placeholder": "Order number",
+            "placeholder": "商品名（商品に関するお問い合わせの場合は必須）",
             "required": false,
             "input_width": "full"
           }
