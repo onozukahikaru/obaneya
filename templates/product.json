@@ -60,44 +60,26 @@
             "enable_gift_card_recipient_form": true
           }
         },
-        "social_sharing": {
-          "type": "social_sharing",
+        "8c87b892-b768-4546-bfa1-183c3f781aa5": {
+          "type": "text-with-icon",
           "settings": {
+            "icon": "truck",
+            "text": "Free shipping",
+            "link": ""
+          }
+        },
+        "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "info",
+            "heading": "商品説明",
+            "open_close_icon": "plus_minus"
           }
         },
         "30b4a667-0d78-40dc-8b18-ef5237b50c4a": {
           "type": "product_meta",
           "settings": {
-          }
-        },
-        "collapsible-tab-0": {
-          "type": "collapsible-tab",
-          "settings": {
-            "icon": "question-answer",
-            "heading": "商品のお問い合わせ",
-            "open_close_icon": "caret",
-            "text": "<p>お問い合わせはこちら<\/p>",
-            "page": "contact"
-          }
-        },
-        "collapsible-tab-1": {
-          "type": "collapsible-tab",
-          "settings": {
-            "icon": "clock",
-            "heading": "",
-            "open_close_icon": "caret",
-            "text": "<p>Share some information about your product<\/p>",
-            "page": "contact"
-          }
-        },
-        "collapsible-tab-2": {
-          "type": "collapsible-tab",
-          "settings": {
-            "icon": "star",
-            "heading": "Collapsible tab",
-            "open_close_icon": "caret",
-            "text": "<p>Share some information about your product<\/p>",
-            "page": ""
           }
         },
         "cross-sells": {
@@ -119,13 +101,9 @@
             "swatches_aspect_ratio": "square"
           }
         },
-        "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
-          "type": "product-description",
+        "social_sharing": {
+          "type": "social_sharing",
           "settings": {
-            "collapsible_tab": true,
-            "icon": "info",
-            "heading": "商品説明",
-            "open_close_icon": "plus_minus"
           }
         }
       },
@@ -138,14 +116,12 @@
         "options",
         "quantity",
         "buy_buttons",
-        "social_sharing",
+        "8c87b892-b768-4546-bfa1-183c3f781aa5",
+        "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "30b4a667-0d78-40dc-8b18-ef5237b50c4a",
-        "collapsible-tab-0",
-        "collapsible-tab-1",
-        "collapsible-tab-2",
         "cross-sells",
         "87bfaf3a-2bf7-4777-938b-1b85030571d3",
-        "27a58b78-6716-4361-b6f4-caa894f8e4b6"
+        "social_sharing"
       ],
       "settings": {
         "enable_sticky": true,
