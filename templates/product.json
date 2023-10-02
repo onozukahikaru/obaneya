@@ -61,6 +61,12 @@
             "link": "shopify:\/\/policies\/shipping-policy"
           }
         },
+        "140f62a1-3a4a-4f99-b426-a660816d2bd1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>¥4,000以上のご注文で国内送料が無料になります。<\/p>\n<p>別途送料がかかります。<a href=\"\">送料を確認する。<\/a><\/p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -111,6 +117,7 @@
         "options",
         "quantity",
         "8c87b892-b768-4546-bfa1-183c3f781aa5",
+        "140f62a1-3a4a-4f99-b426-a660816d2bd1",
         "buy_buttons",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "cross-sells",
