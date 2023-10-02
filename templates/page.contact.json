@@ -38,18 +38,18 @@
             "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/return-policy\/\">こちら<\/a>】をご確認下さい。<\/p>"
           }
         },
-        "2d966557-da73-4f98-a9d6-d6035b62deba": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
         "6a89ae56-d3a3-484e-9b54-8cd54ae918e9": {
           "type": "tab_content",
           "settings": {
             "question": "商品の購入方法",
             "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/howtobuy\/\">こちら<\/a>】をご確認下さい。<\/p>"
+          }
+        },
+        "2d966557-da73-4f98-a9d6-d6035b62deba": {
+          "type": "tab_content",
+          "settings": {
+            "question": "送料・お支払い方法",
+            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/souryo\/\">こちら<\/a>】をご確認下さい。<\/p>"
           }
         }
       },
@@ -59,13 +59,13 @@
         "accordion-2",
         "accordion-3",
         "accordion-4",
-        "2d966557-da73-4f98-a9d6-d6035b62deba",
-        "6a89ae56-d3a3-484e-9b54-8cd54ae918e9"
+        "6a89ae56-d3a3-484e-9b54-8cd54ae918e9",
+        "2d966557-da73-4f98-a9d6-d6035b62deba"
       ],
       "settings": {
         "colors": "light",
-        "title": "Frequently asked questions",
-        "faq_icon": "plus_minus"
+        "title": "よくある質問",
+        "faq_icon": "caret"
       }
     },
     "contact-form": {
