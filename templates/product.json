@@ -258,41 +258,63 @@
         "recently_viewed_title": "Recently viewed products　最近見た商品"
       }
     },
-    "99668f19-64f0-47ae-ac54-b0acf64a91de": {
-      "type": "text--text-adverts",
+    "e66af8d1-e3e4-467b-a82b-9385639a05d3": {
+      "type": "visual-navigation-banner",
       "blocks": {
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-1": {
-          "type": "text",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-1": {
+          "type": "navigation_link",
           "settings": {
-            "heading": "送料・配送方法について",
-            "subheading": "",
-            "link": "shopify:\/\/policies\/shipping-policy"
+            "link_url": "shopify:\/\/collections\/kyuuri",
+            "link_text": "きゅうりのお漬物"
           }
         },
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-2": {
-          "type": "text",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-2": {
+          "type": "navigation_link",
           "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
+            "link_url": "",
+            "link_text": ""
           }
         },
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-3": {
-          "type": "text",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-3": {
+          "type": "navigation_link",
           "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-4": {
+          "type": "navigation_link",
+          "settings": {
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-5": {
+          "type": "navigation_link",
+          "settings": {
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-6": {
+          "type": "navigation_link",
+          "settings": {
+            "link_url": "",
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-1",
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-2",
-        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-3"
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-1",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-2",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-3",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-4",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-5",
+        "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-6"
       ],
       "settings": {
-        "colors": "light"
+        "title": "",
+        "image_style": "circle"
       }
     }
   },
@@ -304,6 +326,6 @@
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
     "450692bb-cf89-482d-847b-42cd52a6813f",
     "recently-viewed",
-    "99668f19-64f0-47ae-ac54-b0acf64a91de"
+    "e66af8d1-e3e4-467b-a82b-9385639a05d3"
   ]
 }
