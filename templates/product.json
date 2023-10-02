@@ -73,11 +73,11 @@
         "collapsible-tab-0": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "heart",
-            "heading": "Collapsible tab",
+            "icon": "question-answer",
+            "heading": "商品のお問い合わせ",
             "open_close_icon": "caret",
             "text": "",
-            "page": ""
+            "page": "contact"
           }
         },
         "collapsible-tab-1": {
