@@ -208,6 +208,21 @@
         "product_recommendations_heading": "Recommendations 関連商品"
       }
     },
+    "450692bb-cf89-482d-847b-42cd52a6813f": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/1280x960.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "全商品固定のコンテンツも登録できます。",
+        "text": "<h2>豊かな食文化にチャレンジする。<\/h2><p>おばねやにとって、ブランドとは品質の向上をモットーとした信頼関係の確立にあります 。<br\/>これらが一朝一夕に出来るものではなく、時間をかけて育成していくものと考えています。それは、おばねやブランドがお客様から信頼を得る証明だからです。<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "recently-viewed": {
       "type": "template--product--recently-viewed",
       "blocks": {
@@ -243,19 +258,41 @@
         "recently_viewed_title": "Recently viewed products　最近見た商品"
       }
     },
-    "450692bb-cf89-482d-847b-42cd52a6813f": {
-      "type": "image--image-with-text",
+    "99668f19-64f0-47ae-ac54-b0acf64a91de": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "送料・配送方法について",
+            "subheading": "",
+            "link": "shopify:\/\/policies\/shipping-policy"
+          }
+        },
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-2": {
+          "type": "text",
+          "settings": {
+            "heading": "What makes you different",
+            "subheading": "Shout about your unique selling points",
+            "link": ""
+          }
+        },
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-3": {
+          "type": "text",
+          "settings": {
+            "heading": "What makes you different",
+            "subheading": "Shout about your unique selling points",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-1",
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-2",
+        "template--21073630134547__99668f19-64f0-47ae-ac54-b0acf64a91de-text-3"
+      ],
       "settings": {
-        "colors": "light",
-        "image": "shopify:\/\/shop_images\/1280x960.jpg",
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "text_alignment": "center",
-        "title": "全商品固定のコンテンツも登録できます。",
-        "text": "<h2>豊かな食文化にチャレンジする。<\/h2><p>おばねやにとって、ブランドとは品質の向上をモットーとした信頼関係の確立にあります 。<br\/>これらが一朝一夕に出来るものではなく、時間をかけて育成していくものと考えています。それは、おばねやブランドがお客様から信頼を得る証明だからです。<\/p>",
-        "button_label": "",
-        "button_link": ""
+        "colors": "light"
       }
     }
   },
@@ -265,7 +302,8 @@
     "app-product-reviews",
     "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8",
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
+    "450692bb-cf89-482d-847b-42cd52a6813f",
     "recently-viewed",
-    "450692bb-cf89-482d-847b-42cd52a6813f"
+    "99668f19-64f0-47ae-ac54-b0acf64a91de"
   ]
 }
