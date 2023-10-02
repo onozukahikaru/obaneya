@@ -104,8 +104,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "obaneya-gifts",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
+            "subheading": "",
+            "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
@@ -115,8 +115,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "other-products",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
+            "subheading": "",
+            "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#262428",
             "overlay_color": "#ffffff"
