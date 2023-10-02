@@ -94,9 +94,9 @@
           "type": "cross-sells",
           "settings": {
             "title": "Don't forget these...",
-            "cross_sell_product_1": "",
-            "cross_sell_product_2": "",
-            "cross_sell_product_3": "",
+            "cross_sell_product_1": "{{ product.metafields.custom.cross_sell_product_1.value }}",
+            "cross_sell_product_2": "{{ product.metafields.custom.cross_sell_product_2.value }}",
+            "cross_sell_product_3": "{{ product.metafields.custom.cross_sell_product_3.value }}",
             "cross_sell_bg": "#ffffff"
           }
         },
