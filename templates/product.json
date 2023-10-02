@@ -56,7 +56,7 @@
         "140f62a1-3a4a-4f99-b426-a660816d2bd1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>※¥4,000以上のご注文で国内送料が無料になります。<\/p>"
+            "custom_liquid": "<p>※¥4,000以上のご注文で国内送料が無料になります。<a href=\"https:\/\/obaneya-shop.com\/policies\/shipping-policy\"><u>送料について<\/u><\/a><\/p>"
           }
         },
         "buy_buttons": {
