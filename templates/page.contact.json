@@ -59,7 +59,7 @@
           "type": "name_input",
           "settings": {
             "required": true,
-            "input_width": "partial"
+            "input_width": "full"
           }
         },
         "contact-form-1": {
@@ -69,11 +69,18 @@
             "input_width": "partial"
           }
         },
+        "0b72d40b-c75e-48ba-926d-97b4a76cdfa7": {
+          "type": "tel_input",
+          "settings": {
+            "required": false,
+            "input_width": "partial"
+          }
+        },
         "custom_input": {
           "type": "custom_input",
           "settings": {
-            "placeholder": "How did you hear about us?",
-            "required": false,
+            "placeholder": "件名",
+            "required": true,
             "input_width": "full"
           }
         },
@@ -88,6 +95,7 @@
       "block_order": [
         "contact-form-0",
         "contact-form-1",
+        "0b72d40b-c75e-48ba-926d-97b4a76cdfa7",
         "custom_input",
         "contact-form-3"
       ],
