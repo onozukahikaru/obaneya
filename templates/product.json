@@ -60,6 +60,11 @@
             "enable_gift_card_recipient_form": true
           }
         },
+        "social_sharing": {
+          "type": "social_sharing",
+          "settings": {
+          }
+        },
         "collapsible-tab-0": {
           "type": "collapsible-tab",
           "settings": {
@@ -100,9 +105,13 @@
             "cross_sell_bg": "#ffffff"
           }
         },
-        "social_sharing": {
-          "type": "social_sharing",
+        "87bfaf3a-2bf7-4777-938b-1b85030571d3": {
+          "type": "linked-products",
           "settings": {
+            "option_name": "Color",
+            "linked_products": "{{ product.metafields.custom.linked_products.value }}",
+            "swatches_size": "small",
+            "swatches_aspect_ratio": "square"
           }
         }
       },
@@ -115,11 +124,12 @@
         "options",
         "quantity",
         "buy_buttons",
+        "social_sharing",
         "collapsible-tab-0",
         "collapsible-tab-1",
         "collapsible-tab-2",
         "cross-sells",
-        "social_sharing"
+        "87bfaf3a-2bf7-4777-938b-1b85030571d3"
       ],
       "settings": {
         "enable_sticky": true,
