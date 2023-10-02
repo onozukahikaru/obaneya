@@ -158,6 +158,21 @@
         "include_margins": true
       }
     },
+    "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "{{ product.metafields.custom.image_with_text.value }}",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "タイトル：ここに商品ごとのアピールボイントを掲載できます。",
+        "text": "<p>文章：ここに商品ごとのアピールボイントを掲載できます。<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf": {
       "type": "template--product--recommendations",
       "blocks": {
@@ -191,21 +206,6 @@
       ],
       "settings": {
         "product_recommendations_heading": "Recommendations 関連商品"
-      }
-    },
-    "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8": {
-      "type": "image--image-with-text",
-      "settings": {
-        "colors": "light",
-        "image": "{{ product.metafields.custom.image_with_text.value }}",
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "text_alignment": "center",
-        "title": "タイトル：ここに商品ごとのアピールボイントを掲載できます。",
-        "text": "<p>文章：ここに商品ごとのアピールボイントを掲載できます。<\/p>",
-        "button_label": "",
-        "button_link": ""
       }
     },
     "recently-viewed": {
@@ -242,14 +242,30 @@
       "settings": {
         "recently_viewed_title": "Recently viewed products　最近見た商品"
       }
+    },
+    "450692bb-cf89-482d-847b-42cd52a6813f": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/1280x960.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "全商品固定のコンテンツも登録できます。",
+        "text": "<h2>豊かな食文化にチャレンジする。<\/h2><p>おばねやにとって、ブランドとは品質の向上をモットーとした信頼関係の確立にあります 。<br\/>これらが一朝一夕に出来るものではなく、時間をかけて育成していくものと考えています。それは、おばねやブランドがお客様から信頼を得る証明だからです。<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "product-form",
     "product-description",
     "app-product-reviews",
-    "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
     "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8",
-    "recently-viewed"
+    "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
+    "recently-viewed",
+    "450692bb-cf89-482d-847b-42cd52a6813f"
   ]
 }
