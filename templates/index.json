@@ -81,7 +81,7 @@
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "otsukemono",
             "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": true,
@@ -114,7 +114,7 @@
         "cad186d7-7776-44a5-94ae-ea9cb9ce9fc6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "other-products",
             "subheading": "Subheading",
             "overlay-btn-text": "Shop now",
             "show-gradient-overlay": false,
