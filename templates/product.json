@@ -64,7 +64,7 @@
         "140f62a1-3a4a-4f99-b426-a660816d2bd1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>¥4,000以上のご注文で国内送料が無料になります。<\/p>\n<p>別途送料がかかります。<a href=\"\">送料を確認する。<\/a><\/p>"
+            "custom_liquid": "<p>¥4,000以上のご注文で国内送料が無料になります。<\/p>\n<p>別途送料がかかります。<a href=\"policies\/shipping-policy\">送料を確認する。<\/a><\/p>"
           }
         },
         "buy_buttons": {
