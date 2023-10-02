@@ -9,7 +9,7 @@
             "image_size": "medium",
             "image-display": "thumbnails",
             "thumbnail_position": "below",
-            "enable_image_zoom": true,
+            "enable_image_zoom": false,
             "enable_video_loop": false
           }
         },
@@ -44,7 +44,7 @@
           "type": "options",
           "settings": {
             "product_variant_style": "swatches",
-            "thumbnail_changes_variant": false,
+            "thumbnail_changes_variant": true,
             "hide_soldout_variants": false
           }
         },
@@ -62,6 +62,11 @@
         },
         "social_sharing": {
           "type": "social_sharing",
+          "settings": {
+          }
+        },
+        "30b4a667-0d78-40dc-8b18-ef5237b50c4a": {
+          "type": "product_meta",
           "settings": {
           }
         },
@@ -125,6 +130,7 @@
         "quantity",
         "buy_buttons",
         "social_sharing",
+        "30b4a667-0d78-40dc-8b18-ef5237b50c4a",
         "collapsible-tab-0",
         "collapsible-tab-1",
         "collapsible-tab-2",
@@ -292,15 +298,15 @@
         "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-5": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/rakkyo",
+            "link_text": "らっきょうのお漬物"
           }
         },
         "template--21073630134547__e66af8d1-e3e4-467b-a82b-9385639a05d3-navigation_link-6": {
           "type": "navigation_link",
           "settings": {
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/miso",
+            "link_text": "味噌のお漬物"
           }
         }
       },
