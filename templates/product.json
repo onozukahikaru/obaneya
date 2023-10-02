@@ -108,7 +108,7 @@
         "87bfaf3a-2bf7-4777-938b-1b85030571d3": {
           "type": "linked-products",
           "settings": {
-            "option_name": "Color",
+            "option_name": "「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。",
             "linked_products": "{{ product.metafields.custom.linked_products.value }}",
             "swatches_size": "small",
             "swatches_aspect_ratio": "square"
