@@ -13,8 +13,8 @@
         "accordion-1": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "一度注文した商品をキャンセルできますか？",
+            "text": "<p>決済完了後は購入をキャンセルすることができません。何卒ご了承くださいませ。<\/p>"
           }
         },
         "accordion-2": {
