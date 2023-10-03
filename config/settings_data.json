@@ -67,6 +67,7 @@
     "show_discount": "hide",
     "product-grid": "square",
     "hover-effect": true,
+    "giftwrap_product_selector": "noshi",
     "back_to_top_all": false,
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
