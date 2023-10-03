@@ -1,5 +1,27 @@
 {
   "sections": {
+    "dd93d1e9-bbe3-408b-9d4a-c21d87e98a13": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1280x960.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "お問い合わせ",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "accordion": {
       "type": "accordion",
       "blocks": {
@@ -201,6 +223,7 @@
     }
   },
   "order": [
+    "dd93d1e9-bbe3-408b-9d4a-c21d87e98a13",
     "accordion",
     "contact-form",
     "c6b905a8-92f0-4884-8488-381fb2af48d6"
