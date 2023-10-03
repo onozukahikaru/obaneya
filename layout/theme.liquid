@@ -33,6 +33,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ settings.favicon | img_url: '16x16', crop: 'center'  }}">
   {% endif %}
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+
   {%- unless settings.type_header_font.system? -%}
     <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
   {%- endunless -%}
@@ -131,7 +135,6 @@
   {% if template.name == 'article' %}
     <script src="{{ 'textSlideshow.js' | asset_url }}" defer="defer"></script>
   {% endif %}
-
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 </head>
 
@@ -189,6 +192,8 @@
   <script defer type="module" src="{{ 'theme.min.js' | asset_url }}"></script>
   <script defer src="{{ 'SafeLoadScripts.js' | asset_url }}"></script>
   <script defer nomodule src="{{ 'theme.legacy.min.js' | asset_url }}"></script> 
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {% if settings.popup--enable %}
     {% render 'popup' %}
