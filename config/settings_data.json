@@ -84,6 +84,7 @@
     "desktop-popup-style": "slide-up",
     "pop-up-delay": 5,
     "popup--test-mode": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "animations_enabled": true,
     "page_fade_enabled": true,
     "ken_burns_enabled": true,
