@@ -81,7 +81,7 @@
             "icon": "heart",
             "heading": "配送方法",
             "open_close_icon": "plus_minus",
-            "text": "<p>Share some information about your product<\/p>",
+            "text": "<p><\/p><p>詳細はこちら<\/p>",
             "page": ""
           }
         },
