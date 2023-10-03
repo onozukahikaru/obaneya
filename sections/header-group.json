@@ -10,7 +10,7 @@
           "settings": {
             "message_text": "Announce something here",
             "message_link": "",
-            "announcement-bar--background-color": "#F9F9FB",
+            "announcement-bar--background-color": "#f9f9fb",
             "announcement-bar--text-color": "#262428"
           }
         },
@@ -49,8 +49,9 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo-placement": "center",
-        "logo_max_width": 125,
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "logo-placement": "left",
+        "logo_max_width": 335,
         "logo_padding": 30,
         "mobile-menu-logo--enabled": false,
         "label-enable": true,
