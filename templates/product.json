@@ -88,7 +88,7 @@
         "cross-sells": {
           "type": "cross-sells",
           "settings": {
-            "title": "こちらも一緒にいかがですか？",
+            "title": "他の方はこちらも一緒に購入されています。",
             "cross_sell_product_1": "{{ product.metafields.custom.cross_sell_product_1.value }}",
             "cross_sell_product_2": "{{ product.metafields.custom.cross_sell_product_2.value }}",
             "cross_sell_product_3": "{{ product.metafields.custom.cross_sell_product_3.value }}",
