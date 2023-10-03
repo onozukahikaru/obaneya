@@ -76,7 +76,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "enable_breadcrumbs": false,
+    "enable_breadcrumbs": true,
     "popup--enable": true,
     "pop-up-time": "7",
     "popup--show-newsletter": true,
