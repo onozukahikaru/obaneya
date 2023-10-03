@@ -6,8 +6,9 @@
         "template--21073629544723__3fb22d5b-9481-4aed-8572-009646d03bc9-image-1": {
           "type": "image",
           "settings": {
-            "title": "Share your story",
-            "text": "Here's your chance to make a great first impression",
+            "image": "shopify:\/\/shop_images\/Group_12.jpg",
+            "title": "",
+            "text": "",
             "button_label": "",
             "button_link": "",
             "caption-background": "rgba(0,0,0,0)",
@@ -185,14 +186,15 @@
     "image-image-with-text-1": {
       "type": "image--image-with-text",
       "settings": {
-        "colors": "light",
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/IMG_1889-scaled_1.jpg",
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
         "text_alignment": "center",
-        "title": "Share brand or product details",
+        "title": "おばねやの思い",
         "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_label": "Learn more",
+        "button_label": "",
         "button_link": "shopify:\/\/collections"
       }
     },
