@@ -95,24 +95,15 @@
             "cross_sell_bg": "#ffffff"
           }
         },
-        "87bfaf3a-2bf7-4777-938b-1b85030571d3": {
-          "type": "linked-products",
+        "dffee4de-c241-449f-9d7e-b5456a8e90c2": {
+          "type": "custom_liquid",
           "settings": {
-            "option_name": "「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。",
-            "linked_products": "{{ product.metafields.custom.linked_products.value }}",
-            "swatches_size": "small",
-            "swatches_aspect_ratio": "square"
+            "custom_liquid": "<p>「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。<\/p>"
           }
         },
         "social_sharing": {
           "type": "social_sharing",
           "settings": {
-          }
-        },
-        "dffee4de-c241-449f-9d7e-b5456a8e90c2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。<\/p>"
           }
         }
       },
@@ -129,9 +120,8 @@
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
         "cross-sells",
-        "87bfaf3a-2bf7-4777-938b-1b85030571d3",
-        "social_sharing",
-        "dffee4de-c241-449f-9d7e-b5456a8e90c2"
+        "dffee4de-c241-449f-9d7e-b5456a8e90c2",
+        "social_sharing"
       ],
       "settings": {
         "enable_sticky": true,
