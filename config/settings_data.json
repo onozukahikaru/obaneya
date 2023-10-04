@@ -80,7 +80,7 @@
     "enable_breadcrumbs": true,
     "popup--enable": true,
     "pop-up-time": "7",
-    "popup--show-newsletter": true,
+    "popup--show-newsletter": false,
     "desktop-popup-style": "slide-up",
     "pop-up-delay": 5,
     "popup--test-mode": false,
