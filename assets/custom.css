@@ -3,6 +3,170 @@ body{
     font-family: 'Noto Sans JP', Roboto, sans-serif!important;
 }
 
+/* header */
+.contact-page .overlay-header, 
+.template-collection .overlay-header, 
+.template-index .overlay-header, 
+.template-list-collections .overlay-header{
+    border-bottom: none!important;
+    background-color: transparent;
+    background-color: white!important;
+    padding: 0;
+}
+header .site-header__logo{
+    background: white;
+}
+header .site-header__wrapper__left{
+    margin: 0!important;
+}
+.site-nav__link{
+    color: #333!important;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP';
+}
+.drawer.drawer--left{
+    width: 100%;
+    max-width: 100%;
+}
+#NavDrawer .mobile-menu--close-btn:after, 
+#NavDrawer .mobile-menu--close-btn:before{
+    content: none;
+}
+#NavDrawer .mobile-nav__grow{
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+.nav-bar .wrapper-padded{
+    padding: 0 13px 0 10px;
+}
+.nav-bar .site-header__logo.h1{
+    padding: 15px 0;
+}
+.nav-bar .responsive-image-wrapper{
+    justify-content: flex-start;
+}
+img.logo_overlay.js,
+.nav-bar .responsive-image-wrapper img.logo_image {
+    max-width: 165px!important;
+    margin: 0;
+}
+.nav-bar .six-twelfths{
+    width: 50%;
+    margin-top: 0;
+}
+.nav-bar .three-twelfths.right-side{
+    width: 35%;
+    margin-top: 0;
+}
+.nav-bar.mobile-nav-bar-wrapper .mobile-grid--table{
+    display: flex;
+    table-layout: unset;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar.mobile-nav-bar-wrapper .mobile-grid--table .flex_menu{
+    order: 3;
+    width: 15%;
+    margin-top: 0;
+}
+.nav-bar.mobile-nav-bar-wrapper button.site-nav__link{
+    padding: 0;
+    margin-left: 0;
+}
+.site-nav--mobile .js-drawer-open-right-link.site-nav__link, 
+.site-nav--mobile .site-nav__link:nth-child(2){
+
+}
+.site-nav--mobile a{
+
+}
+.nav-bar .site-nav--mobile .search-button svg,
+#NavDrawer .site-nav--mobile .search-button svg{
+    width: 25px;
+}
+.mobile-nav .mobile-nav__has-sublist.mobile-nav--expanded + .mobile-nav__sublist{
+    padding-bottom: 15px;
+}
+.mobile-nav .mobile-nav__sublist .mobile-nav__link{
+    font-size: 13px;
+    padding: 7px 0;
+}
+.mobile-nav .mobile-nav__sublist .mobile-nav__item:after{
+    content: none;
+}
+.mobile-nav__item.icon_instagram a{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.mobile-nav__item.icon_instagram a svg{
+    width: 43px;
+    height: 43px;
+}
+@media only screen and (min-width: 769px){
+    header{
+        max-width: 1500px;
+        position: relative;
+        margin: auto;
+    }
+    .contact-page .overlay-header, 
+    .template-collection .overlay-header, 
+    .template-index .overlay-header, 
+    .template-list-collections .overlay-header{
+        border-bottom: none!important;
+        background-color: transparent!important;
+    }
+    img.logo_overlay.js,
+    .nav-bar .responsive-image-wrapper img.logo_image {
+        max-width: 314px!important;
+        margin: 0;
+    }
+    .flow-homepage{
+        margin-top: 100px;
+    }
+    .sticky-headr,
+    .template-index .header-section.sticky-header.sticky-header-open:not(.unstuck) .overlay-header{
+        background-color: transparent!important;
+    }
+    .drawer.drawer--left{
+        width: 0;
+    }
+    .top-links--icon-links{
+        flex-direction: column;
+        position: fixed;
+        top: 125px;
+        right: 25px;
+    }
+    header .site-header .wetheme-dropdown button:hover, 
+    header .site-header__logo-link:hover, 
+    header .top-links a:focus, 
+    header .top-links a:hover{
+        color: #C63134!important;
+        transition: 0.3s;
+    }
+    .site-nav__dropdown.standard-dropdown li .site-nav__link{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .site-nav--has-dropdown a{
+        position: relative;
+    }
+    .site-nav--has-dropdown > a::after{
+        content: '';
+        background: url(https://cdn.shopify.com/s/files/1/0815/8035/9955/files/Vector_red.png?v=1696315821);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 12px;
+        display: block;
+        height: 7px;
+        position: absolute;
+        right: 0;
+        bottom: 22px;
+    }
+}
+
 /* footer */
 .footer-wrapper{
     border-top: 1px solid #C63134;

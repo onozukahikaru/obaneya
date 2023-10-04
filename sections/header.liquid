@@ -60,28 +60,19 @@ Testing Cypress integration
 
 {% capture top_links %}
   <ul class="site-header__links top-links--icon-links">
-    {% if section.settings.enable_search %}
-      <li>
-        <a href="{{ routes.search_url }}" class="search-button" aria-label="{{ 'layout.header.search' | t }}">
-          {% render 'theme-icon' with icon: 'search', iconSize: 24, iconClasses: 'fa-lg' %}
-          {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.search' | t }}</span>{% endif %}
-        </a>
-      </li>
-    {% endif %}
-
     {% if shop.customer_accounts_enabled %}
       {% if customer %}
         <li>
           <a href="{{ routes.account_url }}" title="{{ 'layout.customer.account' | t }}">
             {% render 'theme-icon' with icon: 'user', iconClasses: 'fa-lg' %}
-            {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>{% endif %}
+            {% comment %} {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>{% endif %} {% endcomment %}
           </a>
         </li>
       {% else %}
         <li>
           <a href="{{ routes.account_login_url }}" title="{{ 'layout.customer.log_in' | t }}" class="log-in-button">
             {% render 'theme-icon' with icon: 'user', iconClasses: 'fa-lg' %}
-            {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>{% endif %}
+            {% comment %} {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>{% endif %} {% endcomment %}
           </a>
         </li>
       {% endif %}
@@ -91,14 +82,14 @@ Testing Cypress integration
       <a href="{{ routes.cart_url }}" class="site-header__cart-toggle{% if settings.ajax_cart_method == "drawer" %} js-drawer-open-right-link{% endif %}" aria-controls="CartDrawer" aria-expanded="false" aria-label="{{ 'layout.header.your_cart' | t }}">
         {% render 'theme-icon' with icon: section.settings.cart-style, iconClasses: 'fa-lg' %}
         {% if section.settings.label-enable %}
-          <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
+          {% comment %} <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
             {% case section.settings.cart-number %}
               {% when 'quantity' %}
                 <span class="cart-item-count-header cart-item-count-header--has-label cart-item-count-header--quantity{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.item_count }}</span>
               {% when 'total' %}
                 <span class="cart-item-count-header cart-item-count-header--has-label cart-item-count-header--total{% if cart.total_price == 0 %} hide{% endif %}"><span class="money">{{ cart.total_price | money }}</span></span>
             {% endcase %}
-          </span>
+          </span> {% endcomment %}
         {% else %}
           {% case section.settings.cart-number %}
             {% when 'quantity' %}
@@ -109,6 +100,16 @@ Testing Cypress integration
         {% endif %}
       </a>
     </li>
+
+    {% if section.settings.enable_search %}
+      <li>
+        <a href="{{ routes.search_url }}" class="search-button" aria-label="{{ 'layout.header.search' | t }}">
+          {% render 'theme-icon' with icon: 'search_front', iconSize: 24, iconClasses: 'fa-lg' %}
+          {% comment %} {% if section.settings.label-enable %}<span class="header--supporting-text">{{ 'layout.header.search' | t }}</span>{% endif %} {% endcomment %}
+        </a>
+      </li>
+    {% endif %}
+
   </ul>
 {% endcapture %}
 
@@ -135,30 +136,63 @@ Testing Cypress integration
         {% if section.settings.mobile-menu-logo--enabled %}
           {% if section.settings.logo %}
             <style>
-              .mobile_menu_logo {
-                margin: 20px auto 10px;
-              }
               @media screen and (min-width: 481px) {
                 .mobile_menu_logo {
-                  max-width: 300px!important; 
+                  max-width: 314px!important; 
                 }
               }
               @media screen and (max-width: 480px) {
                 .mobile_menu_logo {
-                  max-width: 100px!important; 
+                  max-width: 165px!important; 
                 }
               }
             </style>
             {% assign mobile_alt = section.settings.logo.alt | default: shop.name %}
             <a href="{{ routes.root_url }}" itemprop="url">
-              {% include 'responsive-image' with section.settings.logo, alt: mobile_alt | escape, props: 'itemprop="logo"', blur: false, class: "mobile_menu_logo", sizes: '100vw' %}
+              {% comment %} {% include 'responsive-image' with section.settings.logo, alt: mobile_alt | escape, props: 'itemprop="logo"', blur: false, class: "mobile_menu_logo", sizes: '100vw' %} {% endcomment %}
+              <img src="https://cdn.shopify.com/s/files/1/0815/8035/9955/files/logo_1.png?v=1696407742" alt="logo obaneya" class="mobile_menu_logo" loading="lazy">
             </a>
           {% else %}
             <a class="h1 mobile-menu__text-logo site-header__logo-link" href="{{ routes.root_url }}" itemprop="url">{{ shop.name }}</a>
           {% endif %}
         {% endif %}
       </div>
-      <a class="mobile-menu--close-btn" aria-label="{{ 'layout.drawers.close_menu' | t }}" role="button"></a>
+        <div class="grid__item three-twelfths right-side{% unless section.settings.enable_search %} text-right{% else %} has-search-icon{% endunless %}">
+          <div class="site-nav--mobile">
+            {% if shop.customer_accounts_enabled %}
+              {% if customer %}
+                  <a href="{{ routes.account_url }}" title="{{ 'layout.customer.account' | t }}">
+                    {% render 'theme-icon' with icon: 'user_sp', iconClasses: 'fa-lg' %}
+                  </a>
+              {% else %}
+                  <a href="{{ routes.account_login_url }}" title="{{ 'layout.customer.log_in' | t }}" class="log-in-button">
+                    {% render 'theme-icon' with icon: 'user_sp', iconClasses: 'fa-lg' %}
+                  </a>
+              {% endif %}
+            {% endif %}
+            <a href="{{ routes.cart_url }}" aria-label="{{ 'layout.cart.title' | t }}" class="{% if settings.ajax_cart_method == 'drawer' %}js-drawer-open-right-link {% endif %}site-nav__link" aria-controls="CartDrawer" aria-expanded="false">
+              <span class="icon-fallback-text">
+                {% render 'theme-icon' with icon: 'shopping-cart_sp', iconClasses: 'fa-2x' %}
+                {% if section.settings.cart-number == 'quantity' %}
+                    <span class="cart-item-count-header--quantity site-header__cart-indicator{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.item_count }}</span>
+                {% endif %}
+                <span class="fallback-text">{{ 'layout.cart.title' | t }}</span>
+              </span>
+              {% if section.settings.cart-number == 'total' %}
+                <span class="cart-item-count-header--total{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.total_price | money }}</span>
+              {% endif %}
+            </a>
+            {% if section.settings.enable_search %}
+              <a href="{{ routes.search_url }}" class="search-button" aria-label="{{ 'layout.header.search' | t }}" aria-controls="SearchDrawer" aria-expanded="false">
+                <span class="icon-fallback-text">
+                  {% render 'theme-icon' with icon: 'search_sp', iconClasses: 'fa-2x' %}
+                  <span class="fallback-text">{{ 'layout.header.search' | t }}</span>
+                </span>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      <a class="mobile-menu--close-btn" aria-label="{{ 'layout.drawers.close_menu' | t }}" role="button">{% render 'theme-icon' with icon: 'hamburger_close', iconClasses: 'fa-2x', widthUnset: true %}</a>
     </div>
 
     <!-- begin mobile-nav -->
@@ -171,10 +205,10 @@ Testing Cypress integration
               <a href="{{ link.url }}" class="mobile-nav__link">{{ link.title }}</a>
               <div class="mobile-nav__toggle">
                 <button type="button" class="icon-fallback-text mobile-nav__toggle-open" aria-label="{{ 'cart.general.see_more' | t }}">
-                  {% render 'theme-icon', icon: 'chevron_right', iconClasses: 'chevron-right', iconSize: font_size, iconAttributes: 'aria-hidden="true"' %}
+                  {% render 'theme-icon', icon: 'chevron_up_sp', iconClasses: 'chevron-right', iconSize: font_size, iconAttributes: 'aria-hidden="true"' %}
                 </button>
                 <button type="button" class="icon-fallback-text mobile-nav__toggle-close" aria-label="{{ 'layout.drawers.close_menu' | t }}">
-                  {% render 'theme-icon', icon: 'chevron_down', iconClasses: 'chevron-down', iconSize: font_size, iconAttributes: 'aria-hidden="true"' %}
+                  {% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-down', iconSize: font_size, iconAttributes: 'aria-hidden="true"' %}
                 </button>
               </div>
             </div>
@@ -223,7 +257,7 @@ Testing Cypress integration
       If customer accounts are enabled, provide login and create account links
     {% endcomment %}
     {% if shop.customer_accounts_enabled %}
-      <span class="mobile-nav-header">{{ 'layout.customer.account' | t }}</span>
+      {% comment %} <span class="mobile-nav-header">{{ 'layout.customer.account' | t }}</span> {% endcomment %}
       <ul class="mobile-nav">
         {% if customer %}
           <li class="mobile-nav__item">
@@ -239,13 +273,16 @@ Testing Cypress integration
             {{ 'layout.customer.log_out' | t | customer_logout_link }}
           </li>
         {% else %}
-          <li class="mobile-nav__item">
+          {% comment %} <li class="mobile-nav__item">
             {{ 'layout.customer.log_in' | t | customer_login_link }}
           </li>
           <li class="mobile-nav__item">
             {{ 'layout.customer.create_account' | t | customer_register_link }}
-          </li>
+          </li> {% endcomment %}
         {% endif %}
+        <li class="mobile-nav__item icon_instagram">
+          <a href="https://www.instagram.com/obaneya_jp/" target="_blank" class="mobile-nav__link">{% render 'theme-icon', icon: 'ig', iconClasses: 'ig' %}</a>
+        </li>
       </ul>
     {% endif %}
     <!-- //mobile-nav -->
@@ -408,7 +445,11 @@ Testing Cypress integration
       <div class="large--hide medium-down--show">
         <div class="mobile-grid--table">
 
-          <div class="grid__item three-twelfths">
+          <div class="grid__item six-twelfths">
+            {{ header_logo_mobile }}
+          </div>
+
+          <div class="grid__item three-twelfths flex_menu">
             <div class="site-nav--mobile">
               <button type="button" aria-label="{{ 'layout.navigation.menu' | t }}" class="icon-fallback-text site-nav__link js-drawer-open-left-link" aria-controls="NavDrawer" aria-expanded="false">
                 {% render 'theme-icon' with icon: 'hamburger_nav', iconClasses: 'fa-2x', widthUnset: true %}
@@ -417,25 +458,22 @@ Testing Cypress integration
             </div>
           </div>
 
-          <div class="grid__item six-twelfths">
-            {{ header_logo_mobile }}
-          </div>
-
           <div class="grid__item three-twelfths right-side{% unless section.settings.enable_search %} text-right{% else %} has-search-icon{% endunless %}">
             <div class="site-nav--mobile">
-
-              {% if section.settings.enable_search %}
-              <a href="{{ routes.search_url }}" class="search-button" aria-label="{{ 'layout.header.search' | t }}" aria-controls="SearchDrawer" aria-expanded="false">
-                <span class="icon-fallback-text">
-                  {% render 'theme-icon' with icon: 'search', iconSize: 20 %}
-                  <span class="fallback-text">{{ 'layout.header.search' | t }}</span>
-                </span>
-              </a>
+              {% if shop.customer_accounts_enabled %}
+                {% if customer %}
+                    <a href="{{ routes.account_url }}" title="{{ 'layout.customer.account' | t }}">
+                      {% render 'theme-icon' with icon: 'user_sp', iconClasses: 'fa-lg' %}
+                    </a>
+                {% else %}
+                    <a href="{{ routes.account_login_url }}" title="{{ 'layout.customer.log_in' | t }}" class="log-in-button">
+                      {% render 'theme-icon' with icon: 'user_sp', iconClasses: 'fa-lg' %}
+                    </a>
+                {% endif %}
               {% endif %}
-
               <a href="{{ routes.cart_url }}" aria-label="{{ 'layout.cart.title' | t }}" class="{% if settings.ajax_cart_method == 'drawer' %}js-drawer-open-right-link {% endif %}site-nav__link" aria-controls="CartDrawer" aria-expanded="false">
                 <span class="icon-fallback-text">
-                  {% render 'theme-icon' with icon: section.settings.cart-style, iconClasses: 'fa-2x' %}
+                  {% render 'theme-icon' with icon: 'shopping-cart_sp', iconClasses: 'fa-2x' %}
                   {% if section.settings.cart-number == 'quantity' %}
                       <span class="cart-item-count-header--quantity site-header__cart-indicator{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.item_count }}</span>
                   {% endif %}
@@ -445,6 +483,14 @@ Testing Cypress integration
                   <span class="cart-item-count-header--total{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.total_price | money }}</span>
                 {% endif %}
               </a>
+              {% if section.settings.enable_search %}
+                <a href="{{ routes.search_url }}" class="search-button" aria-label="{{ 'layout.header.search' | t }}" aria-controls="SearchDrawer" aria-expanded="false">
+                  <span class="icon-fallback-text">
+                    {% render 'theme-icon' with icon: 'search_sp', iconClasses: 'fa-2x' %}
+                    <span class="fallback-text">{{ 'layout.header.search' | t }}</span>
+                  </span>
+                </a>
+              {% endif %}
             </div>
           </div>
         </div>
