@@ -53,7 +53,7 @@
         "logo-placement": "left",
         "logo_max_width": 335,
         "logo_padding": 30,
-        "mobile-menu-logo--enabled": false,
+        "mobile-menu-logo--enabled": true,
         "label-enable": true,
         "cart-style": "shopping-cart",
         "cart-number": "quantity",
