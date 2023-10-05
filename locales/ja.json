@@ -28,7 +28,7 @@
       "no_results_html": "\"{{ terms }}\"に一致する結果は見つかりませんでした。別の単語やフレーズを使用してください。",
       "results_for_html": "\"{{ terms }}\" の検索結果：",
       "title": "検索",
-      "placeholder": "検索",
+      "placeholder": "キーワード検索",
       "submit": "検索する",
       "products": "Products",
       "articles": "Articles",

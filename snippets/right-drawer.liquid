@@ -11,7 +11,7 @@
 <script type="text/x-template" id="wetheme-right-drawer-template">
   <div>
     <transition name="drawer-right">
-      <div :class="[type === 'shop-now' ? 'quick-view-drawer' : '']" class="drawer drawer--right drawer--cart" v-if="isOpen" ref="drawerRight">
+      <div :class="[type === 'search' ? 'short' : '', type === 'shop-now' ? 'quick-view-drawer' : '']" class="drawer drawer--right drawer--cart" v-if="isOpen" ref="drawerRight">
         <div :class="[type === 'shop-now' ? 'display-flex' : '', 'drawer__header', 'sitewide--title-wrapper']">
           <div class="drawer__close js-drawer-close">
             <button type="button" class="icon-fallback-text" ref="drawerClose" v-on:click="close">
@@ -22,7 +22,6 @@
           <div :class="[type === 'shop-now' ? 'remove-margin' : '', 'drawer__title', 'h2', 'true']">
             <span v-if="type === 'cart'">{{ 'cart.general.title' | t }}</span>
             <span class="sr-only" v-if="type === 'shop-now'">{{ 'products.product.quick_shop' | t }}</span>
-            <span v-if="type === 'search'">{{ 'general.search.title' | t }}</span>
           </div>
         </div>
 
@@ -242,12 +241,6 @@
         <div id="SearchContainer" v-if="type === 'search'">
           <div class="search-drawer">
             <div class="input-group">
-              <span class="input-group-btn">
-                <button type="submit" class="btn icon-fallback-text" v-on:click="onSearchSubmit" tabindex="0">
-                  {% render 'theme-icon' with icon: 'search', iconSize: 24 %}
-                  <span class="fallback-text">{{ 'general.search.submit' | t }}</span>
-                </button>
-              </span>
               <div class="search-input-group">
                 <input
                   type="search" name="q" id="search-input" placeholder="{{ 'general.search.placeholder' | t }}"
@@ -258,6 +251,12 @@
                   <span class="search-drawer--clear-icon"></span>
                 </div>
               </div>
+              <span class="input-group-btn">
+                <button type="submit" class="btn icon-fallback-text" v-on:click="onSearchSubmit" tabindex="0">
+                  {% render 'theme-icon' with icon: 'search', iconSize: 24 %}
+                  <span class="fallback-text">{{ 'general.search.submit' | t }}</span>
+                </button>
+              </span>
             </div>
             <div class="wrapper-padded">
               <div id="search-results" class="grid-uniform">

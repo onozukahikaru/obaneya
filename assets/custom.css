@@ -105,6 +105,41 @@ img.logo_overlay.js,
     width: 43px;
     height: 43px;
 }
+.drawer.drawer--right{
+    border-left: none;
+    max-width: 100%;
+}
+.drawer.drawer--right #CartContainer{
+    
+}
+.drawer.drawer--right.short {
+    height: 135px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.drawer.drawer--right.short .search-drawer svg{
+    width: 25px;
+}
+.drawer.drawer--right.short #SearchContainer .search-drawer > .input-group{
+    margin: 30px auto 37px 24px;
+    width: 300px;
+}
+.drawer.drawer--right.short #SearchContainer #search-input{
+    border: 1px solid #666;
+    border-radius: 7px;
+    padding: 22px 8px 15px;
+}
+.drawer.drawer--right.short #SearchContainer #search-input::placeholder{
+    color: #ccc;
+}
+.drawer.drawer--right.short #SearchContainer .input-group-btn{
+    top: 10px;
+    left: auto;
+    right: 0;
+}
 @media only screen and (min-width: 769px){
     header{
         max-width: 1500px;
@@ -138,6 +173,10 @@ img.logo_overlay.js,
         position: fixed;
         top: 125px;
         right: 25px;
+        gap: 20px
+    }
+    .top-links .top-links--icon-links li a{
+        padding: 0;
     }
     header .site-header .wetheme-dropdown button:hover, 
     header .site-header__logo-link:hover, 
@@ -164,6 +203,37 @@ img.logo_overlay.js,
         position: absolute;
         right: 0;
         bottom: 22px;
+    }
+    .site-header .site-header__wrapper .site-header__wrapper__right{
+        margin-right: 28px;
+    }
+    .icon_instagram{
+        vertical-align: middle;
+    }
+    .icon_instagram a{
+        padding: 0;
+    }
+    .drawer.drawer--right{
+        max-width: 500px;
+    }
+    .drawer.drawer--right.short {
+        height: 180px;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .drawer.drawer--right.short .drawer__header{
+        width: 16px;
+        margin-left: 20px;
+    }
+    .drawer.drawer--right.short .drawer__close button{
+        width: 16px;
+        height: 16px;
+        right: 0;
+        top: 0;
+    }
+    .drawer.drawer--right.short #SearchContainer .search-drawer>.input-group{
+        width: 500px;
     }
 }
 
