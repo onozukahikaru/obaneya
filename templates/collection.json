@@ -4,21 +4,27 @@
     "collection-header": {
       "type": "template--collection--header",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "collection-image": {
           "type": "collection_image",
           "settings": {
-            "collection-image-size": "20vh"
+            "collection-image-size": "40vh"
           }
         },
-        "title": {
-          "type": "title",
+        "8d7285ec-53cb-4afe-9f82-9c3995779a74": {
+          "type": "description",
           "settings": {
           }
         }
       },
       "block_order": [
+        "title",
         "collection-image",
-        "title"
+        "8d7285ec-53cb-4afe-9f82-9c3995779a74"
       ],
       "settings": {
       }
