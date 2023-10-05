@@ -107,7 +107,7 @@
             "icon": "heart",
             "heading": "配送情報",
             "open_close_icon": "plus_minus",
-            "text": "<p>ゆうパックです。という情報は<\/p>",
+            "text": "<p>ゆうパックです。という情報はここで記載し、ページリンクを用意する。<\/p>",
             "page": ""
           }
         },
