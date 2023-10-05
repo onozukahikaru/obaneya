@@ -53,6 +53,12 @@
           "settings": {
           }
         },
+        "9b36c0c8-a772-4238-8646-8d87f1a98c80": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>ここに５行くらいで各商品ごとの説明<\/p>"
+          }
+        },
         "140f62a1-3a4a-4f99-b426-a660816d2bd1": {
           "type": "custom_liquid",
           "settings": {
@@ -95,6 +101,15 @@
             "cross_sell_bg": "#ffffff"
           }
         },
+        "c2a8f636-d89c-4441-a942-e6d8d34a68e8": {
+          "type": "complementary-products",
+          "settings": {
+            "title": "Pairs well with...",
+            "products_to_show": 5,
+            "products_per_page": 1,
+            "complementary_block_bg": "#F8F8F8"
+          }
+        },
         "dffee4de-c241-449f-9d7e-b5456a8e90c2": {
           "type": "custom_liquid",
           "settings": {
@@ -124,11 +139,13 @@
         "price",
         "options",
         "quantity",
+        "9b36c0c8-a772-4238-8646-8d87f1a98c80",
         "140f62a1-3a4a-4f99-b426-a660816d2bd1",
         "buy_buttons",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
         "cross-sells",
+        "c2a8f636-d89c-4441-a942-e6d8d34a68e8",
         "dffee4de-c241-449f-9d7e-b5456a8e90c2",
         "7b3968bd-f6e0-4a69-bf88-25ed149ec213",
         "social_sharing"
