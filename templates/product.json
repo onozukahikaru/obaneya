@@ -124,10 +124,10 @@
         "c2a8f636-d89c-4441-a942-e6d8d34a68e8": {
           "type": "complementary-products",
           "settings": {
-            "title": "Pairs well with...",
-            "products_to_show": 5,
-            "products_per_page": 1,
-            "complementary_block_bg": "#F8F8F8"
+            "title": "「のし」「紙袋」はこちらからカートに追加お願いいたします。",
+            "products_to_show": 10,
+            "products_per_page": 4,
+            "complementary_block_bg": "#f8f8f8"
           }
         },
         "dffee4de-c241-449f-9d7e-b5456a8e90c2": {
