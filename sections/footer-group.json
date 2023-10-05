@@ -39,7 +39,7 @@
     "footer-bottom": {
       "type": "footer-bottom",
       "settings": {
-        "show_methods_of_payment": true,
+        "show_methods_of_payment": false,
         "center_content_on_desktop": true,
         "footer_text": "",
         "show_currency_selector": true,
