@@ -126,9 +126,7 @@
                     {%- when '@app' -%}
                       <div id="shopify-block-{{block.id}}" {{ block.shopify_attributes }}></div>
                     {% when 'complementary-products' %}
-                      {%- if recommendations.performed and recommendations.products_count > 0 -%}
                         <div id="complementary-products-{{ block.id }}" {{ block.shopify_attributes }}></div>
-                      {%- endif -%}
                     {%- when 'cross-sells' -%}
                       {%- if block.settings.cross_sell_product_1 != blank or block.settings.cross_sell_product_2 != blank or block.settings.cross_sell_product_3 != blank -%}
                         <div id="cross-sell-{{block.id}}" {{ block.shopify_attributes }}></div>
@@ -596,11 +594,9 @@
       </div>
     {%- endif -%}
   {% when 'complementary-products' %}
-    {%- if recommendations.performed and recommendations.products_count > 0 -%}
       <div class="complementary-products-block" id="complementary-products-{{ block.id }}">
         {%- render 'complementary-products-block' with block_settings: block.settings -%}
       </div>
-    {%- endif -%}
 {% endcase %}
 {% endfor %}
 
