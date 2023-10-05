@@ -214,10 +214,10 @@
       ],
       "settings": {
         "colors": "white",
-        "title": "From the blog",
-        "richtext": "",
-        "blog_show_date": false,
-        "post_limit": 3
+        "title": "Information",
+        "richtext": "<p>お知らせ<\/p>",
+        "blog_show_date": true,
+        "post_limit": 4
       }
     }
   },
