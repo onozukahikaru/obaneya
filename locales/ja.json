@@ -114,7 +114,7 @@
       "taxes_included_but_shipping_at_checkout": "税込み、送料はチェックアウト時に計算されます",
       "taxes_included_and_shipping_policy_html": "税込み<a href=\"{{ link }}\">送料<\/a>はチェックアウト時に計算されます",
       "update": "カートの更新",
-      "checkout": "チェックアウト",
+      "checkout": "お会計に進む",
       "empty": "カートは空です",
       "continue_browsing_html": "引きつづき<a href=\"\/collections\/all\">こちら<\/a>をご覧ください。",
       "close_cart": "カートを閉じる",
