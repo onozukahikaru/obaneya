@@ -335,8 +335,8 @@
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
-        "title": "",
-        "richtext": "",
+        "title": "Obaneya Gifts",
+        "richtext": "<p>ギフト商品<\/p>",
         "collection": "obaneya-gifts",
         "show-vendor": false,
         "show_view_all": false
