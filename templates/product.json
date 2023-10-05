@@ -48,15 +48,6 @@
             "hide_soldout_variants": false
           }
         },
-        "81c849cb-55b8-48a2-8576-2c36bbe775e8": {
-          "type": "complementary-products",
-          "settings": {
-            "title": "Pairs well with...",
-            "products_to_show": 5,
-            "products_per_page": 1,
-            "complementary_block_bg": "#F8F8F8"
-          }
-        },
         "quantity": {
           "type": "quantity",
           "settings": {
@@ -123,7 +114,6 @@
         "product-reviews",
         "price",
         "options",
-        "81c849cb-55b8-48a2-8576-2c36bbe775e8",
         "quantity",
         "140f62a1-3a4a-4f99-b426-a660816d2bd1",
         "buy_buttons",
