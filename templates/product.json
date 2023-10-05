@@ -214,6 +214,34 @@
         "button_link": ""
       }
     },
+    "68cf4638-047b-4f64-8826-2b7aa5e393df": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "80111823-e327-4590-8276-d686e28326a7": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf": {
       "type": "template--product--recommendations",
       "blocks": {
@@ -364,6 +392,8 @@
     "product-description",
     "app-product-reviews",
     "c8fba3fc-4ff8-4ebf-bdb8-53d2d15538f8",
+    "68cf4638-047b-4f64-8826-2b7aa5e393df",
+    "80111823-e327-4590-8276-d686e28326a7",
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
     "450692bb-cf89-482d-847b-42cd52a6813f",
     "recently-viewed",
