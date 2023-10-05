@@ -97,7 +97,7 @@
             "icon": "heart",
             "heading": "決済方法",
             "open_close_icon": "plus_minus",
-            "text": "<p>Share some information about your product<\/p>",
+            "text": "<p>ここは全商品固定の情報で、<\/p>",
             "page": ""
           }
         },
@@ -105,9 +105,9 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "heart",
-            "heading": "Collapsible tab",
+            "heading": "配送情報",
             "open_close_icon": "plus_minus",
-            "text": "<p>Share some information about your product<\/p>",
+            "text": "<p>ゆうパックです。という情報は<\/p>",
             "page": ""
           }
         },
