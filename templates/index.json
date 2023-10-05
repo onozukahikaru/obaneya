@@ -140,7 +140,7 @@
         "title": "",
         "richtext": "",
         "items-per-row": 4,
-        "fill-the-area": true,
+        "fill-the-area": false,
         "remove-spacing": false,
         "section-width": "full",
         "content-position": "below-image"
