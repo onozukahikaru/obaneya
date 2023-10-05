@@ -205,7 +205,7 @@
         "blog": {
           "type": "blog",
           "settings": {
-            "blog": "お知らせ"
+            "blog": "information"
           }
         }
       },
