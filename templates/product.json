@@ -101,6 +101,15 @@
             "custom_liquid": "<p>「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。<\/p>\n\n「のし」ボタン　　「紙袋」"
           }
         },
+        "7b3968bd-f6e0-4a69-bf88-25ed149ec213": {
+          "type": "linked-products",
+          "settings": {
+            "option_name": "Color",
+            "linked_products": "{{ product.metafields.custom.linked_products.value }}",
+            "swatches_size": "small",
+            "swatches_aspect_ratio": "square"
+          }
+        },
         "social_sharing": {
           "type": "social_sharing",
           "settings": {
@@ -121,6 +130,7 @@
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
         "cross-sells",
         "dffee4de-c241-449f-9d7e-b5456a8e90c2",
+        "7b3968bd-f6e0-4a69-bf88-25ed149ec213",
         "social_sharing"
       ],
       "settings": {
