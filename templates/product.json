@@ -130,16 +130,10 @@
             "complementary_block_bg": "#f8f8f8"
           }
         },
-        "dffee4de-c241-449f-9d7e-b5456a8e90c2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>案１：「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。<\/p>\n\n「のし」ボタン　　「紙袋」ボタン"
-          }
-        },
         "7b3968bd-f6e0-4a69-bf88-25ed149ec213": {
           "type": "linked-products",
           "settings": {
-            "option_name": "案２：「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。",
+            "option_name": "「のし」「紙袋」が必要な場合はこちらからカートに追加をお願いいたします。",
             "linked_products": "{{ product.metafields.custom.linked_products.value }}",
             "swatches_size": "small",
             "swatches_aspect_ratio": "square"
@@ -168,7 +162,6 @@
         "0ed1d4a6-281e-462f-a0e6-439aadc8d2a5",
         "cross-sells",
         "c2a8f636-d89c-4441-a942-e6d8d34a68e8",
-        "dffee4de-c241-449f-9d7e-b5456a8e90c2",
         "7b3968bd-f6e0-4a69-bf88-25ed149ec213",
         "social_sharing"
       ],
