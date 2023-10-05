@@ -179,6 +179,7 @@
     },
     "product-description": {
       "type": "template--product--description",
+      "disabled": true,
       "settings": {
         "enable_readmore": false
       }
