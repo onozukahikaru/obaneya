@@ -71,10 +71,74 @@
         "enable_filtering": true,
         "enable_sorting": true
       }
+    },
+    "ba63c033-27b9-4d76-960f-c2bc9fdc3063": {
+      "type": "collage-builder",
+      "blocks": {
+        "template--21073629774099__ba63c033-27b9-4d76-960f-c2bc9fdc3063-image-1": {
+          "type": "image",
+          "settings": {
+            "heading": "Upload an image",
+            "heading_size": 30,
+            "button_label": "Shop now",
+            "url": "shopify:\/\/collections\/all",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "mobile_position": "md-max-align-top md-max-justify-left",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "template--21073629774099__ba63c033-27b9-4d76-960f-c2bc9fdc3063-image-3": {
+          "type": "image",
+          "settings": {
+            "heading": "Create a banner promotion",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#262428",
+            "button_color": "#E6E5E7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#D4D3D4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--21073629774099__ba63c033-27b9-4d76-960f-c2bc9fdc3063-image-1",
+        "template--21073629774099__ba63c033-27b9-4d76-960f-c2bc9fdc3063-image-3"
+      ],
+      "settings": {
+        "color_scheme": "white",
+        "title": "",
+        "description": "",
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "2",
+        "height_1": "4",
+        "width_2": "2",
+        "height_2": "4",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "6",
+        "block_alignment": "center"
+      }
     }
   },
   "order": [
     "collection-header",
-    "product-grid"
+    "product-grid",
+    "ba63c033-27b9-4d76-960f-c2bc9fdc3063"
   ]
 }
