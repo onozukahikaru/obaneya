@@ -53,12 +53,6 @@
           "settings": {
           }
         },
-        "9b36c0c8-a772-4238-8646-8d87f1a98c80": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>ここに５行くらいで各商品ごとの説明。ここはアコーディオン入らないで、常時表示する。<\/p>"
-          }
-        },
         "140f62a1-3a4a-4f99-b426-a660816d2bd1": {
           "type": "custom_liquid",
           "settings": {
@@ -70,6 +64,12 @@
           "settings": {
             "show_smart_checkout": true,
             "enable_gift_card_recipient_form": true
+          }
+        },
+        "9b36c0c8-a772-4238-8646-8d87f1a98c80": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>ここに５行くらいで各商品ごとの説明。ここはアコーディオン入らないで、常時表示する。<\/p>"
           }
         },
         "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
@@ -85,7 +85,7 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "heart",
-            "heading": "配送方法",
+            "heading": "商品詳細",
             "open_close_icon": "plus_minus",
             "text": "<p><\/p><p>詳細はこちら<\/p>",
             "page": ""
@@ -139,9 +139,9 @@
         "price",
         "options",
         "quantity",
-        "9b36c0c8-a772-4238-8646-8d87f1a98c80",
         "140f62a1-3a4a-4f99-b426-a660816d2bd1",
         "buy_buttons",
+        "9b36c0c8-a772-4238-8646-8d87f1a98c80",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
         "cross-sells",
