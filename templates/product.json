@@ -91,6 +91,26 @@
             "page": ""
           }
         },
+        "7fb9ecb4-2d33-40fb-a9eb-850d86eebf23": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "決済方法",
+            "open_close_icon": "plus_minus",
+            "text": "<p>Share some information about your product<\/p>",
+            "page": ""
+          }
+        },
+        "0ed1d4a6-281e-462f-a0e6-439aadc8d2a5": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Collapsible tab",
+            "open_close_icon": "plus_minus",
+            "text": "<p>Share some information about your product<\/p>",
+            "page": ""
+          }
+        },
         "cross-sells": {
           "type": "cross-sells",
           "settings": {
@@ -144,6 +164,8 @@
         "9b36c0c8-a772-4238-8646-8d87f1a98c80",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
+        "7fb9ecb4-2d33-40fb-a9eb-850d86eebf23",
+        "0ed1d4a6-281e-462f-a0e6-439aadc8d2a5",
         "cross-sells",
         "c2a8f636-d89c-4441-a942-e6d8d34a68e8",
         "dffee4de-c241-449f-9d7e-b5456a8e90c2",
