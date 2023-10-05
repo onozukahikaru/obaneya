@@ -55,7 +55,7 @@
         "product_card_button"
       ],
       "settings": {
-        "products-per-page": 20,
+        "products-per-page": 4,
         "desktop-products-per-row": 3,
         "mobile-products-per-row": "2",
         "pagination_options": "pagination_infinite_scrolling",
