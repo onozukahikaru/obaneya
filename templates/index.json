@@ -84,9 +84,10 @@
           "type": "featured_collection",
           "settings": {
             "collection": "otsukemono",
+            "collection_img": "shopify:\/\/shop_images\/5fe755a4511fc628c3f18041a4635524.svg",
             "subheading": "",
             "overlay-btn-text": "",
-            "show-gradient-overlay": true,
+            "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
             "overlay_color": "#323232"
           }
@@ -95,9 +96,10 @@
           "type": "featured_collection",
           "settings": {
             "collection": "obaneya-sets",
+            "collection_img": "shopify:\/\/shop_images\/Layer_1.svg",
             "subheading": "",
             "overlay-btn-text": "",
-            "show-gradient-overlay": true,
+            "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
             "overlay_color": "#323232"
           }
@@ -106,6 +108,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "obaneya-gifts",
+            "collection_img": "shopify:\/\/shop_images\/Vector_1.svg",
             "subheading": "",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -117,6 +120,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "other-products",
+            "collection_img": "shopify:\/\/shop_images\/Icons.svg",
             "subheading": "",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
