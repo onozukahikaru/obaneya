@@ -78,7 +78,8 @@
         "template--21073629774099__ba63c033-27b9-4d76-960f-c2bc9fdc3063-image-1": {
           "type": "image",
           "settings": {
-            "heading": "Upload an image",
+            "desktop_image": "shopify:\/\/shop_images\/4.6_-scaled.jpg",
+            "heading": "",
             "heading_size": 30,
             "button_label": "Shop now",
             "url": "",
