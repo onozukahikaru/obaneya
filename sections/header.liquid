@@ -85,14 +85,15 @@ Testing Cypress integration
       <a href="{{ routes.cart_url }}" class="site-header__cart-toggle{% if settings.ajax_cart_method == "drawer" %} js-drawer-open-right-link{% endif %}" aria-controls="CartDrawer" aria-expanded="false" aria-label="{{ 'layout.header.your_cart' | t }}">
         {% render 'theme-icon' with icon: section.settings.cart-style, iconClasses: 'fa-lg' %}
         {% if section.settings.label-enable %}
-          {% comment %} <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
+          <span class="header--supporting-text">
+            {% comment %} {{ 'layout.header.your_cart' | t }} {% endcomment %}
             {% case section.settings.cart-number %}
               {% when 'quantity' %}
                 <span class="cart-item-count-header cart-item-count-header--has-label cart-item-count-header--quantity{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.item_count }}</span>
-              {% when 'total' %}
-                <span class="cart-item-count-header cart-item-count-header--has-label cart-item-count-header--total{% if cart.total_price == 0 %} hide{% endif %}"><span class="money">{{ cart.total_price | money }}</span></span>
+              {% comment %} {% when 'total' %}
+                <span class="cart-item-count-header cart-item-count-header--has-label cart-item-count-header--total{% if cart.total_price == 0 %} hide{% endif %}"><span class="money">{{ cart.total_price | money }}</span></span> {% endcomment %}
             {% endcase %}
-          </span> {% endcomment %}
+          </span>
         {% else %}
           {% case section.settings.cart-number %}
             {% when 'quantity' %}

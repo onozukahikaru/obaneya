@@ -7,6 +7,7 @@ body{
 h2.homepage-sections--title{
     font-weight: 600;
     margin-bottom: 0;
+    letter-spacing: .2em;
 }
 .shopify-section .homepage-featured-rich-text{
     position: relative;
@@ -62,10 +63,18 @@ h2.homepage-sections--title{
 .product-grid--price{
     font-weight: 600;
 }
+.homepage-product-grid-wrapper .product-grid--price .money, 
+.homepage-product-grid-wrapper .product-grid--title,
+.homepage-product-grid-wrapper .product-grid--price{
+    text-align: left;
+}
 @media only screen and (min-width: 769px){
     .homepage-sections-wrapper .homepage-product-grid-wrapper{
         max-width: 1200px;
         margin: 0 auto;
+    }
+    a.grid__image:hover{
+        opacity: .8;
     }
 }
 
@@ -219,6 +228,9 @@ img.logo_overlay.js,
     left: auto;
     right: 0;
 }
+.overlay-header-wrapper .site-header__cart-indicator{
+    background: #333;
+}
 @media only screen and (min-width: 769px){
     header{
         max-width: 1500px;
@@ -227,6 +239,9 @@ img.logo_overlay.js,
     }
     header.site-header .site-header__wrapper .site-header__wrapper__left .site-header__logo{
         padding: 30px 20px 30px 30px;
+    }
+    header .cart-item-count-header--has-label:before{
+        content: none;
     }
     .contact-page .overlay-header, 
     .template-collection .overlay-header, 
@@ -257,6 +272,18 @@ img.logo_overlay.js,
         top: 125px;
         right: 25px;
         gap: 20px
+    }
+    .top-links--icon-links .header--supporting-text{
+        position: absolute;
+        right: 8px;
+        top: 10px;
+        background: white;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .top-links--icon-links .header--supporting-text span{
+        color: #333;
     }
     .top-links .top-links--icon-links li a{
         padding: 0;
@@ -399,6 +426,9 @@ img.logo_overlay.js,
     .footer-wrapper{
         padding-top: 100px;
     }
+    .footer-wrapper .wrapper-padded{
+        max-width: 1335px;
+    }
     .footer-main .footer-content a:hover{
         color: #C63134;
         transition: 0.3s;
@@ -433,9 +463,6 @@ img.logo_overlay.js,
         position: absolute;
         left: 0;
     }
-    .footer-main .grid .grid__item:nth-child(1){
-        padding-left: 150px;
-    }
     .footer-main .grid .grid__item:nth-child(1)::before{
         content: none;
     }
@@ -451,12 +478,42 @@ img.logo_overlay.js,
     .footer-main .footer-content{
         line-height: 1.5rem;
     }
+    .footer-main .grid .grid__item:nth-child(1) .footer-header{
+        font-size: 18px;
+        padding-top: 0;
+    }
+    footer.footer-main .large--one-third{
+        width: 30%;
+    }
+    footer.footer-main .large--one-third:nth-child(2){
+        width: 40%;
+    }
 }
 
 /* MV */
+.slideshow--full-width .swiper-pagination{
+    position: absolute;
+    left: auto;
+    right: 10px;
+    width: auto;
+}
+.homepage-slider-container .slideshow--full-width .swiper-pagination .swiper-pagination-bullet{
+    background: white;
+    border-color: white;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+}
+.homepage-slider-container .slideshow--full-width .swiper-pagination .swiper-pagination-bullet-active {
+    background: #c63134;
+    border-color: #c63134;
+}
 @media only screen and (min-width: 769px){
     .flow-homepage .homepage-slider-container{
         padding-left: 6%;
+    }
+    .slideshow--full-width .swiper-pagination{
+        right: 25px;
     }
 }
 
@@ -464,8 +521,8 @@ img.logo_overlay.js,
 .homepage-information-section-wrapper{
     display: none;
 }
-.template-index .swiper-wrapper.invalid{
-
+.template-index .blog-posts-wrapper .homepage-sections-wrapper{
+    padding: 60px 0 40px;
 }
 .template-index .blog-posts-wrapper .wrapper-padded{
     display: flex;
@@ -562,10 +619,14 @@ img.logo_overlay.js,
     transition: .2s;
 }
 @media only screen and (min-width: 769px){
+    .template-index .blog-posts-wrapper .homepage-sections-wrapper{
+        padding: 100px 0 80px;
+    }
     .template-index .blog-posts-wrapper .wrapper-padded{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        max-width: 1260px;
     }
     .template-index .blog-posts-wrapper .homepage-indiv-section-wrapper{
         width: 50%;
@@ -607,6 +668,9 @@ img.logo_overlay.js,
     .blog-posts-wrapper .information__more a:hover{
         background-color: #C63134;
         transition: .2s;
+    }
+    .template-index .blog-posts-wrapper .homepage-sections--title{
+        margin-bottom: 20px;
     }
 }
 
@@ -734,6 +798,7 @@ img.logo_overlay.js,
 }
 .ranking .swiper-button-next,
 .ranking .swiper-button-prev{
+    top: 42%;
     background: white;
     width: 60px;
     height: 60px;
@@ -777,7 +842,7 @@ img.logo_overlay.js,
     content: '';
     position: absolute;
     top: -6px;
-    left: 13px;
+    left: 43px;
     display: block;
     width: 52px;
     height: 54px;
@@ -789,7 +854,7 @@ img.logo_overlay.js,
     line-height: 45px;
     font-size: 24px;
     top: -7px;
-    left: 33px;
+    left: 63px;
     z-index: 101;
 }
 .ranking .homepage-product-grid-wrapper .grid__item.swiper-slide:first-child::before{
@@ -826,17 +891,20 @@ img.logo_overlay.js,
     .ranking .homepage-product-grid-wrapper .grid__item.swiper-slide{
         visibility: visible;
     }
+    .shopify-section .ranking .homepage-featured-rich-text{
+        max-width: 290px;
+    }
 }
 
 /* information bar */
-.information_bar{
-    max-width: 1200px;
-    margin: 0 auto;
+.shopify-section .wrapper-padded.information_bar{
+    margin: 20px auto 0;
 }
 .information_bar dl{
     display: flex;
     flex-direction: column;
     font-weight: 500;
+    margin: 10px 0 0;
 }
 .information_bar dl dd{
     margin: 0;
@@ -845,6 +913,8 @@ img.logo_overlay.js,
     font-size: 14px;
     font-weight: 600;
     color: #C63134;
+    line-height: 14px;
+    letter-spacing: .2em;
 }
 @media only screen and (min-width: 769px){
     .shopify-section .wrapper-padded.information_bar{
@@ -855,6 +925,7 @@ img.logo_overlay.js,
     .information_bar dl{
         display: flex;
         flex-direction: row;
+        margin: 0;
     }
     .information_bar dl dd{
         margin-left: 12px;
