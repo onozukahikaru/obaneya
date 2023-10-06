@@ -48,7 +48,7 @@
         "slider-animation": "slide",
         "slider-width": "full-width",
         "vertical-alignment": true,
-        "text-below-image": true,
+        "text-below-image": false,
         "slider-slide-time": 5,
         "caption-heading-size": 30,
         "caption-subheading-size": 16,
