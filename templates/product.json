@@ -76,7 +76,7 @@
           "type": "product-description",
           "settings": {
             "collapsible_tab": true,
-            "icon": "none",
+            "icon": "info",
             "heading": "商品説明",
             "open_close_icon": "plus_minus"
           }
