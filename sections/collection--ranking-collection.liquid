@@ -1,5 +1,6 @@
 <link rel="preload" href="{{ 'section-featured-collection.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 <noscript>{{ 'section-featured-collection.min.css' | asset_url | stylesheet_tag }}</noscript>
+{{ '//unpkg.com/swiper/swiper-bundle.min.js' | script_tag }}
 
 <div
   class="homepage-sections-wrapper homepage-sections-wrapper--{{ section.settings.colors }}"
@@ -8,7 +9,7 @@
 
 <div class="wrapper-padded show-on-scroll">
 
-  <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper">
+  <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper swiper-container ranking">
 
   {% if section.settings.title != blank or section.settings.richtext != blank %}
     <div class="homepage-featured-rich-text">
@@ -70,7 +71,7 @@
 
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
-  <div class="grid-uniform homepage-product-grid-wrapper">
+  <div class="grid-uniform homepage-product-grid-wrapper swiper-wrapper">
     {% for product in collection.products limit: product_limit %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
@@ -96,7 +97,7 @@
         {% assign sold_out = false %}
       {% endif %}
 
-      <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+      <div class="grid__item {{ grid_item_width }} featured-product--grid-item swiper-slide">
 
         <div class="grid-view-item">
           <div class="grid-view-item-image">
@@ -173,7 +174,7 @@
     {% else %}
 
       {% for i in (1..product_limit) %}
-        <div class="grid__item {{ grid_item_width }} featured-product--grid-item">
+        <div class="grid__item {{ grid_item_width }} featured-product--grid-item swiper-slide">
           <div class="grid-view-item">
             <a href="/admin/products" class="grid-view-item__link" tabindex="-1">
               {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
@@ -200,7 +201,9 @@
       {% endfor %}
     {% endfor %}
   </div>
-
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
   {% if section.settings.show_view_all %}
     <div class="text-center show-view-all--button">
       <a href="{{ collection.url }}" class="btn" aria-label="{{ 'collections.general.view_all_label' | t: collection_name: collection.title }}">
