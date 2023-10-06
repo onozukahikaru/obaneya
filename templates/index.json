@@ -58,25 +58,6 @@
         "slider-navigation-color": "#ffffff"
       }
     },
-    "7dfc3ef2-fcfa-496d-9580-767b7f16df15": {
-      "type": "text--text-adverts",
-      "blocks": {
-        "template--21073629544723__7dfc3ef2-fcfa-496d-9580-767b7f16df15-text-1": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21073629544723__7dfc3ef2-fcfa-496d-9580-767b7f16df15-text-1"
-      ],
-      "settings": {
-        "colors": "light"
-      }
-    },
     "collection-collection-list": {
       "type": "collection--collection-list",
       "blocks": {
@@ -223,16 +204,22 @@
         "blog_show_date": true,
         "post_limit": 4
       }
+    },
+    "6670f95b-5a3a-4ca3-b918-313d5bbe996e": {
+      "type": "advanced-layout--custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"information_bar\">\n<div class=\"information_title\">\nInformation<\/div>\n    {% for article in blogs['information'].articles limit:1 %}\n        <a href=\"{{article.url}}\">\n          <dl>\n            <dt>{{article.published_at | date: '%Y.%-m.%-d'}}<\/dt>\n            <dd>{{article.title}}<\/dd>\n          <\/dl>\n        <\/a>\n    {% endfor %}\n  <\/div>"
+      }
     }
   },
   "order": [
     "3fb22d5b-9481-4aed-8572-009646d03bc9",
-    "7dfc3ef2-fcfa-496d-9580-767b7f16df15",
     "collection-collection-list",
     "featured-collection-1",
     "featured-collection",
     "ab431593-688b-4b20-a2fb-5203d477284f",
     "image-image-with-text-1",
-    "blog-blog-posts"
+    "blog-blog-posts",
+    "6670f95b-5a3a-4ca3-b918-313d5bbe996e"
   ]
 }
