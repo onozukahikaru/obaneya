@@ -75,7 +75,7 @@
         "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
           "type": "product-description",
           "settings": {
-            "collapsible_tab": true,
+            "collapsible_tab": false,
             "icon": "info",
             "heading": "商品説明",
             "open_close_icon": "plus_minus"
@@ -84,7 +84,7 @@
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "heart",
+            "icon": "info",
             "heading": "商品詳細",
             "open_close_icon": "plus_minus",
             "text": "<p>商品の仕様、「賞味期限とかを入れる予定。<\/p>",
@@ -94,7 +94,7 @@
         "7fb9ecb4-2d33-40fb-a9eb-850d86eebf23": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "heart",
+            "icon": "wallet",
             "heading": "決済方法",
             "open_close_icon": "plus_minus",
             "text": "<p>ここは全商品固定の情報です。<\/p><p>あとで決済方法をすべて記述する。<\/p><p>・VISA<\/p><p>・メルぺい<\/p><p>とか直接記述する。<\/p>",
@@ -104,7 +104,7 @@
         "0ed1d4a6-281e-462f-a0e6-439aadc8d2a5": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "heart",
+            "icon": "truck",
             "heading": "配送情報",
             "open_close_icon": "plus_minus",
             "text": "<p>ゆうパックです。という情報はここで記載し、ページリンクを用意する。<\/p>",
