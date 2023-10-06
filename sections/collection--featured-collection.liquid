@@ -136,7 +136,7 @@
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
               </div>
               <div class="product-grid--price">
-                {% render 'product-grid-item-price', product: product, collection: collection %}
+                {% render 'product-grid-item-price', product: product, collection: collection %}<small>（税込）</small>
               </div>
             </div>
           </div>

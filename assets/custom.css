@@ -2,6 +2,14 @@
 body{
     font-family: 'Noto Sans JP', Roboto, sans-serif!important;
 }
+.main-content{
+    margin-top: 75px;
+}
+@media only screen and (min-width: 769px){
+    .main-content{
+        margin-top: 100px;
+    }
+}
 
 /* title */
 h2.homepage-sections--title{
@@ -42,7 +50,11 @@ h2.homepage-sections--title{
 .homepage-product-grid-wrapper .grid-view-item .quick-add-button-onboarding, 
 .homepage-product-grid-wrapper .grid-view-item .quick-add-button-variants, 
 .homepage-product-grid-wrapper .grid-view-item .sold-out-button,
-.homepage-product-grid-wrapper .grid-view-item .quick-add-button{
+.homepage-product-grid-wrapper .grid-view-item .quick-add-button,
+.shopify-section .grid-view-item .quick-add-button-onboarding, 
+.shopify-section .grid-view-item .quick-add-button-variants, 
+.shopify-section .grid-view-item .sold-out-button,
+.shopify-section .grid-view-item .quick-add-button{
     font-size: 13px;
     color: #333;
     background: white;
@@ -53,7 +65,11 @@ h2.homepage-sections--title{
 .homepage-product-grid-wrapper .grid-view-item .quick-add-button-onboarding:hover, 
 .homepage-product-grid-wrapper .grid-view-item .quick-add-button-variants:hover, 
 .homepage-product-grid-wrapper .grid-view-item .sold-out-button:hover,
-.homepage-product-grid-wrapper .grid-view-item .quick-add-button:hover{
+.homepage-product-grid-wrapper .grid-view-item .quick-add-button:hover,
+.shopify-section .grid-view-item .quick-add-button-onboarding:hover, 
+.shopify-section .grid-view-item .quick-add-button-variants:hover, 
+.shopify-section .grid-view-item .sold-out-button:hover,
+.shopify-section .grid-view-item .quick-add-button:hover{
     color: white;
     background: #C63134;
     border-color: #C63134;
@@ -65,8 +81,14 @@ h2.homepage-sections--title{
 }
 .homepage-product-grid-wrapper .product-grid--price .money, 
 .homepage-product-grid-wrapper .product-grid--title,
-.homepage-product-grid-wrapper .product-grid--price{
+.homepage-product-grid-wrapper .product-grid--price,
+.shopify-section .product-grid--price,
+.shopify-section .product-grid--title{
     text-align: left;
+}
+.product-grid--price small{
+    font-size: 10px;
+    font-weight: 500;
 }
 @media only screen and (min-width: 769px){
     .homepage-sections-wrapper .homepage-product-grid-wrapper{
@@ -75,6 +97,9 @@ h2.homepage-sections--title{
     }
     a.grid__image:hover{
         opacity: .8;
+    }
+    .collection-style--grid .grid__item{
+        margin-bottom: 50px;
     }
 }
 
@@ -230,6 +255,9 @@ img.logo_overlay.js,
 }
 .overlay-header-wrapper .site-header__cart-indicator{
     background: #333;
+}
+.flow-homepage{
+    margin-top: 75px;
 }
 @media only screen and (min-width: 769px){
     header{

@@ -73,7 +73,7 @@
 
     {%- when 'product_card_price' -%}
       <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
-        {%- render 'product-grid-item-price', product: product, collection: collection -%}
+        {%- render 'product-grid-item-price', product: product, collection: collection -%}<small>（税込）</small>
       </div>
 
     {%- when 'product_card_button' -%}
