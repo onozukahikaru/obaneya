@@ -97,7 +97,7 @@
             "icon": "wallet",
             "heading": "決済方法",
             "open_close_icon": "plus_minus",
-            "text": "<p>ここは全商品固定の情報です。<\/p><p>あとで決済方法をすべて記述する。<\/p><p>・VISA<\/p><p>・メルぺい<\/p><p>とか直接記述する。<\/p>",
+            "text": "<p>下記の決済方法がご利用可能です。<\/p><p>【クレジットカード決済】<\/p><p>VISA、MasterCard、JCB、AMERICAN EXPRESS、Diners Club、Discover<\/p><p>【電子決済】<\/p><p>Amazon Pay、Apple Pay、Google Pay、Shop Pay<\/p><p>【コンビニ決済】<\/p><p>セブンイレブン、ファミリーマート、ローソン、ミニストップ、デイリーヤマザキ、セイコーマート<\/p><p>【スマホ決済】<\/p><p>PayPay<\/p>",
             "page": ""
           }
         },
