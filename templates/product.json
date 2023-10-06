@@ -107,7 +107,7 @@
             "icon": "truck",
             "heading": "配送情報",
             "open_close_icon": "plus_minus",
-            "text": "<p>ゆうパックです。という情報はここで記載し、ページリンクを用意する。<\/p>",
+            "text": "<p>日本郵便が提供する「ゆうパック」での配送とさせていただきます。<br\/>都道府県ごとの配送料は&lt;u&gt;&lt;a href=\"https:\/\/obaneya-shop.com\/policies\/shipping-policy\"&gt;配送ポリシー&lt;\/a&gt;&lt;\/u&gt;をご確認ください。<\/p>",
             "page": ""
           }
         },
