@@ -62,7 +62,7 @@
       ],
       "settings": {
         "products-per-page": 4,
-        "desktop-products-per-row": 3,
+        "desktop-products-per-row": 4,
         "mobile-products-per-row": "2",
         "pagination_options": "pagination_infinite_scrolling",
         "desktop_position": "sidebar",
@@ -86,9 +86,9 @@
             "desktop_position": "md-min-align-top md-min-justify-left",
             "mobile_position": "md-max-align-top md-max-justify-left",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -103,9 +103,9 @@
             "desktop_position": "md-min-align-center md-min-justify-center",
             "mobile_position": "md-max-align-center md-max-justify-center",
             "text_color": "#262428",
-            "button_color": "#E6E5E7",
+            "button_color": "#e6e5e7",
             "button_background_color": "#262428",
-            "button_hover_color": "#D4D3D4",
+            "button_hover_color": "#d4d3d4",
             "button_hover_background_color": "#494949",
             "overlay_color": "rgba(0,0,0,0)"
           }
