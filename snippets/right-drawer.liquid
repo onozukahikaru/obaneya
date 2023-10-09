@@ -245,7 +245,7 @@
                 <input
                   type="search" name="q" id="search-input" placeholder="{{ 'general.search.placeholder' | t }}"
                   class="input-group-field" aria-label="{{ 'general.search.placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" ref="searchText"
-                  v-model="searchQuery" @keydown.enter="onSearchSubmit"
+                  v-model="searchQuery" v-on:keyup.enter="onSearchSubmit"
                 />
                 <div class="search-drawer--clear" v-if="searchQuery.length > 0" v-on:click="clearSearchInput" tabindex="0">
                   <span class="search-drawer--clear-icon"></span>
