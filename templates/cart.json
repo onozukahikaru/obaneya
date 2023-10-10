@@ -4,9 +4,24 @@
       "type": "template--cart",
       "settings": {
       }
+    },
+    "3fcf0ff5-b23d-4252-bc66-76171df8fd87": {
+      "type": "collection--ranking-collection",
+      "settings": {
+        "rows": 2,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "sales-ranking",
+        "show-vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "3fcf0ff5-b23d-4252-bc66-76171df8fd87"
   ]
 }
