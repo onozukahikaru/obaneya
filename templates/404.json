@@ -14,7 +14,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
-        "collection": "",
+        "collection": "sales-ranking",
         "show-vendor": false,
         "show_view_all": false
       }
