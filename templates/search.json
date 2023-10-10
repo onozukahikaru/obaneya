@@ -1,27 +1,6 @@
 {
   "wrapper": "div.collection-wrapper",
   "sections": {
-    "image-with-text-overlay": {
-      "type": "image--image-with-text-overlay",
-      "settings": {
-        "image_height": "30vw",
-        "bg_image_overlay_opacity": 0,
-        "parallax": true,
-        "title": "",
-        "text": "",
-        "colors": "light",
-        "textPosition": "center",
-        "textAlignment": "center",
-        "heading--text-size": 26,
-        "text--text-size": 18,
-        "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#000000",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
-      }
-    },
     "main": {
       "type": "template--search",
       "settings": {
@@ -32,7 +11,6 @@
     }
   },
   "order": [
-    "image-with-text-overlay",
     "main"
   ]
 }
