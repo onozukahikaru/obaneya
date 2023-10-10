@@ -25,6 +25,39 @@
           </div>
         </div>
 
+        <div v-if="type === 'cart'">
+          <div class="grid--full custom_top" v-if="cart.item_count > 0">
+            <div class="grid__item ajaxcart__subtotal_header">
+              <p>{{ 'cart.general.subtotal' | t }}</p>
+            </div>
+
+            <span v-for="(item, index) in cart.items" v-if="item.compare_at_price > 0" class="cart__compare-total hide"></span>
+            <s><span v-for="(item, index) in cart.items" v-if="item.compare_at_price > 0" class="line__compare_price ajaxcart__price-strikeout text-center"></span></s>
+
+            {%- case settings.show_discount -%}
+              {%- when 'percentage' -%}
+              <span v-for="(item, index) in cart.items" v-if="item.compare_at_price > 0" class="cart-compare-price--with-value percentage discount--sale-color">
+              </span>
+              {%- when 'value' -%}
+                <span v-for="(item, index) in cart.items" v-if="item.compare_at_price > 0" class="cart-compare-price--with-value value discount--sale-color">
+                </span>
+              {%- when 'hide' -%}
+            {%- endcase -%}
+
+            <ul class="grid__item ajaxcart-item__discounts" style="margin: 0" v-for="cartItem in cart.items">
+              <li class="ajaxcart-item__discount" v-if="cartItem.line_level_discount_allocations.amount > 0">
+                <span class="ajaxcart-item__discount_title" v-text="cartItem.line_level_discount_allocations.title"></span>
+                <span class="ajaxcart-item__discount_money">- <span v-money="cartItem.line_level_discount_allocations.amount"></span></span>
+              </li>
+            </ul>
+
+            <p class="hide cart__total" v-text="cart.total_price"></p>
+            <div class="grid__item ajaxcart__subtotal">
+              <p v-money="cart.total_price"></p>
+            </div>
+          </div>
+        </div>
+
         <div id="CartContainer" v-if="type === 'cart'">
           <form action="{{ routes.cart_url }}" method="post" novalidate class="cart ajaxcart" v-if="cart">
             <p class="empty-cart" v-if="cart.item_count === 0">{{ 'cart.general.empty' | t }}</p>

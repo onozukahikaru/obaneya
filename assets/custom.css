@@ -305,13 +305,15 @@ img.logo_overlay.js,
         position: absolute;
         right: 8px;
         top: 10px;
+    }
+    .top-links--icon-links .header--supporting-text span{
+        color: #333;
         background: white;
         border-radius: 20px;
         width: 20px;
         height: 20px;
-    }
-    .top-links--icon-links .header--supporting-text span{
-        color: #333;
+        display: block;
+        text-align: center;
     }
     .top-links .top-links--icon-links li a{
         padding: 0;
@@ -961,4 +963,20 @@ img.logo_overlay.js,
     .information_title{
         margin-right: 20px;
     }
+}
+
+/* drawer */
+.custom_top::after{
+    content: '';
+    display: block;
+    width: 92%;
+    border-top: 1px solid var(--cart-drawer-text-color);
+    opacity: .2;
+    margin: 0 auto;
+} 
+
+/* 商品詳細 */
+.template-product .swatch .swatch-element.image-swatch label.image-swatch-small.aspect-ratio--square{
+    width: auto;
+    height: auto;
 }

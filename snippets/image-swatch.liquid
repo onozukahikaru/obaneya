@@ -1,6 +1,5 @@
 <div data-value="{{ value }}" class="swatch-element image-swatch swatch-element-{{ size }} {{ aspect_ratio }} {{ value | handle }} {% if available %}available{% else %}soldout{% endif %}">
-  <div class="tooltip">{{ value }}</div>
-
+  {% comment %} <div class="tooltip">{{ value }}</div> {% endcomment %}
   <input
     id="{{ section.id }}-swatch-{{ option_index }}-{{ value }}"
     class="visually-hidden"
@@ -21,8 +20,8 @@
     <label
       class="image-swatch-{{ size }} aspect-ratio--{{ aspect_ratio }}"
       for="{{ section.id }}-swatch-{{ option_index }}-{{ value }}"
-      style="background-image: url({{ image_url }});{% if aspect_ratio == "original" %} --ar: {{ img_aspect_ratio }};{% endif %}"
-    >
+      {% comment %} style="background-image: url({{ image_url }});{% if aspect_ratio == "original" %} --ar: {{ img_aspect_ratio }};{% endif %}" {% endcomment %}
+    >{{ value | escape }}
     </label>
   {% else %}
     <label
