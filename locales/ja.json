@@ -109,7 +109,7 @@
       "note": "お店への連絡事項",
       "see_more": "もっとみる",
       "subtotal": "小計",
-      "taxes_and_shipping_at_checkout": "税金と配送料はチェックアウト時に計算されます",
+      "taxes_and_shipping_at_checkout": "税金と配送料はお会計時に計算されます",
       "taxes_and_shipping_policy_at_checkout_html": "税金と<a href=\"{{ link }}\">送料<\/a>はチェックアウト時に計算されます",
       "taxes_included_but_shipping_at_checkout": "税込み、送料はチェックアウト時に計算されます",
       "taxes_included_and_shipping_policy_html": "税込み<a href=\"{{ link }}\">送料<\/a>はチェックアウト時に計算されます",
