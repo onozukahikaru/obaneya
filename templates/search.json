@@ -4,7 +4,7 @@
     "main": {
       "type": "template--search",
       "settings": {
-        "desktop_position": "sidebar",
+        "desktop_position": "topbar",
         "enable_filtering": true,
         "enable_sorting": true
       }
