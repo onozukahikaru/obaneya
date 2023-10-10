@@ -124,13 +124,14 @@ class CrossSell extends lit_element_s {
         display: block;
         padding-bottom: 24px;
         display: flex;
+        justify-content: space-between;
         flex-direction: columns;
         width: 100%;
       }
 
       .featured-image {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 80px;
       }
 
       .info {
@@ -157,7 +158,7 @@ class CrossSell extends lit_element_s {
       }
 
       .image {
-        width: 20%;
+        width: 12%;
         padding-right: 16px;
       }
 
@@ -188,6 +189,11 @@ class CrossSell extends lit_element_s {
         line-height: 1.5;
         min-width: 120px;
         min-height: 36px;
+      }
+      @media only screen and (max-width: 989px){
+        .btn{
+          width: 100%;
+        }
       }
 
       .btn:hover:not([disabled]) {
@@ -223,6 +229,9 @@ class CrossSell extends lit_element_s {
           background: transparent;
           cursor: default;
         }
+      }
+      .btn:hover:not([disabled]){
+        background: #C63134;
       }
 
       .btn.unavailable {
