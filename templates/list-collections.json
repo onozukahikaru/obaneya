@@ -2,6 +2,87 @@
   "sections": {
     "main": {
       "type": "template--collections-list",
+      "blocks": {
+        "f2d76778-ad43-48be-9a8a-b36687bf130d": {
+          "type": "collection",
+          "settings": {
+            "collection": "obaneya-gifts"
+          }
+        },
+        "44115382-0238-433a-a840-5e0f31a1c4dd": {
+          "type": "collection",
+          "settings": {
+            "collection": "gobou"
+          }
+        },
+        "c7a3f93f-df5a-4379-8d7e-c72f823ec304": {
+          "type": "collection",
+          "settings": {
+            "collection": "rakkyo"
+          }
+        },
+        "9a856c64-a154-4337-9d23-c4bab34e1c7b": {
+          "type": "collection",
+          "settings": {
+            "collection": "kyuuri"
+          }
+        },
+        "996b7420-1855-4805-bf4c-bb57b1458a00": {
+          "type": "collection",
+          "settings": {
+            "collection": "niranekko"
+          }
+        },
+        "fcc5028e-1af2-4bd0-93b7-8fbca2470c66": {
+          "type": "collection",
+          "settings": {
+            "collection": "daikon"
+          }
+        },
+        "9426e5b4-9409-4ae0-9f89-42eadb838e32": {
+          "type": "collection",
+          "settings": {
+            "collection": "miso"
+          }
+        },
+        "7bb31179-4e81-4597-b47c-2b89e954df8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "shoga"
+          }
+        },
+        "881446ef-fa63-43ee-9f8d-7982056350c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "tamariduke"
+          }
+        },
+        "3b67d21d-7abb-4bc8-a975-ca3e5447970b": {
+          "type": "collection",
+          "settings": {
+            "collection": "gobou-okashi"
+          }
+        },
+        "7bd5dc3f-dc63-4580-8e86-88640665244e": {
+          "type": "collection",
+          "settings": {
+            "collection": "dip-sauce"
+          }
+        }
+      },
+      "block_order": [
+        "f2d76778-ad43-48be-9a8a-b36687bf130d",
+        "44115382-0238-433a-a840-5e0f31a1c4dd",
+        "c7a3f93f-df5a-4379-8d7e-c72f823ec304",
+        "9a856c64-a154-4337-9d23-c4bab34e1c7b",
+        "996b7420-1855-4805-bf4c-bb57b1458a00",
+        "fcc5028e-1af2-4bd0-93b7-8fbca2470c66",
+        "9426e5b4-9409-4ae0-9f89-42eadb838e32",
+        "7bb31179-4e81-4597-b47c-2b89e954df8d",
+        "881446ef-fa63-43ee-9f8d-7982056350c4",
+        "3b67d21d-7abb-4bc8-a975-ca3e5447970b",
+        "7bd5dc3f-dc63-4580-8e86-88640665244e"
+      ],
       "settings": {
         "banner-image-size": "20vh",
         "parallax": true,
