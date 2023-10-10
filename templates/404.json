@@ -1,1 +1,27 @@
-{"sections":{"main":{"type":"template--404","settings":{}},"collection-list":{"type":"collection--collection-list","blocks":{"1646003943dd939117-0":{"type":"featured_collection","settings":{"subheading":""}},"1646003943dd939117-1":{"type":"featured_collection","settings":{"subheading":""}},"1646003943dd939117-2":{"type":"featured_collection","settings":{"subheading":""}}},"block_order":["1646003943dd939117-0","1646003943dd939117-1","1646003943dd939117-2"],"settings":{"colors":"white","items-per-row":3,"fill-the-area":true,"remove-spacing":false,"section-width":"content","content-position":"overlay"}}},"order":["main","collection-list"]}
+{
+  "sections": {
+    "main": {
+      "type": "template--404",
+      "settings": {
+      }
+    },
+    "faa63d5a-5beb-4a80-9c3b-1715f8cb6d4d": {
+      "type": "collection--ranking-collection",
+      "settings": {
+        "rows": 2,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "",
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faa63d5a-5beb-4a80-9c3b-1715f8cb6d4d"
+  ]
+}
