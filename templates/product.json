@@ -78,15 +78,15 @@
             "collapsible_tab": true,
             "icon": "info",
             "heading": "商品説明",
-            "open_close_icon": "plus_minus"
+            "open_close_icon": "caret"
           }
         },
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "info",
+            "icon": "chat",
             "heading": "商品詳細",
-            "open_close_icon": "plus_minus",
+            "open_close_icon": "caret",
             "text": "<p>商品の仕様、「賞味期限とかを入れる予定。<\/p>",
             "page": ""
           }
@@ -96,7 +96,7 @@
           "settings": {
             "icon": "wallet",
             "heading": "決済方法",
-            "open_close_icon": "plus_minus",
+            "open_close_icon": "caret",
             "text": "<p>下記の決済方法がご利用可能です。<\/p><p>【クレジットカード決済】<br\/>VISA、MasterCard、JCB、AMERICAN EXPRESS、Diners Club、Discover<\/p><p>【電子決済】<br\/>Amazon Pay、Apple Pay、Google Pay、Shop Pay<\/p><p>【コンビニ決済】<br\/>セブンイレブン、ファミリーマート、ローソン、ミニストップ、デイリーヤマザキ、セイコーマート<\/p><p>【スマホ決済】<br\/>PayPay<\/p>",
             "page": ""
           }
@@ -106,7 +106,7 @@
           "settings": {
             "icon": "truck",
             "heading": "配送情報",
-            "open_close_icon": "plus_minus",
+            "open_close_icon": "caret",
             "text": "<p>日本郵便が提供する「ゆうパック」での配送とさせていただきます。<br\/>都道府県ごとの配送料は<a href=\"https:\/\/obaneya-shop.com\/policies\/shipping-policy\"><span style=\"text-decoration:underline\">配送ポリシー<\/span><\/a>をご確認ください。<\/p>",
             "page": ""
           }
