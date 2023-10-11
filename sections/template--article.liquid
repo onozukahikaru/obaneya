@@ -56,12 +56,12 @@
       <p class="clearfix">
         {% if blog.previous_article %}
           <span class="left">
-            &larr; {{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
+            {% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-down flex-full' %}{{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
           </span>
         {% endif %}
         {% if blog.next_article %}
           <span class="right">
-            {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }} &rarr;
+            {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }}{% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-down flex-full' %}
           </span>
         {% endif %}
       </p>

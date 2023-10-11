@@ -1366,3 +1366,100 @@ img.logo_overlay.js,
     color: #333;
     font-size: 13px;
 }
+
+/* login */
+#customer_login {
+    margin-bottom: 40px;
+}
+#customer_login .login-form-cancel.btn--secondary{
+    width: 100%;
+    margin-top: 0;
+}
+a#customer_register_link:hover,
+a#RecoverPassword:hover{
+    text-decoration: underline;
+}
+
+/* mypage */
+.account-area--order-details tr th{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+@media only screen and (max-width: 768px){
+    .customer-logged-in .wrapper-padded .grid__item{
+        margin-bottom: 40px;
+    }
+}
+
+/* blog */
+.blog-main--article-title a{
+    font-size: 16px;
+}
+.article--indiv .grid__item{
+    margin-top: 0;
+}
+.article--indiv .grid__item .rte{
+    font-size: 13px;
+}
+.article--indiv .grid__item p a{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+}
+.article--indiv .grid__item p a .chevron-down{
+    position: absolute;
+    right: -20px;
+    top: 8px;
+    display: block;
+    width: 20px;
+    transform: rotate(-90deg);
+}
+.article--indiv .grid__item p a:hover{
+    text-decoration: underline;
+}
+.grid hr{
+    border-top: 1px solid #ccc;
+}
+.template-blog .blog-main--wrapper{
+    margin-bottom: 40px;
+}
+.template-article .left,
+.template-article .right{
+    position: relative;
+}
+.template-article .left{
+    padding-left: 20px;
+}
+.template-article .right{
+    padding-right: 20px;
+}
+
+.template-article .left .chevron-down,
+.template-article .right .chevron-down{
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    display: block;
+    width: 20px;
+    transform: rotate(-90deg);
+}
+.template-article .left .chevron-down{
+    right: auto;
+    left: 0;
+    transform: rotate(90deg);
+}
+.template-article h1.page--title{
+    font-size: 20px;
+    text-align: left;
+}
+.template-article .indiv-post-time{
+    text-align: left;
+}
+.template-article .blog-main--wrapper .social-sharing{
+    margin-top: 40px;
+}
+@media only screen and (min-width: 769px){
+    .template-article h1.page--title{
+        font-size: 28px;
+    }
+}

@@ -35,7 +35,7 @@
           <p>
             <input type="submit" class="btn btn--full account-section--btn" value="{{ 'customer.login.sign_in' | t }}">
           </p>
-          <p><a href="{{ routes.root_url }}" class="login-form-cancel">{{ 'customer.login.cancel' | t }}</a></p>
+          <p><a href="{{ routes.root_url }}" class="login-form-cancel btn--secondary">{{ 'customer.login.cancel' | t }}</a></p>
           <p>{{ 'layout.customer.create_account' | t | customer_register_link }}</p>
           {% if form.password_needed %}
             <p><a href="#recover" id="RecoverPassword">{{ 'customer.login.forgot_password' | t }}</a></p>

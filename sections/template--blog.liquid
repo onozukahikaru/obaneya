@@ -22,9 +22,11 @@
         <h1 class="page--title">{{ blog.title | link_to: blog.url }} &mdash; {{ current_tags.first }}</h1>
       {% else %}
 
-        <h1 class="page--title">{{ blog.title }} <a href="{{ shop.url }}{{ blog.url }}.atom">
+        <h1 class="page--title">{{ blog.title }} 
+          {% comment %} <a href="{{ shop.url }}{{ blog.url }}.atom">
           {% render 'theme-icon' with icon: 'rss', iconAttributes: 'aria-hidden="true"', iconClasses: 'fa-rss' %}
-          </i></a></h1>
+          </i></a> {% endcomment %}
+        </h1>
       {% endif %}
     </div>
 
@@ -95,7 +97,7 @@
                 {{ article.excerpt_or_content  | strip_html | truncatewords: 100 }}
             </div>
 
-            <p><a href="{{ article.url }}">{{ 'blogs.article.read_more' | t }} &rarr;</a></p>
+            <p><a href="{{ article.url }}">{{ 'blogs.article.read_more' | t }}{% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-down flex-full' %}</a></p>
 
       </div>
 
