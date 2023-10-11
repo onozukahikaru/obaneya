@@ -1356,10 +1356,49 @@ img.logo_overlay.js,
 #shopify-block-product-reviews .spr-container .spr-review-header-byline{
     font-style: normal;
 }
+.spr-pagination-next a{
+    padding-right: 15px;
+    position: relative;
+}
+.spr-pagination-next a::after{
+    content: '';
+    background: url(https://cdn.shopify.com/s/files/1/0815/8035/9955/files/Vector.png?v=1696315821);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    display: block;
+    height: 7px;
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    transform: rotate(-90deg);
+}
+.spr-pagination-prev a{
+    padding-left: 15px;
+    position: relative;
+}
+.spr-pagination-prev a::before{
+    content: '';
+    background: url(https://cdn.shopify.com/s/files/1/0815/8035/9955/files/Vector.png?v=1696315821);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    display: block;
+    height: 7px;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    transform: rotate(90deg);
+}
+
 @media only screen and (min-width: 769px){
     #shopify-block-product-reviews{
-        max-width: 1260px;
+        max-width: 1200px;
         margin: 0 auto;
+    }
+    .spr-pagination-next a:hover,
+    .spr-pagination-prev a:hover{
+        text-decoration: underline;
     }
 }
 
