@@ -1435,7 +1435,8 @@ a#RecoverPassword:hover{
 }
 
 /* mypage */
-.account-area--order-details tr th{
+.account-area--order-details tr th,
+.account-area--order-details td{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -1515,6 +1516,18 @@ a#RecoverPassword:hover{
 }
 .template-article .social-sharing{
     border-top: none;
+}
+.template-blog .blog-main--wrapper h1.page--title{
+    margin-bottom: 35px;
+}
+.template-blog .blog-template--main .blog-template--individual:first-child{
+    margin-bottom: 0;
+}
+.template-article .blog-main--wrapper{
+    padding-top: 0;
+}
+.template-article h1.page--title{
+    margin-top: 30px;
 }
 @media only screen and (min-width: 769px){
     .template-article h1.page--title{
