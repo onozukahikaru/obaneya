@@ -1301,13 +1301,15 @@ img.logo_overlay.js,
 #shopify-block-product-reviews .spr-container .spr-form{
     border-top: 1px solid #e06b6e!important;
 }
+#shopify-block-product-reviews .spr-container .spr-review-header-byline{
+    font-style: normal;
+}
 @media only screen and (min-width: 769px){
     #shopify-block-product-reviews{
         max-width: 1260px;
         margin: 0 auto;
     }
 }
-
 
 .shopify-policy__body .rte h2{
     text-align: left;
@@ -1457,6 +1459,9 @@ a#RecoverPassword:hover{
 }
 .template-article .blog-main--wrapper .social-sharing{
     margin-top: 40px;
+}
+.template-article .social-sharing{
+    border-top: none;
 }
 @media only screen and (min-width: 769px){
     .template-article h1.page--title{

@@ -26,7 +26,7 @@
   <h1 class="page--title">{{ article.title }}</h1>
 </div>
 {% if section.settings.blog_show_date %}
-  <time class="post-time indiv-post-time" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | time_tag: format: 'date' }}</time>
+  <time class="post-time indiv-post-time" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: "%Y.%m.%d" }}</time>
 {% endif %}
 
 <div class="grid blog-main--wrapper">

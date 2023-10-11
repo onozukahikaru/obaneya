@@ -255,7 +255,7 @@
                         {% endif %}
 
                         {% if section.settings.blog_show_date %}
-                          <time class="homepage-blog--date" datetime="{{ article.published_at | date: '%Y.%-m.%-d' }}">{{ article.published_at | time_tag: format: 'date' }}</time>
+                          <time class="homepage-blog--date" datetime="{{ article.published_at | date: '%Y.%-m.%-d' }}">{{ article.published_at | date: "%Y.%m.%d" }}</time>
                         {% endif %}
 
                         <h3 class="homepage-blog--title fs-heading-m"><a href="{{ article.url }}">{{ article.title }}</a></h3>
@@ -314,7 +314,7 @@
                         {% endif %}
 
                         {% if section.settings.blog_show_date %}
-                          <time class="homepage-blog--date" datetime="{{ article.published_at | date: '%Y.%-m.%-d' }}">{{ article.published_at | time_tag: format: 'date' }}</time>
+                          <time class="homepage-blog--date" datetime="{{ article.published_at | date: '%Y.%-m.%-d' }}">{{ article.published_at | date: "%Y.%m.%d" }}</time>
                         {% endif %}
                         <h3 class="homepage-blog--title fs-heading-m"><a href="{{ article.url }}">{{ article.title }}</a></h3>
 
