@@ -279,6 +279,9 @@ h2.homepage-sections--title{
     font-size: 10px;
     font-weight: 500;
 }
+.quick-add-wrapper{
+    margin-top: 15px;
+}
 @media only screen and (min-width: 769px){
     .homepage-sections-wrapper .homepage-product-grid-wrapper{
         max-width: 1200px;
@@ -437,6 +440,10 @@ img.logo_overlay.js,
 }
 .flow-homepage{
     margin-top: 75px;
+}
+.drawer--right #SearchContainer .search-drawer .search-input-group .search-drawer--clear{
+    right: 50px;
+    bottom: 10px;
 }
 @media only screen and (min-width: 769px){
     header.site-header{
@@ -722,6 +729,10 @@ img.logo_overlay.js,
 @media only screen and (min-width: 769px){
     .flow-homepage .homepage-slider-container{
         padding-left: 6%;
+        height: 630px;
+    }
+    .flow-homepage .homepage-slider-container .swiper-container .swiper-wrapper img{
+        height: 630px;
     }
     .slideshow--full-width .swiper-pagination{
         right: 25px;
@@ -1419,7 +1430,8 @@ a#RecoverPassword:hover{
 .article--indiv .grid__item p a:hover{
     text-decoration: underline;
 }
-.grid hr{
+.grid hr,
+.grid__item hr{
     border-top: 1px solid #ccc;
 }
 .template-blog .blog-main--wrapper{
@@ -1466,5 +1478,21 @@ a#RecoverPassword:hover{
 @media only screen and (min-width: 769px){
     .template-article h1.page--title{
         font-size: 28px;
+    }
+}
+
+/* list */
+.grid__item.two-thirds.item--content > p{
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 84px;
+}
+@media only screen and (min-width: 769px){
+    .grid__item.two-thirds.item--content > p{
+        -webkit-line-clamp: 5;
+        max-height: 125px;
     }
 }

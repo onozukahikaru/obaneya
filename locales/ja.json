@@ -1,15 +1,15 @@
 {
   "general": {
     "meta": {
-      "tags": "Tagged \"{{ tags }}\"",
-      "page": "Page {{ page }}"
+      "tags": "タグ \"{{ tags }}\"",
+      "page": "ページ {{ page }}"
     },
     "404": {
       "title": "404 ページが見つかりません",
       "subtext_html": "要求したページは存在しません。 ショッピングを続けるには <a href=\"\/collections\/all\">ここ<\/a> をクリックしてください"
     },
     "breadcrumbs": {
-      "home": "Home",
+      "home": "ホーム",
       "home_link_title": "トップページに戻る"
     },
     "newsletter_form": {
@@ -30,11 +30,11 @@
       "title": "検索",
       "placeholder": "キーワード検索",
       "submit": "検索する",
-      "products": "Products",
-      "articles": "Articles",
+      "products": "商品",
+      "articles": "記事",
       "suggestions": "Suggestions",
-      "pages": "Pages",
-      "collections": "Collections",
+      "pages": "ページ",
+      "collections": "コレクション",
       "results": "結果",
       "view_all": "すべての結果をみる",
       "clear": "クリア"

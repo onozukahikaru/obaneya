@@ -293,9 +293,9 @@
             </div>
             <div class="wrapper-padded">
               <div id="search-results" class="grid-uniform">
-                <div v-if="searching" class="search-loading">
+                {% comment %} <div v-if="searching" class="search-loading">
                   {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin flex-full', icon_fill: settings.color_primary_button_text %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
-                </div>
+                </div> {% endcomment %}
                 <div v-text="searchSummary" v-if="!searching"></div>
                 <div class="search-results__meta top" v-if="searchHasResults">
                   <div class="search-results__meta-view-all"><a id="search-show-more" v-bind:href="searchPageUrlWithQuery" class="btn">{{ 'general.search.view_all' | t }}</a></div>
