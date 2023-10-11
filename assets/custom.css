@@ -445,6 +445,44 @@ img.logo_overlay.js,
     right: 50px;
     bottom: 10px;
 }
+.drawer--right .swatch .swatch-element label{
+    border-radius: 30px;
+}
+.drawer--right #AddToCartForm #Quantity{
+    padding: 10px 25px;
+    border-bottom: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.drawer--right #ShopNowContainer #AddToCartForm .js-qty{
+    max-width: 130px;
+}
+.drawer--right #AddToCartForm .js-qty__adjust{
+    padding: 0 14px;
+}
+.drawer--right .swatch .swatch-element.image-swatch label.image-swatch-small.aspect-ratio--square{
+    width: auto;
+    height: auto;
+    padding: 5px 20px;
+    border: 1px solid #333;
+}
+.drawer--right .swatch .swatch-element.image-swatch label.image-swatch-small.aspect-ratio--square:hover{
+    background: #C63134;
+    border-color: #c63134;
+    color: #fff;
+}
+.drawer--right .swatch .swatch-element.image-swatch input+label:after{
+    content: none;
+}
+.drawer--right .text-with-icon svg{
+    fill: #C63134;
+}
+.drawer--right .paymentButtonsWrapper #AddToCart.add-to-cart--secondary:not(.disabled){
+    background: #C63134;
+    color: #fff;
+    padding: 16px 35px;
+    font-weight: 600;
+}
 @media only screen and (min-width: 769px){
     header.site-header{
         max-width: 1500px;
