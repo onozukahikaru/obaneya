@@ -26,8 +26,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/photo___DSC_0440.jpg",
-            "title": "Share your story",
-            "text": "Here's your chance to make a great first impression",
+            "title": "",
+            "text": "",
             "button_label": "",
             "button_link": "",
             "caption-background": "rgba(0,0,0,0)",
