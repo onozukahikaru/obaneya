@@ -100,6 +100,14 @@
             "input_width": "full"
           }
         },
+        "50e51aab-355b-4aa2-a373-3f53e2e251bf": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "会社名（法人の場合のみ記載）",
+            "required": false,
+            "input_width": "full"
+          }
+        },
         "contact-form-1": {
           "type": "email_input",
           "settings": {
@@ -148,6 +156,7 @@
       },
       "block_order": [
         "contact-form-0",
+        "50e51aab-355b-4aa2-a373-3f53e2e251bf",
         "contact-form-1",
         "0b72d40b-c75e-48ba-926d-97b4a76cdfa7",
         "custom_input",
