@@ -2,7 +2,7 @@
 body{
     font-family: 'Noto Sans JP', Roboto, sans-serif!important;
 }
-.main-content{
+.template-collection .main-content{
     margin-top: 75px;
 }
 .wrapper-padded .breadcrumb{
@@ -10,7 +10,7 @@ body{
     max-width: 1200px;
 }
 @media only screen and (min-width: 769px){
-    .main-content{
+    .template-collection .main-content{
         margin-top: 100px;
     }
     .main-page-container.wrapper-padded,
@@ -482,6 +482,9 @@ img.logo_overlay.js,
     color: #fff;
     padding: 16px 35px;
     font-weight: 600;
+}
+.page--title.no_results{
+    font-size: 20px;
 }
 @media only screen and (min-width: 769px){
     header.site-header{
