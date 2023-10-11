@@ -7,7 +7,7 @@
         "blog-sidebar-description": "",
         "blog-sidebar-link": "shopify:\/\/blogs\/information",
         "show_blog_tags": false,
-        "show_recent_posts": false,
+        "show_recent_posts": true,
         "blog_show_date": true
       }
     }
