@@ -5,11 +5,16 @@ body{
 .main-content{
     margin-top: 75px;
 }
+.wrapper-padded .breadcrumb{
+    margin: 15px auto;
+    max-width: 1200px;
+}
 @media only screen and (min-width: 769px){
     .main-content{
         margin-top: 100px;
     }
-    .main-page-container.wrapper-padded{
+    .main-page-container.wrapper-padded,
+    .template-cart .wrapper-padded{
         max-width: 1260px;
         margin: 0 auto;
     }
@@ -997,6 +1002,7 @@ img.logo_overlay.js,
 /* Ranking */
 .ranking .homepage-product-grid-wrapper{
     flex-wrap: nowrap;
+    padding-top: 6px;
 }
 .ranking .quick-add-wrapper{
     max-width: 160px;
@@ -1268,6 +1274,9 @@ img.logo_overlay.js,
 .template-product #AddToCartForm .js-qty__adjust{
     padding: 0 14px;
 }
+.template-product .text-with-icon svg{
+    fill: #C63134;
+}
 @media only screen and (min-width: 769px){
     .template-product .main-page-container{
         max-width: 1260px;
@@ -1325,4 +1334,35 @@ img.logo_overlay.js,
     .shopify-policy__body table{
         width: auto!important;
     }
+}
+
+/* cart */
+.shopify-section .cart{
+    margin-bottom: 40px;
+}
+.cart .cart-table th,
+.cart .cart-table td,
+.cart .cart__row.grid{
+    border-top: 1px solid #ccc;
+}
+.cart .cart__row.grid{
+    margin-top: 40px;
+}
+.cart .js-qty .js-qty__num{
+    padding: 10px 25px;
+    border-bottom: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.cart .cart--button-checkout:hover{
+    background-color: #C63134;
+    color: white;
+}
+.drawer--right .ngc-note-attr-field{
+    margin: 0 auto;
+}
+.ngc-note-attr-field label,
+.ngc-note-attr-field > div{
+    color: #333;
+    font-size: 13px;
 }
