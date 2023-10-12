@@ -1545,6 +1545,15 @@ a#RecoverPassword:hover{
 .template-blog .blog-main--wrapper{
     margin-bottom: 40px;
 }
+.template-blog .pagination-arrow .chevron-right{
+    transform: rotate(-90deg);
+}
+.template-blog .pagination-arrow .chevron-left{
+    transform: rotate(90deg);
+}
+.template-blog .pagination .pagination-arrow a:hover::before{
+    content: none;
+}
 .template-article .left,
 .template-article .right{
     position: relative;

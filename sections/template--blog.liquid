@@ -49,7 +49,7 @@
                 {{ article.author }}<br />
               {% endif %}
               {% if section.settings.blog_show_date %}
-                <time class="indiv-post-time" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | time_tag: format: 'date' }}</time>
+                <time class="indiv-post-time" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: "%Y.%m.%d" }}</time>
               {% endif %}
             </div>
 
@@ -167,7 +167,7 @@
     <ul>
       {% if paginate.previous %}
         <li class="pagination-arrow"><a href="{{ paginate.previous.url }}">
-          {% render 'theme-icon', icon: 'chevron_left', iconClasses: 'chevron-left', iconSize: 18 %}
+          {% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-left', iconSize: 18 %}
         </a></li>
       {% else %}
         <li class="prev disabled"><a href="#" onclick="return false;">&laquo;</a></li>
@@ -187,7 +187,7 @@
 
       {% if paginate.next %}
         <li class="pagination-arrow"><a href="{{ paginate.next.url }}">
-          {% render 'theme-icon', icon: 'chevron_right', iconClasses: 'chevron-right', iconSize: 18 %}
+          {% render 'theme-icon', icon: 'chevron_down_sp', iconClasses: 'chevron-right', iconSize: 18 %}
         </a></li>
       {% else %}
         <li class="next disabled"><a href="#" onclick="return false;">&raquo;</a></li>
