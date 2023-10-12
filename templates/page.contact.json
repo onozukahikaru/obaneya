@@ -84,6 +84,9 @@
         "6a89ae56-d3a3-484e-9b54-8cd54ae918e9",
         "2d966557-da73-4f98-a9d6-d6035b62deba"
       ],
+      "custom_css": [
+        "h2{font-size: 20px;}"
+      ],
       "settings": {
         "colors": "light",
         "title": "よくある質問",
