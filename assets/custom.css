@@ -305,6 +305,12 @@ h2.homepage-sections--title{
 .custom_invisible{
     display: none!important;
 }
+.shopify-section .custom_section_products.homepage-sections-wrapper .grid__item{
+    margin-bottom: 0;
+}
+.shopify-section .custom_section_products.homepage-sections-wrapper .featured-row__subtext{
+    line-height: 2em;
+}
 @media only screen and (min-width: 769px){
     .shopify-section.featured-products-wrapper{
         padding-top: 20px;
