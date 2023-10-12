@@ -502,6 +502,10 @@ img.logo_overlay.js,
     font-size: 20px;
 }
 @media only screen and (min-width: 769px){
+    .template-index header.site-header{
+        max-width: 1500px;
+        margin: auto;
+    }
     header.site-header{
         max-width: 1500px;
         position: relative;
@@ -542,7 +546,6 @@ img.logo_overlay.js,
         flex-direction: column;
         position: fixed;
         top: 125px;
-        right: 25px;
         gap: 20px
     }
     .top-links--icon-links .header--supporting-text{
@@ -786,6 +789,8 @@ img.logo_overlay.js,
     .flow-homepage .homepage-slider-container{
         padding-left: 6%;
         height: 630px;
+        max-width: 1500px;
+        margin: 0 auto;
     }
     .flow-homepage .homepage-slider-container .swiper-container .swiper-wrapper img{
         height: 630px;
@@ -1164,6 +1169,9 @@ img.logo_overlay.js,
     color: #8A4217;
 }
 @media only screen and (min-width: 769px){
+    .custom_ranking .wrapper-padded{
+        max-width: 1360px;
+    }
     .ranking.homepage-featured-content-wrapper {
         padding-right: 7rem;
     }
@@ -1200,6 +1208,7 @@ img.logo_overlay.js,
         display: flex;
         align-items: center;
         padding-left: 6%;
+        max-width: 1500px;
     }
     .information_bar dl{
         display: flex;
@@ -1647,4 +1656,11 @@ a#RecoverPassword:hover{
 }
 #ngc_haisou_header{
     color: #333;
+}
+
+/* text-with-section */
+@media only screen and (min-width: 769px){
+    .shopify-section .custom_section_products.homepage-sections-wrapper .wrapper-padded{
+        max-width: 1260px;
+    }
 }
