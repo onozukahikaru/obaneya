@@ -263,6 +263,12 @@ h2.homepage-sections--title{
     background: #C63134;
     border-color: #C63134;
 }
+#ContactForm .section-contact-form--submit-wrapper .btn{
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 0;
+    display: block;
+}
 
 /* product */
 .product-grid--price{
