@@ -302,6 +302,9 @@ h2.homepage-sections--title{
 .shopify-section.featured-products-wrapper .homepage-sections-wrapper{
     padding: 50px 0 0;
 }
+.custom_invisible{
+    display: none!important;
+}
 @media only screen and (min-width: 769px){
     .shopify-section.featured-products-wrapper{
         padding-top: 20px;
@@ -1488,6 +1491,7 @@ a#RecoverPassword:hover{
     display: block!important;
     padding: 10px 0;
     font-weight: 600;
+    margin: 30px 0 0;
 }
 .customer-logged-in .wrapper-padded .grid__item{
     margin-bottom: 40px;
