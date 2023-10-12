@@ -14,7 +14,7 @@ const swiper = new Swiper('.ranking', {
     breakpoints: {
         769: {
         slidesPerView: 4.5,
-        spaceBetween: 15,
+        spaceBetween: 0,
         centeredSlides: false,
         }
     },
