@@ -166,7 +166,7 @@
       "type": "collection--ranking-collection",
       "settings": {
         "rows": 1,
-        "grid-desktop": 6,
+        "grid-desktop": 10,
         "grid-mobile": "1",
         "colors": "white",
         "title": "Ranking",
