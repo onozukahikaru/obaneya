@@ -509,7 +509,7 @@ img.logo_overlay.js,
     header.site-header{
         max-width: 1500px;
         position: relative;
-        margin: auto;
+        margin: 0 auto!important;
         background-color: transparent;
         border-bottom: none;
     }
