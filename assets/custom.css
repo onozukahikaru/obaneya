@@ -1478,12 +1478,12 @@ a#RecoverPassword:hover{
 
 
 /* mypage */
-.account-area--order-details tr th,
-.account-area--order-details td{
+.customer-logged-in .account-area--order-details tr th,
+.customer-logged-in .account-area--order-details td{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-#AddAddress .account-customer-name{
+.template-customers-addresses .account-customer-name{
     border-bottom: 1px solid #ccc;
     display: block!important;
     padding: 10px 0;
@@ -1491,6 +1491,9 @@ a#RecoverPassword:hover{
 }
 .customer-logged-in .wrapper-padded .grid__item{
     margin-bottom: 40px;
+}
+.account-addresses--return-to-account a:hover{
+    text-decoration: underline;
 }
 
 /* blog */
