@@ -89,6 +89,7 @@
       ],
       "settings": {
         "colors": "light",
+        "id": "faq_section",
         "title": "よくある質問",
         "faq_icon": "caret"
       }
