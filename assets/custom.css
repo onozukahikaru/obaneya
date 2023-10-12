@@ -1616,3 +1616,15 @@ a#RecoverPassword:hover{
         max-height: 125px;
     }
 }
+
+/* contact */
+.contact-page .shopify-section .homepage-sections-wrapper.accordion--faq-wrapper{
+    padding-top: 145px;
+    margin-top:-95px;
+}
+@media only screen and (min-width: 769px){
+    .contact-page .shopify-section .homepage-sections-wrapper.accordion--faq-wrapper{
+        padding-top: 185px;
+        margin-top:-135px;
+    }
+}

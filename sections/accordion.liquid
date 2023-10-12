@@ -5,6 +5,7 @@
   class="homepage-sections-wrapper accordion--faq-wrapper accordion-faq--{{ section.id }} homepage-sections-wrapper--{{ section.settings.colors }}"
   data-wetheme-section-type="accordion--faq"
   data-wetheme-section-id="{{ section.id }}"
+  id="{{ section.settings.id }}"
 >
     <div class="accordion-container wrapper-padded">
       {% unless section.settings.title == blank %}
@@ -84,6 +85,16 @@
                   }
               }
           ]
+        },
+        {
+          "type": "text",
+          "id": "id",
+          "label": {
+              "en": "Custom id"
+          },
+          "default": {
+              "en": "faq_obaneya"
+          }
         },
         {
           "type": "text",
