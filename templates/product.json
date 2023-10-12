@@ -193,6 +193,36 @@
         "include_margins": true
       }
     },
+    "828e6893-927a-4986-ab80-45001727bbd5": {
+      "type": "image--image-with-text-1",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left"
+      }
+    },
+    "6856156d-622d-4168-a6d5-82413673cea0": {
+      "type": "image--image-with-text-2",
+      "settings": {
+        "colors": "light",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "right",
+        "text_alignment": "left"
+      }
+    },
+    "c59425b7-a413-4437-ab91-f03ea1952833": {
+      "type": "image--image-with-text-3",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left"
+      }
+    },
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf": {
       "type": "template--product--recommendations",
       "blocks": {
@@ -297,6 +327,9 @@
     "product-form",
     "product-description",
     "app-product-reviews",
+    "828e6893-927a-4986-ab80-45001727bbd5",
+    "6856156d-622d-4168-a6d5-82413673cea0",
+    "c59425b7-a413-4437-ab91-f03ea1952833",
     "16269b25-ec11-4fac-b9b0-96290e7cb0bf",
     "450692bb-cf89-482d-847b-42cd52a6813f",
     "recently-viewed",
