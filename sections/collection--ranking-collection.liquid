@@ -46,7 +46,19 @@
       {%- assign image_size = '300x' -%}
     {% when 6 %}
       {%- assign desktop_item_width = 'large--one-sixth' -%}
-      {%- assign image_size = '200x' -%}
+      {%- assign image_size = '300x' -%}
+    {% when 7 %}
+      {%- assign desktop_item_width = 'large--one-sixth' -%}
+      {%- assign image_size = '300x' -%}
+    {% when 8 %}
+      {%- assign desktop_item_width = 'large--one-sixth' -%}
+      {%- assign image_size = '300x' -%}
+    {% when 9 %}
+      {%- assign desktop_item_width = 'large--one-sixth' -%}
+      {%- assign image_size = '300x' -%}
+    {% when 10 %}
+      {%- assign desktop_item_width = 'large--one-sixth' -%}
+      {%- assign image_size = '300x' -%}
   {% endcase %}
 
   {% case section.settings.grid-mobile%}
@@ -179,7 +191,7 @@
             <a href="/admin/products" class="grid-view-item__link" tabindex="-1">
               {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
                   <div class="grid-view-item__image">
-                    {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                    {% capture current %}{% cycle 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 %}{% endcapture %}
                     {{ 'product-' | append: current | placeholder_svg_tag: 'icon icon--placeholder grid__image' }}
                   </div>
               {% if image_crop %}</div>{% endif %}
@@ -258,7 +270,7 @@
             "type": "range",
             "id": "grid-desktop",
             "min": 2,
-            "max": 6,
+            "max": 10,
             "step": 1,
             "label": {
               "en": "Product per row on desktop",
