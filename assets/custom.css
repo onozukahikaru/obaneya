@@ -1461,10 +1461,13 @@ img.logo_overlay.js,
 }
 
 /* login */
-#customer_login {
+#customer_login,
+#create_customer,
+#RecoverPasswordForm {
     margin-bottom: 40px;
 }
-#customer_login .login-form-cancel.btn--secondary{
+#customer_login .login-form-cancel.btn--secondary,
+#create_customer .btn--secondary{
     width: 100%;
     margin-top: 0;
 }
@@ -1473,16 +1476,21 @@ a#RecoverPassword:hover{
     text-decoration: underline;
 }
 
+
 /* mypage */
 .account-area--order-details tr th,
 .account-area--order-details td{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-@media only screen and (max-width: 768px){
-    .customer-logged-in .wrapper-padded .grid__item{
-        margin-bottom: 40px;
-    }
+#AddAddress .account-customer-name{
+    border-bottom: 1px solid #ccc;
+    display: block!important;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.customer-logged-in .wrapper-padded .grid__item{
+    margin-bottom: 40px;
 }
 
 /* blog */
