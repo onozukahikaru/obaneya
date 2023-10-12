@@ -5,15 +5,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/bded32a0fb1fa1771e039372ce4d1cb8.jpg",
         "image_height": "30vw",
-        "bg_image_overlay_opacity": 0,
+        "bg_image_overlay_opacity": 10,
         "parallax": true,
         "title": "お問い合わせ",
         "text": "",
         "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
-        "heading--text-size": 26,
-        "text--text-size": 18,
+        "heading--text-size": 28,
+        "text--text-size": 16,
         "link": "",
         "button_label": "",
         "button-text": "#ffffff",
@@ -85,7 +85,7 @@
         "2d966557-da73-4f98-a9d6-d6035b62deba"
       ],
       "custom_css": [
-        "h2{font-size: 20px;}"
+        "h2 {font-size: 20px;}"
       ],
       "settings": {
         "colors": "light",
