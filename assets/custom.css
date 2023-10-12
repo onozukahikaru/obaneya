@@ -1628,3 +1628,11 @@ a#RecoverPassword:hover{
         margin-top:-135px;
     }
 }
+
+/* 配送アプリ */
+#ngc_haisou_modal #ngc_haisou_next-prev-button button,
+#ngc_haisou_modal #ngc_haisou_reset-button button{
+    background: #333;
+    border: 1px solid #333;
+    line-height: 1;
+}
