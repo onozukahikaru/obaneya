@@ -29,8 +29,8 @@
     "6f4582bd-e752-437c-bed7-902c01e6455a": {
       "type": "collection--ranking-collection",
       "settings": {
-        "rows": 2,
-        "grid-desktop": 4,
+        "rows": 1,
+        "grid-desktop": 10,
         "grid-mobile": "2",
         "colors": "white",
         "title": "Ranking",
