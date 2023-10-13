@@ -84,7 +84,7 @@
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188": {
           "type": "collapsible-tab",
           "settings": {
-            "icon": "chat",
+            "icon": "info",
             "heading": "商品詳細",
             "open_close_icon": "caret",
             "text": "<p>商品の仕様、「賞味期限とかを入れる予定。<\/p>",
