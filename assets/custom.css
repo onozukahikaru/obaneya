@@ -1500,10 +1500,10 @@ img.logo_overlay.js,
     color: #333;
     font-size: 13px;
 }
-.ngc-note-attr-field select{
+.ngc-note-attr-field:nth-child(2){
     position: relative;
 }
-.ngc-note-attr-field select::after{
+.ngc-note-attr-field:nth-child(2)::after{
     content: '';
     width: 10px;
     height: 10px;
