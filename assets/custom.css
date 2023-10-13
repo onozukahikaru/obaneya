@@ -1518,6 +1518,9 @@ img.logo_overlay.js,
     .dynamic-checkout__content{
         width: 162px;
     }
+    .drawer--right .large--one-quarter{
+        margin-right: 4%;
+    }    
 }
 
 /* login */
