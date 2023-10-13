@@ -1374,6 +1374,9 @@ img.logo_overlay.js,
     .social-sharing{
         justify-content: flex-end;
     }
+    .drawer--right .dynamic-checkout__content{
+        width: 300px;
+    }
 }
 
 /* reviews */
@@ -1499,6 +1502,7 @@ img.logo_overlay.js,
 }
 .dynamic-checkout__content{
     width: 100%;
+    margin-top: 4px;
 }
 .cart .cart__subtotal{
     font-size: 26px;
