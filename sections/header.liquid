@@ -299,7 +299,7 @@ Testing Cypress integration
           .logo_image {
             max-height: unset!important;
           }
-          @media screen and (max-width: 768px) {
+          @media screen and (max-width: 769px) {
             .logo_image {
               max-width: 300px!important; 
               width: {{ section.settings.logo.width }}px;
@@ -337,7 +337,7 @@ Testing Cypress integration
               .logo_hover {
                 max-height: unset!important;
               }
-              @media screen and (max-width: 768px) {
+              @media screen and (max-width: 769px) {
                 .logo_overlay,
                 .logo_hover {
                   max-width: 300px!important; 
@@ -540,7 +540,7 @@ Testing Cypress integration
     padding-right: 30px;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
     .overlay-header .grid--full {
       padding-left: 15px;
       padding-right: 15px;
@@ -565,7 +565,7 @@ Testing Cypress integration
   }
 
   {% if section.settings.overlay_logo != blank and section.settings.logo == blank %}
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       .template-index .overlay-header.ui.sticky:not(.top) .site-header__logo-link {
           display: none;
       }

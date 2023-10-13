@@ -453,8 +453,17 @@ img.logo_overlay.js,
     left: auto;
     right: 0;
 }
-.overlay-header-wrapper .site-header__cart-indicator{
+.nav-bar .site-header__cart-indicator{
     background: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+.drawer--left .site-header__cart-indicator{
+    background: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 5px;
 }
 .flow-homepage{
     margin-top: 75px;
@@ -702,6 +711,18 @@ img.logo_overlay.js,
     display: block;
     transition: .3s;
 }
+@media only screen and (max-width: 768px){
+    .footer-main .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-main .grid .grid__item{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
 @media only screen and (min-width: 769px){
     .footer-wrapper{
         padding-top: 100px;
@@ -904,6 +925,13 @@ img.logo_overlay.js,
     line-height: 1;
     transition: .2s;
 }
+@media only screen and (max-width: 768px){
+    .homepage-information-section-wrapper .homepage-information-section-wrapper_inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
 @media only screen and (min-width: 769px){
     .template-index .blog-posts-wrapper .homepage-sections-wrapper{
         padding: 100px 0 80px;
@@ -1030,7 +1058,7 @@ img.logo_overlay.js,
     font-weight: 500;
     margin-bottom: 20px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .flow-homepage .image-with-text-wrapper .responsive-image-wrapper img{
         width: auto;
         height: 600px;
@@ -1050,7 +1078,7 @@ img.logo_overlay.js,
         background: rgba(255,255,255, 0.4);
     }
 }
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 768px){
     .flow-homepage .image-with-text-wrapper h2.homepage-sections--title{
         font-size: 32px;
     }
@@ -1367,6 +1395,9 @@ img.logo_overlay.js,
 .read-more-link a svg{
     width: 15px;
     margin-left: 5px;
+}
+.template-product .complementary-products-block .product-description-header{
+    font-size: 16px;
 }
 @media only screen and (min-width: 769px){
     .template-product .main-page-container{
