@@ -1516,7 +1516,8 @@ img.logo_overlay.js,
     right: 20px;
     position: absolute;
 }
-.cart .ngc-note-attr-field:nth-child(2)::after{
+.cart .ngc-note-attr-field:nth-child(2)::after,
+.drawer--right .cart .ngc-note-attr-field:nth-child(2)::after{
     content: none;
 }
 .dynamic-checkout__content{
