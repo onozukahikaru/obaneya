@@ -282,6 +282,9 @@ h2.homepage-sections--title{
 }
 
 /* product */
+.money{
+    font-family: Noto Sans JP,Roboto,sans-serif!important;
+}
 .product-grid--price{
     font-weight: 600;
 }
@@ -291,6 +294,7 @@ h2.homepage-sections--title{
 .shopify-section .product-grid--price,
 .shopify-section .product-grid--title{
     text-align: left;
+    font-family: Noto Sans JP,Roboto,sans-serif!important;
 }
 .product-grid--price small{
     font-size: 10px;
