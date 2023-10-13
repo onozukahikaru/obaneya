@@ -6,7 +6,7 @@ body{
     margin-top: 75px;
 }
 .wrapper-padded .breadcrumb{
-    margin: 15px auto;
+    margin: 15px auto 30px;
     max-width: 1200px;
 }
 @media only screen and (min-width: 769px){
@@ -1704,4 +1704,37 @@ a#RecoverPassword:hover{
 }
 .template-collection .collection-header__description{
     margin-top: 30px;
+}
+
+/* search */
+.template-search .grid__item .item--content h3{
+    font-size: 18px;
+}
+.template-search .search-bar input.input-group-field{
+    border: 1px solid #666;
+    border-radius: 7px;
+    padding: 22px 8px 15px;
+}
+.template-search .search-bar .input-group-btn svg{
+    width: 40px;
+    height: 40px;
+}
+.template-search .search-bar span.input-group-btn,
+.template-search .search-bar-input-group .search-drawer--clear{
+    top: 10px;
+}
+.template-search h1.page--title{
+    font-size: 20px;
+}
+@media only screen and (min-width: 769px){
+    .template-search .search-wrapper.section-search-grid{
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+    .template-search h1.page--title{
+        font-size: 28px;
+    }
+    .template-search .grid__item .item--content h3{
+        font-size: 26px;
+    }
 }
