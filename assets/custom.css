@@ -1712,7 +1712,7 @@ a#RecoverPassword:hover{
 .template-collection .collection-header__title:first-of-type{
     margin-bottom: 30px;
 }
-.template-collection .collection-header__description{
+.template-collection .shopify-section .collection-header__description{
     margin-top: 30px;
 }
 
