@@ -288,6 +288,9 @@ h2.homepage-sections--title{
 .quick-add-wrapper{
     margin-top: 15px;
 }
+.product-page__policies{
+    font-size: 12px;
+}
 @media only screen and (min-width: 769px){
     .homepage-sections-wrapper .homepage-product-grid-wrapper{
         max-width: 1200px;
@@ -1374,6 +1377,12 @@ img.logo_overlay.js,
 }
 
 /* reviews */
+.spr-form .spr-form-title{
+    margin-bottom: 10px;
+}
+.spr-form .spr-form-review-rating{
+    text-align: left;
+}
 #shopify-block-product-reviews .spr-container .spr-review,
 #shopify-block-product-reviews .spr-container .spr-form{
     border-top: 1px solid #e06b6e!important;
@@ -1424,6 +1433,10 @@ img.logo_overlay.js,
     .spr-pagination-next a:hover,
     .spr-pagination-prev a:hover{
         text-decoration: underline;
+    }
+    #shopify-product-reviews .spr-form > form{
+        max-width: 74%;
+        margin: 0 auto;
     }
 }
 
@@ -1533,7 +1546,8 @@ a#RecoverPassword:hover{
     font-weight: 600;
     margin: 30px 0 0;
 }
-.customer-logged-in .wrapper-padded .grid__item{
+.template-customers-account .wrapper-padded .grid__item,
+.template-customers-addresses .wrapper-padded .grid__item{
     margin-bottom: 40px;
 }
 .account-addresses--return-to-account a:hover{
@@ -1682,4 +1696,12 @@ a#RecoverPassword:hover{
     .shopify-section .custom_section_products.homepage-sections-wrapper .wrapper-padded{
         max-width: 1260px;
     }
+}
+
+/* collection */
+.template-collection .collection-header__title:first-of-type{
+    margin-bottom: 30px;
+}
+.template-collection .collection-header__description{
+    margin-top: 30px;
 }
