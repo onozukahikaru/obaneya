@@ -313,6 +313,9 @@
     },
     "289720b3-bfe9-4aa3-abaa-803cba7302e5": {
       "type": "collection--featured-collection",
+      "custom_css": [
+        "h2{letter-spacing: .1em;}"
+      ],
       "settings": {
         "rows": 1,
         "grid-desktop": 4,
