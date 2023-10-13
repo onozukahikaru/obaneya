@@ -528,6 +528,14 @@ img.logo_overlay.js,
 .page--title.no_results{
     font-size: 20px;
 }
+@media screen and (min-width:426px) and (max-width: 768px){
+    .nav-bar .three-twelfths.right-side{
+        width: 42%;
+    }
+    .nav-bar.mobile-nav-bar-wrapper .mobile-grid--table .flex_menu{
+        width: 8%;
+    }
+}
 @media only screen and (min-width: 769px){
     .template-index header.site-header{
         max-width: 1500px;
