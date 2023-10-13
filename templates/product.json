@@ -261,7 +261,7 @@
     "450692bb-cf89-482d-847b-42cd52a6813f": {
       "type": "image--image-with-text",
       "custom_css": [
-        "h2{margin-bottom: 25px;}"
+        "h2 {margin-bottom: 20px;}"
       ],
       "settings": {
         "colors": "light",
