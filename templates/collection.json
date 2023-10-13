@@ -67,7 +67,7 @@
         "pagination_options": "pagination_infinite_scrolling",
         "desktop_position": "sidebar",
         "enable_collection_title": false,
-        "enable_collection_description": true,
+        "enable_collection_description": false,
         "enable_filtering": true,
         "enable_sorting": true
       }
