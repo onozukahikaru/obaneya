@@ -1500,25 +1500,8 @@ img.logo_overlay.js,
     color: #333;
     font-size: 13px;
 }
-.cart .ngc-note-attr-field{
-    position: relative;
-}
-.cart .ngc-note-attr-field::after{
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-right: 2px solid #000;
-    border-top: 2px solid #000;
-    display: inline-block;
-    transform: rotate(135deg);
-    margin-left: -2px;
-    bottom: 20px;
-    right: 20px;
-    position: absolute;
-}
-.cart .ngc-note-attr-field:nth-child(2)::after,
-.drawer--right .cart .ngc-note-attr-field:nth-child(2)::after{
-    content: none;
+.cart .ngc-note-attr-field select{
+    appearance: auto;
 }
 .dynamic-checkout__content{
     width: 100%;
