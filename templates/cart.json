@@ -8,7 +8,7 @@
     "3fcf0ff5-b23d-4252-bc66-76171df8fd87": {
       "type": "collection--ranking-collection",
       "settings": {
-        "rows": 2,
+        "rows": 1,
         "grid-desktop": 10,
         "grid-mobile": "2",
         "colors": "white",
