@@ -1504,6 +1504,7 @@ img.logo_overlay.js,
     position: relative;
 }
 .ngc-note-attr-field select::after{
+    content: '';
     width: 10px;
     height: 10px;
     border-right: 2px solid #000;
