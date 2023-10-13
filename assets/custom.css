@@ -1500,6 +1500,21 @@ img.logo_overlay.js,
     color: #333;
     font-size: 13px;
 }
+.ngc-note-attr-field:nth-child(2){
+    position: relative;
+}
+.ngc-note-attr-field:nth-child(2)::after{
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    display: inline-block;
+    transform: rotate(135deg);
+    margin-left: -2px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
 .dynamic-checkout__content{
     width: 100%;
     margin-top: 4px;
