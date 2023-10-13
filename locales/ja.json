@@ -405,7 +405,7 @@
       "wrong_email": "有効なメールアドレスを入力してください",
       "out_of_stock_success": "ありがとうございます。この商品が入荷しましたらお知らせいたします。",
       "read_more_html": "もっと見る",
-      "read_less_html": "Read less",
+      "read_less_html": "表示数をへらす",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window",
       "video_thumbnail_alt": "Load and play video in Gallery viewer, {{ imageAlt }}",

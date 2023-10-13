@@ -1357,6 +1357,16 @@ img.logo_overlay.js,
 .template-product .text-with-icon svg{
     fill: #C63134;
 }
+.read-less-link a,
+.read-more-link a{
+    display: flex;
+    align-items: center;
+}
+.read-less-link a svg,
+.read-more-link a svg{
+    width: 15px;
+    margin-left: 5px;
+}
 @media only screen and (min-width: 769px){
     .template-product .main-page-container{
         max-width: 1260px;
@@ -1376,6 +1386,9 @@ img.logo_overlay.js,
     }
     .drawer--right .dynamic-checkout__content{
         width: 300px;
+    }
+    .template-product .product-description-container{
+        max-width: 1260px;
     }
 }
 
