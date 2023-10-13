@@ -260,6 +260,9 @@
     },
     "450692bb-cf89-482d-847b-42cd52a6813f": {
       "type": "image--image-with-text",
+      "custom_css": [
+        "h2{margin-bottom: 25px;}"
+      ],
       "settings": {
         "colors": "light",
         "image": "shopify:\/\/shop_images\/bded32a0fb1fa1771e039372ce4d1cb8.jpg",
