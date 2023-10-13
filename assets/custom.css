@@ -1299,6 +1299,7 @@ img.logo_overlay.js,
     border-bottom: 1px solid #ccc;
 }
 .template-product .collapsible-tab-container{
+    border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 .collapsible-tab details summary .text-with-icon,
