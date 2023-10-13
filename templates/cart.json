@@ -9,7 +9,7 @@
       "type": "collection--ranking-collection",
       "settings": {
         "rows": 2,
-        "grid-desktop": 4,
+        "grid-desktop": 10,
         "grid-mobile": "2",
         "colors": "white",
         "title": "Ranking",
