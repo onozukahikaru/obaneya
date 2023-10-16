@@ -528,6 +528,15 @@ img.logo_overlay.js,
 .page--title.no_results{
     font-size: 20px;
 }
+.drawer--right input.cart--button-update{
+    margin-top: 0;
+    background-color: var(--secondary-btn-bg-color);
+    color: var(--secondary-btn-text-color);
+    border: 1px solid transparent;
+    height: 54.4px;
+    width: 100%;
+    max-width: 162px;
+}
 @media screen and (min-width:426px) and (max-width: 768px){
     .nav-bar .three-twelfths.right-side{
         width: 42%;
@@ -659,6 +668,10 @@ img.logo_overlay.js,
     }
     .drawer.drawer--right.short #SearchContainer .search-drawer>.input-group{
         width: 500px;
+    }
+    .drawer--right input.cart--button-update:hover{
+        background-color: var(--secondary-btn-bg-hover-color);
+        color: var(--secondary-btn-bg-text-hover-color);
     }
 }
 
@@ -1289,7 +1302,7 @@ img.logo_overlay.js,
 } 
 #CartContainer .ajaxcart__footer .cart__checkout{
     width: 100%;
-    max-width: 300px;
+    max-width: 162px;
     padding: 16px 35px;
 }
 .drawer--right #CartContainer .ajaxcart__qty{
