@@ -545,7 +545,7 @@ img.logo_overlay.js,
     border-top: 1px solid #ccc;
     padding-top: 30px;
     width: 96%;
-    margin: 0 auto;
+    margin: 40px auto 0;
 }
 @media screen and (min-width:426px) and (max-width: 768px){
     .nav-bar .three-twelfths.right-side{
