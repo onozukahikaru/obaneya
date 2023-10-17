@@ -185,6 +185,7 @@
           </div>
         {% endif %}
         <div class="grid__item text-right{% if settings.cart_notes_enable %} one-third medium--one-whole small--one-whole{% endif %}">
+          <p class="attention_drawer">※￥4,000以上のご注文で国内送料が無料</p>
           {%- if cart.cart_level_discount_applications != blank -%}
             <div class="cart--order-discount-wrapper custom-font discount--sale-color">
               {%- for discount_application in cart.cart_level_discount_applications -%}
@@ -201,15 +202,6 @@
               <del><span class="money">{{ subtotal_compare_at_price | money }}</span></del>
             </span>
           {% endif %}
-
-          <p class="announcement-bar__message h5">
-            {%- assign free_shipping_fee = 400000 -%}
-            {% if cart.total_price == 0 %}
-            <span>注文合計4,000円で送料無料</span>
-            {% else cart.total_price < free_shipping_fee %}
-            <span>送料無料まであと{{ free_shipping_fee | minus: cart.total_price | money_without_currency }}円</span>
-            {% endif %}
-          </p>
 
           <p>
             <span class="cart__subtotal-title">{{ 'cart.general.subtotal' | t }}</span>

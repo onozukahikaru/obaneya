@@ -206,16 +206,7 @@
 
                 <div class="ajaxcart__footer">
                   <div class="grid--full">
-
-                    <p class="announcement-bar__message h5">
-                      {%- assign free_shipping_fee = 400000 -%}
-                      {% if cart.total_price == 0 %}
-                      <span>注文合計4,000円で送料無料</span>
-                      {% else cart.total_price < free_shipping_fee %}
-                      <span>送料無料まであと{{ free_shipping_fee | minus: cart.total_price | money_without_currency }}円</span>
-                      {% endif %}
-                    </p>
-
+                    <p class="attention_drawer">※￥4,000以上のご注文で国内送料が無料</p>
                     <div class="grid__item ajaxcart__subtotal_header">
                       <p>{{ 'cart.general.subtotal' | t }}</p>
                     </div>
@@ -239,7 +230,6 @@
                         <span class="ajaxcart-item__discount_money">- <span v-money="cartItem.line_level_discount_allocations.amount"></span></span>
                       </li>
                     </ul>
-
                     <p class="hide cart__total" v-text="cart.total_price"></p>
                     <div class="grid__item ajaxcart__subtotal">
                       <p v-money="cart.total_price"></p>
@@ -260,8 +250,6 @@
                     {%- endcapture -%}
                     <p class="text-center">{{ taxes_shipping_checkout }}</p>
                   </div>
-
-                  <input type="submit" name="update" class="btn--secondary update-cart cart--button-update" value="{{ 'cart.general.update' | t }}">
 
                   <button type="submit" class="cart__checkout" name="checkout">
                     {{ 'cart.general.checkout' | t }}
