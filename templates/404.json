@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/404.png",
         "image_height": "50vw",
         "bg_image_overlay_opacity": 0,
-        "parallax": true,
+        "parallax": false,
         "title": "",
         "text": "",
         "colors": "dark",
