@@ -1,7 +1,38 @@
 {
   "sections": {
+    "134769ef-2ab8-414a-931e-2ccd6e82381d": {
+      "type": "image--gallery",
+      "blocks": {
+        "322f355d-1c0c-4f59-baf5-52297d73d3ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/404.png",
+            "link": "https:\/\/obaneya-shop.com\/",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "322f355d-1c0c-4f59-baf5-52297d73d3ae"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
     "36865eab-b03b-4a08-bf6f-a3344ca1fc77": {
       "type": "image--image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/404.png",
         "image_height": "50vw",
@@ -41,27 +72,12 @@
         "show-vendor": false,
         "show_view_all": false
       }
-    },
-    "b1406caf-75d7-48e9-89d4-618d22730307": {
-      "type": "image--image-with-text",
-      "settings": {
-        "colors": "light",
-        "image": "shopify:\/\/shop_images\/404.png",
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "text_alignment": "center",
-        "title": "Share brand or product details",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/rakkyo"
-      }
     }
   },
   "order": [
+    "134769ef-2ab8-414a-931e-2ccd6e82381d",
     "36865eab-b03b-4a08-bf6f-a3344ca1fc77",
     "main",
-    "6f4582bd-e752-437c-bed7-902c01e6455a",
-    "b1406caf-75d7-48e9-89d4-618d22730307"
+    "6f4582bd-e752-437c-bed7-902c01e6455a"
   ]
 }
