@@ -14,7 +14,7 @@
         "textAlignment": "center",
         "heading--text-size": 26,
         "text--text-size": 18,
-        "link": "",
+        "link": "https:\/\/obaneya-shop.com\/",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#262428",
@@ -24,6 +24,7 @@
     },
     "main": {
       "type": "template--404",
+      "disabled": true,
       "settings": {
       }
     },
