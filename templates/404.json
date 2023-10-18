@@ -41,11 +41,27 @@
         "show-vendor": false,
         "show_view_all": false
       }
+    },
+    "b1406caf-75d7-48e9-89d4-618d22730307": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/404.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/rakkyo"
+      }
     }
   },
   "order": [
     "36865eab-b03b-4a08-bf6f-a3344ca1fc77",
     "main",
-    "6f4582bd-e752-437c-bed7-902c01e6455a"
+    "6f4582bd-e752-437c-bed7-902c01e6455a",
+    "b1406caf-75d7-48e9-89d4-618d22730307"
   ]
 }
