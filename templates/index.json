@@ -172,6 +172,75 @@
         "content-position": "below-image"
       }
     },
+    "3526069b-4a75-4752-9e06-593111305802": {
+      "type": "collection--collectionlink-list",
+      "blocks": {
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "otsukemono",
+            "collection_img": "shopify:\/\/shop_images\/5fe755a4511fc628c3f18041a4635524.svg",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "obaneya-sets",
+            "collection_img": "shopify:\/\/shop_images\/Layer_1.svg",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "obaneya-gifts",
+            "collection_img": "shopify:\/\/shop_images\/Vector_1.svg",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "6f064759-c57e-4b04-8c9e-9efc8c96f6f5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other-products",
+            "collection_img": "shopify:\/\/shop_images\/Icons.svg",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-1",
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-2",
+        "template--21073629544723__3526069b-4a75-4752-9e06-593111305802-featured_collection-3",
+        "6f064759-c57e-4b04-8c9e-9efc8c96f6f5"
+      ],
+      "settings": {
+        "colors": "light",
+        "title": "",
+        "richtext": "",
+        "items-per-row": 4,
+        "fill-the-area": true,
+        "remove-spacing": false,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
     "featured-collection-1": {
       "type": "collection--featured-collection",
       "settings": {
@@ -255,6 +324,7 @@
     "3fb22d5b-9481-4aed-8572-009646d03bc9",
     "6670f95b-5a3a-4ca3-b918-313d5bbe996e",
     "collection-collection-list",
+    "3526069b-4a75-4752-9e06-593111305802",
     "featured-collection-1",
     "featured-collection",
     "18ce1d0f-3745-4425-940a-03de48cd1c00",
