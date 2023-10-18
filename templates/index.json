@@ -103,75 +103,6 @@
         "custom_liquid": "<div class=\"information_bar wrapper-padded\">\n<div class=\"information_title\">\nInformation<\/div>\n    {% for article in blogs['information'].articles limit:1 %}\n        <a href=\"{{article.url}}\">\n          <dl>\n            <dt>{{article.published_at | date: '%Y.%-m.%-d'}}<\/dt>\n            <dd>{{article.title}}<\/dd>\n          <\/dl>\n        <\/a>\n    {% endfor %}\n  <\/div>"
       }
     },
-    "collection-collection-list": {
-      "type": "collection--collection-list",
-      "blocks": {
-        "collection-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "otsukemono",
-            "collection_img": "shopify:\/\/shop_images\/5fe755a4511fc628c3f18041a4635524.svg",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "obaneya-sets",
-            "collection_img": "shopify:\/\/shop_images\/Layer_1.svg",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "a6ad66ac-7e38-4b9e-9853-35ebb1ff9e15": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "obaneya-gifts",
-            "collection_img": "shopify:\/\/shop_images\/Vector_1.svg",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        },
-        "cad186d7-7776-44a5-94ae-ea9cb9ce9fc6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "other-products",
-            "collection_img": "shopify:\/\/shop_images\/Icons.svg",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "a6ad66ac-7e38-4b9e-9853-35ebb1ff9e15",
-        "cad186d7-7776-44a5-94ae-ea9cb9ce9fc6"
-      ],
-      "settings": {
-        "colors": "white",
-        "title": "",
-        "richtext": "",
-        "items-per-row": 4,
-        "fill-the-area": false,
-        "remove-spacing": false,
-        "section-width": "full",
-        "content-position": "below-image"
-      }
-    },
     "3526069b-4a75-4752-9e06-593111305802": {
       "type": "collection--collectionlink-list",
       "blocks": {
@@ -231,7 +162,7 @@
         "6f064759-c57e-4b04-8c9e-9efc8c96f6f5"
       ],
       "settings": {
-        "colors": "light",
+        "colors": "white",
         "title": "",
         "richtext": "",
         "items-per-row": 4,
@@ -323,7 +254,6 @@
   "order": [
     "3fb22d5b-9481-4aed-8572-009646d03bc9",
     "6670f95b-5a3a-4ca3-b918-313d5bbe996e",
-    "collection-collection-list",
     "3526069b-4a75-4752-9e06-593111305802",
     "featured-collection-1",
     "featured-collection",
