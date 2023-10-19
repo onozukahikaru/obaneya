@@ -12,7 +12,7 @@
         "collection-image": {
           "type": "collection_image",
           "settings": {
-            "collection-image-size": "40vh"
+            "collection-image-size": "original"
           }
         },
         "8d7285ec-53cb-4afe-9f82-9c3995779a74": {
