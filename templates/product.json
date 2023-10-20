@@ -66,16 +66,10 @@
             "enable_gift_card_recipient_form": true
           }
         },
-        "9b36c0c8-a772-4238-8646-8d87f1a98c80": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>ここはメモ：商品説明は５行くらいで各商品ごとの説明。ここはアコーディオン入らないで、常時表示する。現在は情報量が多いため一旦アコーディオンで閉じている<\/p>"
-          }
-        },
         "27a58b78-6716-4361-b6f4-caa894f8e4b6": {
           "type": "product-description",
           "settings": {
-            "collapsible_tab": true,
+            "collapsible_tab": false,
             "icon": "info",
             "heading": "商品説明",
             "open_close_icon": "caret"
@@ -155,7 +149,6 @@
         "quantity",
         "140f62a1-3a4a-4f99-b426-a660816d2bd1",
         "buy_buttons",
-        "9b36c0c8-a772-4238-8646-8d87f1a98c80",
         "27a58b78-6716-4361-b6f4-caa894f8e4b6",
         "1bf10eb0-7a54-4ef7-a8bb-4973bc269188",
         "7fb9ecb4-2d33-40fb-a9eb-850d86eebf23",
@@ -314,7 +307,7 @@
     "289720b3-bfe9-4aa3-abaa-803cba7302e5": {
       "type": "collection--featured-collection",
       "custom_css": [
-        "h2{letter-spacing: .1em;}"
+        "h2 {letter-spacing: 0.1em;}"
       ],
       "settings": {
         "rows": 1,
