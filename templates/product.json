@@ -81,7 +81,7 @@
             "icon": "info",
             "heading": "商品詳細",
             "open_close_icon": "caret",
-            "text": "<p>商品の仕様、「賞味期限とかを入れる予定。<\/p>",
+            "text": "<p>{{ product.metafields.custom.collapsible_tab_product_specification | metafield_tag }}<\/p>",
             "page": ""
           }
         },
