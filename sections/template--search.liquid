@@ -1471,12 +1471,12 @@
               {%- endfor -%}
               {% assign types = search.types | reverse %}
               <div class="result-type-wrapper">
-                <p class="facets__heading result-type-heading">検索結果</p>
+                <p class="facets__heading result-type-heading">{{ 'general.search.result_type' | t }}</p>
                 <details class="disclosure-has-popup facets__disclosure result-type-selector">
                   <summary class="facets__summary">
                     <div>
-                      <span class="desktop-btn-text">種類を選択</span>
-                      <span class="mobile-btn-text">種類を選択</span>
+                      <span class="desktop-btn-text">{{ 'general.search.select_a_type' | t }}</span>
+                      <span class="mobile-btn-text">{{ 'general.search.result_type' | t }}</span>
                       {{ icon_caret }}
                     </div>
                   </summary>
@@ -1487,10 +1487,13 @@
                           {% case type %}
                             {% when 'product' %}
                               {% assign count = product_count %}
+                              {% assign type_text = 'general.search.result_type_text_product' | t %}
                             {% when 'article' %}
                               {% assign count = article_count %}
+                              {% assign type_text = 'general.search.result_type_text_article' | t %}
                             {% when 'page' %}
                               {% assign count = page_count %}
+                              {% assign type_text = 'general.search.result_type_text_page' | t %}
                           {% endcase %}
                           <li class="list-menu__item facets__item">
                             <label for="Filter-{{ type }}" class="facet-checkbox{% if count == 0 %} facet-checkbox--disabled{% endif %}">
@@ -1507,7 +1510,7 @@
                               <svg class="icon-checkmark" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 9" fill="none" width="10px" height="10px">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.35.643a.5.5 0 01.006.707l-6.77 6.886a.5.5 0 01-.719-.006L.638 4.845a.5.5 0 11.724-.69l2.872 3.011 6.41-6.517a.5.5 0 01.707-.006h-.001z" fill="currentColor"/>
                               </svg>
-                            {{ type | capitalize }} ({{ count }})</label>
+                              {{ type_text }} ({{ count }})</label>
                           </li>
                         {% endfor %}
                       </ul>
@@ -1593,7 +1596,23 @@
                 {% if grid_results == false %}
                   <!-- begin list search results-->
                   <div class="grid__item">
-                    <h2 class="search-result-type">{{ item.object_type }}</h2>
+                    {% liquid
+                      assign article_name = 'general.search.articles' | t | json 
+                      assign product_name = 'general.search.products' | t | json
+                      assign page_name = 'general.search.pages' | t | json
+                      assign collection_name = 'general.search.collections' | t | json
+                      case item.object_type
+                        when 'article'
+                          assign result_type_string = article_name
+                        when 'collection'
+                          assign result_type_string = collection_name
+                        when 'page'
+                          assign result_type_string = page_name
+                        when 'product'
+                          assign result_type_string = product_name
+                      endcase
+                    %}
+                    <h2 class="search-result-type">{{ result_type_string }}</h2>
                     <div class="grid">
 
                       {% if item.object_type == 'article' %}

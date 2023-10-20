@@ -37,7 +37,12 @@
       "collections": "Collections",
       "results": "Results",
       "view_all": "View all results",
-      "clear": "Clear"
+      "clear": "Clear",
+      "select_a_type": "Select a type",
+      "result_type": "Result type",
+      "result_type_text_product": "Product",
+      "result_type_text_page": "Page",
+      "result_type_text_article": "Article"
     },
     "social": {
       "share_the_love": "Share the love"

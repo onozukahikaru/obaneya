@@ -37,7 +37,12 @@
       "collections": "Sammlungen",
       "results": "Ergebnisse",
       "view_all": "Alle Resultate anzeigen",
-      "clear": "Löschen"
+      "clear": "Löschen",
+      "select_a_type": "Select a type",
+      "result_type": "Result type",
+      "result_type_text_product": "Product",
+      "result_type_text_page": "Page",
+      "result_type_text_article": "Article"
     },
     "social": {
       "share_the_love": "Teilen Sie die Liebe"
