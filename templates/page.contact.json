@@ -198,6 +198,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/kyuuri",
+            "link_image": "shopify:\/\/shop_images\/9.png",
             "link_text": "きゅうりのお漬物"
           }
         },
