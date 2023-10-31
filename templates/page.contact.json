@@ -213,6 +213,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/daikon",
+            "link_image": "shopify:\/\/shop_images\/2.png",
             "link_text": "大根のお漬物"
           }
         },
