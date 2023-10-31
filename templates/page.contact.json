@@ -190,6 +190,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/rakkyo",
+            "link_image": "shopify:\/\/shop_images\/10.png",
             "link_text": "らっきょうのお漬物"
           }
         },
