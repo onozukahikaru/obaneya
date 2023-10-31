@@ -182,6 +182,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/gobou",
+            "link_image": "shopify:\/\/shop_images\/1.png",
             "link_text": "ごぼうのお漬物"
           }
         },
