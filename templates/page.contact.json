@@ -206,6 +206,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/niranekko",
+            "link_image": "shopify:\/\/shop_images\/ed62e41dff9a3b61aa574d01218f5593.png",
             "link_text": "にらねっこのお漬物"
           }
         },
