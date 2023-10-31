@@ -222,6 +222,7 @@
           "type": "navigation_link",
           "settings": {
             "link_url": "shopify:\/\/collections\/miso",
+            "link_image": "shopify:\/\/shop_images\/f8f4df8a56679c63ee892eedd60ba5bd.png",
             "link_text": "味噌のお漬物"
           }
         }
