@@ -57,7 +57,7 @@
           "type": "tab_content",
           "settings": {
             "question": "商品の返品・交換について",
-            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/return-policy\/\">こちら<\/a>】をご確認下さい。<\/p>"
+            "text": "<p>詳細は【<a href=\"https:\/\/obaneya.co.jp\/return-policy\/\" target=\"_blank\">こちら<\/a>】をご確認下さい。<\/p>"
           }
         },
         "6a89ae56-d3a3-484e-9b54-8cd54ae918e9": {
