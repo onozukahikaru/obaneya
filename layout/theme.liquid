@@ -21,15 +21,10 @@
   {%- endunless -%}
 
   <link rel="preload" href="{{ 'theme.min.css' | asset_url }}" as="style" />
-  <link rel="preload" href="{{ 'swiper.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
   <link rel="preload" href="{{ 'custom.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 
   {% if settings.animations_enabled %}
   	<link rel="preload" href="{{ 'animate.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-  {% endif %}
-
-  {% if settings.popup--enable %}
-  	<link rel="preload" href="{{ 'fancybox.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
   {% endif %}
 
   {% if settings.favicon != blank %}
@@ -149,12 +144,9 @@
 <body id="{{ page_title | handle }}" class="{% if template == 'page.contact' %}contact-page {% endif %}{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% unless settings.animations_enabled %} animations-disabled{% endunless %}{% if settings.page_fade_enabled %} page-fade{% endif %}{% if settings.color_body_bg == settings.header-bg-color %} white--match{% endif %}{% if settings.product-grid != 'natural' %} images-aspect-ratio{% endif %} ">
 
   {{ 'theme.min.css' | asset_url | stylesheet_tag }}
-  <noscript>{{ 'swiper.min.css' | asset_url | stylesheet_tag }}</noscript>
+  
   {% if settings.animations_enabled %}
   	<noscript>{{ 'animate.min.css' | asset_url | stylesheet_tag }}</noscript>
-  {% endif %}
-  {% if settings.popup--enable %}
-  	<noscript>{{ 'fancybox.min.css' | asset_url | stylesheet_tag }}</noscript>
   {% endif %}
   <noscript>{{ 'custom.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -197,8 +189,6 @@
   <script defer type="module" src="{{ 'theme.min.js' | asset_url }}"></script>
   <script defer src="{{ 'SafeLoadScripts.js' | asset_url }}"></script>
   <script defer nomodule src="{{ 'theme.legacy.min.js' | asset_url }}"></script> 
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {% if settings.popup--enable %}
     {% render 'popup' %}
@@ -245,7 +235,9 @@
     }
   </script>
   {% if request.design_mode %}<script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>{% endif %}
-  
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   <link rel="preload" href="https://fonts.googleapis.com" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -258,5 +250,13 @@
   <noscript>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
   </noscript>
+  <link rel="preload" href="{{ 'swiper.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <noscript>{{ 'swiper.min.css' | asset_url | stylesheet_tag }}</noscript>
+  {% if settings.popup--enable %}
+  	<link rel="preload" href="{{ 'fancybox.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  {% endif %}
+  {% if settings.popup--enable %}
+  	<noscript>{{ 'fancybox.min.css' | asset_url | stylesheet_tag }}</noscript>
+  {% endif %}
 </body>
 </html>
