@@ -399,5 +399,10 @@
 
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#CartContainer .non-shipping-text {margin: 20px auto;}"
+    ]
   }
 }
