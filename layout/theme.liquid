@@ -186,10 +186,6 @@
       {% sections 'footer-group' %}
     </div>
 
-  <script defer type="module" src="{{ 'theme.min.js' | asset_url }}"></script>
-  <script defer src="{{ 'SafeLoadScripts.js' | asset_url }}"></script>
-  <script defer nomodule src="{{ 'theme.legacy.min.js' | asset_url }}"></script> 
-
   {% if settings.popup--enable %}
     {% render 'popup' %}
   {% endif %}
@@ -235,6 +231,10 @@
     }
   </script>
   {% if request.design_mode %}<script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>{% endif %}
+
+  <script defer type="module" src="{{ 'theme.min.js' | asset_url }}"></script>
+  <script defer src="{{ 'SafeLoadScripts.js' | asset_url }}"></script>
+  <script defer nomodule src="{{ 'theme.legacy.min.js' | asset_url }}"></script> 
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
