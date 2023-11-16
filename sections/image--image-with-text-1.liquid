@@ -23,7 +23,7 @@
       <div v-if="media.media_type === 'image'">
         {% if product.metafields.custom.image_with_text1_image != blank %}
           <div id="rellax--{{ section.id }}" class="img" data-rellax-percentage="0.5" data-rellax-speed="-6" data-media-type="image">
-            <img src="{{ product.metafields.custom.image_with_text1_image | img_url: 'master' }}">
+            <img src="{{ product.metafields.custom.image_with_text1_image | img_url: 'master' }}" loading="lazy">
           </div>
         {% endif %}
       </div>

@@ -77,6 +77,7 @@
                           v-responsive="item.image"
                           v-bind:alt="item.featured_image_alt"
                           v-if="item.image"
+                          loading="lazy" 
                         />
                         <img v-if="!item.image" src="//cdn.shopify.com/s/assets/admin/no-image-medium-cc9732cb976dd349a0df1d39816fbcc7.gif" alt="" v-bind:alt="item.product_title" loading="lazy" />
                       </a>
