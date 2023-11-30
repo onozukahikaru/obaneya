@@ -39,13 +39,6 @@
             "text": "<p>決済完了後は購入をキャンセルすることができません。何卒ご了承くださいませ。<\/p>"
           }
         },
-        "accordion-2": {
-          "type": "tab_content",
-          "settings": {
-            "question": "複数回ご注文いただいた場合の商品の同梱について",
-            "text": "<p>１日１回発送作業をしておりますが、発送までに間に合えば別々のご注文でも一緒に送付いたします。<\/p>"
-          }
-        },
         "accordion-3": {
           "type": "tab_content",
           "settings": {
@@ -78,7 +71,6 @@
       "block_order": [
         "accordion-0",
         "accordion-1",
-        "accordion-2",
         "accordion-3",
         "accordion-4",
         "6a89ae56-d3a3-484e-9b54-8cd54ae918e9",
